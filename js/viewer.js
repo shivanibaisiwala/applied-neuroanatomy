@@ -14,11 +14,9 @@ async function initViewer(cardsUrl) {
   N = cards.length;
   order = cards.map((_, i) => i);
 
-  // Build slides order
   const seen = new Set();
   cards.forEach(c => { if (!seen.has(c.s)) { seen.add(c.s); slidesOrder.push(c.s); } });
 
-  // Build slide nav
   const snav = document.getElementById('slide-nav');
   slidesOrder.forEach(s => {
     const b = document.createElement('button');
@@ -27,15 +25,30 @@ async function initViewer(cardsUrl) {
     snav.appendChild(b);
   });
 
-  // Preload first base image
   render();
+}
+
+function fitImage() {
+  const img = document.getElementById('img-base');
+  const area = document.querySelector('.img-area');
+  const maxH = window.innerHeight * 0.85;
+  const ratio = img.naturalWidth / img.naturalHeight;
+  const fullW = area.parentElement.clientWidth;
+  const heightAtFullW = fullW / ratio;
+  if (heightAtFullW > maxH) {
+    area.style.maxWidth = Math.floor(maxH * ratio) + 'px';
+  } else {
+    area.style.maxWidth = '';
+  }
 }
 
 function render() {
   const ci = order[idx], card = cards[ci];
   revealed = false;
 
-  document.getElementById('img-base').src = card.base;
+  const imgBase = document.getElementById('img-base');
+  imgBase.onload = fitImage;
+  imgBase.src = card.base;
   document.getElementById('img-hl').src = card.img;
   document.getElementById('img-hl').classList.add('show');
 
@@ -101,6 +114,8 @@ function setMode(m) {
   }
   idx = 0; doneSet.clear(); render();
 }
+
+window.addEventListener('resize', fitImage);
 
 document.addEventListener('keydown', e => {
   if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); revealCurrent(); }
