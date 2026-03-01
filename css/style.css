@@ -132,6 +132,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);lin
 .viewer.fullscreen{position:fixed;top:0;left:0;right:0;bottom:0;z-index:200;border-radius:0;display:flex;flex-direction:column}
 .viewer.fullscreen .v-tb{flex-shrink:0}
 .viewer.fullscreen .sl-nav{flex-shrink:0}
-.viewer.fullscreen .img-area{flex:1;overflow-y:auto}
+.viewer.fullscreen .img-area{overflow-y:auto}
 .viewer.fullscreen .v-ctrl{flex-shrink:0}
 .viewer.fullscreen .v-attr{display:none}
