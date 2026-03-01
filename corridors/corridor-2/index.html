@@ -34,6 +34,7 @@
   <a class="sb-item" href="#"><span class="num">1.</span> Coming soon</a>
 </aside>
 
+<div class="layout-inner">
 <main class="main">
 
   <div class="cor-num">Corridor 02</div>
@@ -66,7 +67,7 @@
   <div class="section">
     <div class="sec-head"><div class="sec-title">Anatomy</div><div class="sec-count">18 slides · 354 structures</div></div>
     <div class="viewer">
-      <div class="v-tb"><span class="v-info" id="info"></span><div class="mode-tog"><button class="active" id="m-study" onclick="setMode('study')">Study</button><button id="m-quiz" onclick="setMode('quiz')">Quiz</button></div></div>
+      <div class="v-tb"><span class="v-info" id="info"></span><div class="mode-tog"><button class="active" id="m-study" onclick="setMode('study')">Study</button><button id="m-quiz" onclick="setMode('quiz')">Quiz</button></div><button class="fs-btn" onclick="toggleFullscreen()">⛶ Expand</button></div>
       <div class="sl-nav" id="slide-nav"></div>
       <div class="img-area">
         <img id="img-base" src="" alt="Rhoton anatomy">
@@ -124,8 +125,24 @@
 
 </main>
 </div>
+</div>
 
 <script src="../../js/viewer.js"></script>
+<script>
+function toggleFullscreen(){
+  const v=document.querySelector('.viewer');
+  const btn=document.querySelector('.fs-btn');
+  v.classList.toggle('fullscreen');
+  if(v.classList.contains('fullscreen')){
+    btn.textContent='✕ Close';
+    document.addEventListener('keydown',escHandler);
+  }else{
+    btn.textContent='⛶ Expand';
+    document.removeEventListener('keydown',escHandler);
+  }
+}
+function escHandler(e){if(e.key==='Escape'){toggleFullscreen();}}
+</script>
 <script>initViewer('cards.json');</script>
 </body>
 </html>
