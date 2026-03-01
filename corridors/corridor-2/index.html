@@ -66,7 +66,7 @@
   <div class="section">
     <div class="sec-head"><div class="sec-title">Anatomy</div><div class="sec-count">18 slides · 354 structures</div></div>
     <div class="viewer">
-      <div class="v-tb"><span class="v-info" id="info"></span><div class="mode-tog"><button class="active" id="m-study" onclick="setMode('study')">Study</button><button id="m-quiz" onclick="setMode('quiz')">Quiz</button></div></div>
+      <div class="v-tb"><span class="v-info" id="info"></span><div class="mode-tog"><button class="active" id="m-study" onclick="setMode('study')">Study</button><button id="m-quiz" onclick="setMode('quiz')">Quiz</button></div><button class="fs-btn" onclick="toggleFS()">⛶ Expand</button></div>
       <div class="sl-nav" id="slide-nav"></div>
       <div class="img-area">
         <img id="img-base" src="" alt="Rhoton anatomy">
@@ -98,10 +98,8 @@
     <div class="pearls-card">
       <div class="pearls-h">Setup</div>
       <p class="or-text">Supine, head in Mayfield (open) or horseshoe (endonasal). Endonasal: 2-surgeon 4-hand technique, surgeon on right, 0° scope for sellar work transitioning to 30°/45° angled scopes for suprasellar and parasellar visualization. Image guidance registered to facial landmarks. Harvest nasoseptal flap early if CSF leak anticipated.</p>
-
       <div class="pearls-h">Imaging Review</div>
       <p class="or-text">What to look for on preoperative imaging for this corridor. Content coming soon.</p>
-
       <div class="pearls-h">Decision Points</div>
       <div class="dec-grid">
         <div class="dec-card"><div class="dec-label">Endo vs Open?</div><div class="dec-val">Lateral extension beyond carotids, vascular encasement, prior surgery with scarred flap, or significant brain invasion may favor craniotomy.</div></div>
@@ -109,7 +107,6 @@
         <div class="dec-card"><div class="dec-label">Flap Strategy</div><div class="dec-val">Nasoseptal flap pedicled on posterior septal artery. Must harvest BEFORE posterior septectomy. Plan contralateral if septum involved.</div></div>
         <div class="dec-card"><div class="dec-label">Carotid Awareness</div><div class="dec-val">Identify paraclival and parasellar ICA segments. Lateral sellar limit = carotid prominence. Neuronavigation + micro-Doppler mandatory.</div></div>
       </div>
-
       <div class="pearls-h">Failure Modes & Complications</div>
       <p class="or-text">Common pitfalls and what goes wrong in this corridor. Content coming soon.</p>
     </div>
@@ -126,6 +123,21 @@
 </div>
 
 <script src="../../js/viewer.js"></script>
+<script>
+function toggleFS(){
+  const v=document.querySelector('.viewer');
+  const btn=document.querySelector('.fs-btn');
+  v.classList.toggle('fullscreen');
+  if(v.classList.contains('fullscreen')){
+    btn.textContent='✕ Close';
+    document.addEventListener('keydown',escFS);
+  }else{
+    btn.textContent='⛶ Expand';
+    document.removeEventListener('keydown',escFS);
+  }
+}
+function escFS(e){if(e.key==='Escape'){toggleFS();}}
+</script>
 <script>initViewer('cards.json');</script>
 </body>
 </html>
