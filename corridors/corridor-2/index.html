@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Applied Neuroanatomy — Midline Anterior Skull Base</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+<nav class="top-nav">
+  <a class="brand" href="../../index.html"><span class="accent">Applied </span><span class="solid">Neuroanatomy</span></a>
+  <div class="nav-links">
+    <a href="../../about.html">About</a>
+    <a href="../../index.html" class="active">Approaches</a>
+    <a href="../../resources.html">Resources</a>
+  </div>
+</nav>
+
+<div class="layout">
+
+<aside class="sidebar">
+  <div class="sb-label">Cranial</div>
+  <a class="sb-item" href="#"><span class="num">1.</span> Fronto-Temporal (Sylvian)</a>
+  <a class="sb-item active" href="index.html"><span class="num">2.</span> Midline Anterior Skull Base</a>
+  <a class="sb-item" href="#"><span class="num">3.</span> Middle Fossa & Petroclival</a>
+  <a class="sb-item" href="#"><span class="num">4.</span> Cerebellopontine Angle</a>
+  <a class="sb-item" href="#"><span class="num">5.</span> Midline Posterior Fossa</a>
+  <a class="sb-item" href="#"><span class="num">6.</span> Craniovertebral Junction</a>
+  <a class="sb-item" href="#"><span class="num">7.</span> Intraventricular</a>
+  <a class="sb-item" href="#"><span class="num">8.</span> Transorbital & Orbital</a>
+  <div class="sb-label">Spine</div>
+  <a class="sb-item" href="#"><span class="num">1.</span> Coming soon</a>
+</aside>
+
+<main class="main">
+
+  <div class="cor-num">Corridor 02</div>
+  <h1 class="cor-title">Midline Anterior Skull Base</h1>
+
+  <!-- 1. OVERVIEW -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Overview</div></div>
+    <div class="overview">
+      <p class="ov-desc">The midline anterior skull base corridor provides access to pathology from the cribriform plate through the planum sphenoidale, sella turcica, and upper clivus. This is the primary route for pituitary adenomas, craniopharyngiomas, tuberculum and planum meningiomas, Rathke cleft cysts, and clival chordomas. The corridor spans from the anterior cranial fossa floor to the posterior clinoids, with the cavernous sinuses defining the lateral boundaries.</p>
+      <div class="ov-h">Approaches</div>
+      <div class="appr-grid">
+        <div class="appr-card">
+          <div class="appr-name">Endoscopic Endonasal Transsphenoidal</div>
+          <div class="appr-desc">Standard sellar approach via nasal corridor and sphenoidotomy. Workhorse for pituitary adenomas, Rathke cleft cysts.</div>
+        </div>
+        <div class="appr-card">
+          <div class="appr-name">Extended Endonasal (Transplanum / Transclival)</div>
+          <div class="appr-desc">Extends the sellar opening superiorly to planum or inferiorly to clivus. For craniopharyngiomas, tuberculum meningiomas, chordomas.</div>
+        </div>
+        <div class="appr-card">
+          <div class="appr-name">Subfrontal / Transbasal</div>
+          <div class="appr-desc">Open craniotomy to the anterior skull base floor. For esthesioneuroblastomas, large anterior fossa meningiomas, or when endo is not feasible.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. ANATOMY -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Anatomy</div><div class="sec-count">18 slides · 354 structures</div></div>
+    <div class="viewer">
+      <div class="v-tb"><span class="v-info" id="info"></span><div class="mode-tog"><button class="active" id="m-study" onclick="setMode('study')">Study</button><button id="m-quiz" onclick="setMode('quiz')">Quiz</button></div></div>
+      <div class="sl-nav" id="slide-nav"></div>
+      <div class="img-area">
+        <img id="img-base" src="" alt="Rhoton anatomy">
+        <img id="img-hl" src="" alt="">
+        <div class="dot" id="dot" onclick="revealCurrent()"><div class="dot-inner"></div></div>
+        <div class="float-label" id="flabel"></div>
+        <div class="hint" id="hint">click dot to reveal</div>
+      </div>
+      <div class="v-ctrl"><button class="btn" id="bp" onclick="goPrev()" disabled>← Prev</button><div class="spacer"></div><button class="btn primary" id="bn" onclick="goNext()">Next →</button></div>
+      <div class="v-attr">Adapted from the Rhoton Cranial Anatomy and Surgical Approaches collection. Images used for educational purposes with attribution to Albert L. Rhoton Jr. and the Rhoton Collection at neurosurgicalatlas.com.</div>
+    </div>
+  </div>
+
+  <!-- 3. RADIOLOGY & PATHOLOGY -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Radiology & Pathology</div><div class="sec-count">Coming soon</div></div>
+    <div class="placeholder pink-zone"><div class="ph-title">Imaging cases for this corridor</div><div class="ph-sub">Pituitary adenoma, craniopharyngioma, tuberculum meningioma, Rathke cleft cyst, chordoma</div></div>
+  </div>
+
+  <!-- 4. KEY CONCEPTS -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>
+    <div class="placeholder pink-zone"><div class="ph-title">Management, boards-relevant facts, and discussion points</div><div class="ph-sub">Text-based cards tagged by category — anatomy, boards, concepts</div></div>
+  </div>
+
+  <!-- 5. OR PEARLS -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">OR Pearls</div></div>
+    <div class="pearls-card">
+      <div class="pearls-h">Setup</div>
+      <p class="or-text">Supine, head in Mayfield (open) or horseshoe (endonasal). Endonasal: 2-surgeon 4-hand technique, surgeon on right, 0° scope for sellar work transitioning to 30°/45° angled scopes for suprasellar and parasellar visualization. Image guidance registered to facial landmarks. Harvest nasoseptal flap early if CSF leak anticipated.</p>
+
+      <div class="pearls-h">Imaging Review</div>
+      <p class="or-text">What to look for on preoperative imaging for this corridor. Content coming soon.</p>
+
+      <div class="pearls-h">Decision Points</div>
+      <div class="dec-grid">
+        <div class="dec-card"><div class="dec-label">Endo vs Open?</div><div class="dec-val">Lateral extension beyond carotids, vascular encasement, prior surgery with scarred flap, or significant brain invasion may favor craniotomy.</div></div>
+        <div class="dec-card"><div class="dec-label">Sphenoidotomy Extent</div><div class="dec-val">Standard sellar vs. extended (posterior ethmoidectomy + planum) vs. transclival — dictated by lesion epicenter and vertical extent.</div></div>
+        <div class="dec-card"><div class="dec-label">Flap Strategy</div><div class="dec-val">Nasoseptal flap pedicled on posterior septal artery. Must harvest BEFORE posterior septectomy. Plan contralateral if septum involved.</div></div>
+        <div class="dec-card"><div class="dec-label">Carotid Awareness</div><div class="dec-val">Identify paraclival and parasellar ICA segments. Lateral sellar limit = carotid prominence. Neuronavigation + micro-Doppler mandatory.</div></div>
+      </div>
+
+      <div class="pearls-h">Failure Modes & Complications</div>
+      <p class="or-text">Common pitfalls and what goes wrong in this corridor. Content coming soon.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="site-footer">
+    <p class="footer-note">Applied Neuroanatomy is a free educational resource for neurosurgery residents, designed as a jumping-off point for structured anatomy review and case-based discussion. Supplement your study with publicly available resources, such as papers and operative videos.</p>
+    <p class="footer-credit">Built by Shivani Baisiwala, MD with Claude as co-author</p>
+    <p class="footer-disclaimer">This site is for educational purposes only and does not constitute medical advice. Clinical decisions should be based on individual patient assessment, current evidence, and attending physician guidance.</p>
+  </div>
+
+</main>
+</div>
+
+<script src="../../js/viewer.js"></script>
+<script>initViewer('cards.json');</script>
+</body>
+</html>
