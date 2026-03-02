@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Applied Neuroanatomy — Intraventricular</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+<nav class="top-nav" id="top-nav"></nav>
+
+<div class="layout">
+
+<aside class="sidebar" id="sidebar"></aside>
+
+<main class="main">
+
+  <div class="cor-num">Corridor 07</div>
+  <h1 class="cor-title">Intraventricular</h1>
+
+  <!-- 1. OVERVIEW -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Overview</div></div>
+    <div class="overview">
+      <p class="ov-desc">The intraventricular corridor accesses pathology within the lateral ventricles, third ventricle, and their connections. This corridor is essential for colloid cysts, choroid plexus tumors, subependymomas, central neurocytomas, intraventricular meningiomas, and lesions of the septum pellucidum and fornix. The ventricular system is surrounded by eloquent deep structures — the fornix, internal cerebral veins, thalamostriate veins, and choroidal arteries — making corridor selection and preservation of these structures the central surgical challenge.</p>
+      <div class="ov-h">Approaches</div>
+      <div class="appr-grid">
+        <div class="appr-card">
+          <div class="appr-name">Transcortical-Transventricular</div>
+          <div class="appr-desc">Cortical incision through the middle frontal gyrus into the lateral ventricle. Direct access to the frontal horn and body of the lateral ventricle. For colloid cysts (transchoroidal or interforniceal), lateral ventricle tumors.</div>
+        </div>
+        <div class="appr-card">
+          <div class="appr-name">Interhemispheric Transcallosal</div>
+          <div class="appr-desc">Midline interhemispheric approach with callosotomy to enter the lateral ventricle. Avoids cortical incision. For third ventricle lesions via the foramen of Monro, colloid cysts, and midline intraventricular tumors.</div>
+        </div>
+        <div class="appr-card">
+          <div class="appr-name">Endoscopic Intraventricular</div>
+          <div class="appr-desc">Neuroendoscopy through a burr hole and single cortical trajectory. For colloid cyst aspiration, ETV, biopsy, and small intraventricular tumors. Minimally invasive but limited by single-port access and hemostasis constraints.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. ANATOMY -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Anatomy</div><div class="sec-count">17 slides · 187 structures</div></div>
+    <div class="viewer">
+      <div class="v-tb"><span class="v-info" id="info"></span><div class="mode-tog"><button class="active" id="m-study" onclick="setMode('study')">Study</button><button id="m-quiz" onclick="setMode('quiz')">Quiz</button></div></div>
+      <div class="sl-nav" id="slide-nav"></div>
+      <div class="img-area">
+        <img id="img-base" src="" alt="Rhoton anatomy">
+        <img id="img-hl" src="" alt="">
+        <div class="dot" id="dot" onclick="revealCurrent()"><div class="dot-inner"></div></div>
+        <div class="float-label" id="flabel"></div>
+        <div class="hint" id="hint">click dot to reveal</div>
+      </div>
+      <div class="v-ctrl"><button class="btn" id="bp" onclick="goPrev()" disabled>← Prev</button><div class="spacer"></div><button class="btn primary" id="bn" onclick="goNext()">Next →</button></div>
+      <div class="v-attr">Adapted from the Rhoton Cranial Anatomy and Surgical Approaches collection. Images used for educational purposes with attribution to Albert L. Rhoton Jr. and the Rhoton Collection at neurosurgicalatlas.com.</div>
+    </div>
+  </div>
+
+  <!-- 3. RADIOLOGY & PATHOLOGY -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Radiology & Pathology</div><div class="sec-count">Coming soon</div></div>
+    <div class="placeholder pink-zone"><div class="ph-title">Imaging cases for this corridor</div><div class="ph-sub">Colloid cyst, central neurocytoma, choroid plexus papilloma, subependymoma, intraventricular meningioma</div></div>
+  </div>
+
+  <!-- 4. KEY CONCEPTS -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>
+    <div class="placeholder pink-zone"><div class="ph-title">Management, boards-relevant facts, and discussion points</div><div class="ph-sub">Text-based cards tagged by category — anatomy, boards, concepts</div></div>
+  </div>
+
+  <!-- 5. OR PEARLS -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">OR Pearls</div></div>
+    <div class="pearls-card">
+      <div class="pearls-h">Setup</div>
+      <p class="or-text">Supine for all approaches. Transcortical: head neutral or slightly rotated, craniotomy centered over the middle frontal gyrus, corticotomy along a sulcus when possible. Transcallosal: midline craniotomy crossing midline, interhemispheric dissection to the corpus callosum, callosotomy 2–2.5 cm starting at the junction of the anterior and middle third. Navigate to the foramen of Monro using the septal and thalamostriate veins as landmarks.</p>
+      <div class="pearls-h">Imaging Review</div>
+      <p class="or-text">What to look for on preoperative imaging for this corridor. Content coming soon.</p>
+      <div class="pearls-h">Decision Points</div>
+      <div class="dec-grid">
+        <div class="dec-card"><div class="dec-label">Transcortical vs Transcallosal?</div><div class="dec-val">Transcallosal avoids cortical incision and is preferred for midline/third ventricle lesions. Transcortical is faster and more direct for lateral ventricle tumors, especially in the trigone or temporal horn. If ventriculomegaly is present, transcortical is straightforward.</div></div>
+        <div class="dec-card"><div class="dec-label">Foramen of Monro Strategy</div><div class="dec-val">Interforniceal approach splits the fornix in the midline (safe if septum is thin). Transchoroidal opens the choroidal fissure along the tenia fornicis. Subchoroidal goes beneath the choroid plexus. Each has different risks to the fornix and internal cerebral veins.</div></div>
+        <div class="dec-card"><div class="dec-label">Open vs Endoscopic?</div><div class="dec-val">Endoscopic for small lesions, colloid cyst aspiration, ETV, and biopsy. Open microsurgical for large or vascular tumors where hemostasis and bimanual dissection are critical. Hybrid approaches combine endoscopic visualization with microsurgical technique.</div></div>
+        <div class="dec-card"><div class="dec-label">Venous Preservation</div><div class="dec-val">The thalamostriate vein, internal cerebral veins, and septal veins are landmarks AND critical structures. Sacrifice of the internal cerebral veins risks bilateral thalamic infarction. The thalamostriate vein marks the posterior limit of safe foramen of Monro enlargement.</div></div>
+      </div>
+      <div class="pearls-h">Failure Modes & Complications</div>
+      <p class="or-text">Common pitfalls and what goes wrong in this corridor. Content coming soon.</p>
+    </div>
+  </div>
+
+  <div class="site-footer" id="footer"></div>
+
+</main>
+</div>
+
+<script src="../../js/components.js"></script>
+<script src="../../js/viewer.js"></script>
+<script>initViewer('cards.json');</script>
+</body>
+</html>

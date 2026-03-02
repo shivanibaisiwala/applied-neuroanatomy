@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Applied Neuroanatomy — Craniovertebral Junction</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+<nav class="top-nav" id="top-nav"></nav>
+
+<div class="layout">
+
+<aside class="sidebar" id="sidebar"></aside>
+
+<main class="main">
+
+  <div class="cor-num">Corridor 06</div>
+  <h1 class="cor-title">Craniovertebral Junction</h1>
+
+  <!-- 1. OVERVIEW -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Overview</div></div>
+    <div class="overview">
+      <p class="ov-desc">The craniovertebral junction corridor accesses the foramen magnum, lower clivus, anterior brainstem at the cervicomedullary junction, and the C1-C2 complex. This corridor is essential for foramen magnum meningiomas, ventral brainstem lesions, vertebral artery aneurysms, and CVJ instability requiring fixation. The vertebral arteries, lower cranial nerves (IX–XII), and the cervicomedullary junction define the critical neurovascular anatomy. Understanding the bony anatomy of the occipital condyles, C1 lateral masses, and C2 pars is fundamental to both tumor surgery and instrumented fusion.</p>
+      <div class="ov-h">Approaches</div>
+      <div class="appr-grid">
+        <div class="appr-card">
+          <div class="appr-name">Far Lateral (Transcondylar)</div>
+          <div class="appr-desc">Lateral suboccipital craniotomy with partial condyle resection to access the ventrolateral foramen magnum and lower clivus. For foramen magnum meningiomas, vertebral artery aneurysms, and ventral cervicomedullary lesions.</div>
+        </div>
+        <div class="appr-card">
+          <div class="appr-name">Posterior Midline (Foramen Magnum Decompression)</div>
+          <div class="appr-desc">Suboccipital craniectomy with C1 laminectomy for dorsal pathology and Chiari malformation. Extended inferiorly for upper cervical intradural tumors. Can include occipitocervical fusion if instability present.</div>
+        </div>
+        <div class="appr-card">
+          <div class="appr-name">Endoscopic Endonasal (Transclival-Transodontoid)</div>
+          <div class="appr-desc">Ventral access to the lower clivus and odontoid through the nose. For ventral cervicomedullary compression from pannus, os odontoideum, or chordomas extending to the CVJ. Requires occipitocervical fusion if destabilizing.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. ANATOMY -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Anatomy</div><div class="sec-count">29 slides · 260 structures</div></div>
+    <div class="viewer">
+      <div class="v-tb"><span class="v-info" id="info"></span><div class="mode-tog"><button class="active" id="m-study" onclick="setMode('study')">Study</button><button id="m-quiz" onclick="setMode('quiz')">Quiz</button></div></div>
+      <div class="sl-nav" id="slide-nav"></div>
+      <div class="img-area">
+        <img id="img-base" src="" alt="Rhoton anatomy">
+        <img id="img-hl" src="" alt="">
+        <div class="dot" id="dot" onclick="revealCurrent()"><div class="dot-inner"></div></div>
+        <div class="float-label" id="flabel"></div>
+        <div class="hint" id="hint">click dot to reveal</div>
+      </div>
+      <div class="v-ctrl"><button class="btn" id="bp" onclick="goPrev()" disabled>← Prev</button><div class="spacer"></div><button class="btn primary" id="bn" onclick="goNext()">Next →</button></div>
+      <div class="v-attr">Adapted from the Rhoton Cranial Anatomy and Surgical Approaches collection. Images used for educational purposes with attribution to Albert L. Rhoton Jr. and the Rhoton Collection at neurosurgicalatlas.com.</div>
+    </div>
+  </div>
+
+  <!-- 3. RADIOLOGY & PATHOLOGY -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Radiology & Pathology</div><div class="sec-count">Coming soon</div></div>
+    <div class="placeholder pink-zone"><div class="ph-title">Imaging cases for this corridor</div><div class="ph-sub">Foramen magnum meningioma, chordoma, os odontoideum, CVJ instability, vertebral artery dissection</div></div>
+  </div>
+
+  <!-- 4. KEY CONCEPTS -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>
+    <div class="placeholder pink-zone"><div class="ph-title">Management, boards-relevant facts, and discussion points</div><div class="ph-sub">Text-based cards tagged by category — anatomy, boards, concepts</div></div>
+  </div>
+
+  <!-- 5. OR PEARLS -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">OR Pearls</div></div>
+    <div class="pearls-card">
+      <div class="pearls-h">Setup</div>
+      <p class="or-text">Park bench or lateral decubitus for far lateral, prone for posterior midline. Far lateral: hockey-stick incision curving from behind the mastoid to the upper cervical midline. Subperiosteal dissection exposes the suboccipital triangle — the vertebral artery lives in the triangle bounded by the superior oblique, inferior oblique, and rectus capitis posterior major. Identify and mobilize V3 segment of the vertebral artery before any condyle drilling.</p>
+      <div class="pearls-h">Imaging Review</div>
+      <p class="or-text">What to look for on preoperative imaging for this corridor. Content coming soon.</p>
+      <div class="pearls-h">Decision Points</div>
+      <div class="dec-grid">
+        <div class="dec-card"><div class="dec-label">How Much Condyle?</div><div class="dec-val">Posterior third of the condyle can be removed without destabilizing. Beyond 50% risks occipitocervical instability requiring fusion. Most foramen magnum meningiomas need minimal condyle removal — the exposure comes from lateral positioning and dural opening, not bone.</div></div>
+        <div class="dec-card"><div class="dec-label">Vertebral Artery Control</div><div class="dec-val">Must identify V3 segment in the suboccipital triangle before opening dura. If tumor encases the intradural vertebral artery, proximal and distal control before dissection. Consider preop balloon test occlusion for tumors encasing a dominant vertebral.</div></div>
+        <div class="dec-card"><div class="dec-label">Fusion Decision</div><div class="dec-val">Occipitocervical fusion if condyle resection >50%, if CVJ ligaments are incompetent, or if ventral decompression (transodontoid) removes the dens. Occiput-C2 or occiput-C3 constructs with lateral mass or pars screws.</div></div>
+        <div class="dec-card"><div class="dec-label">Lower Cranial Nerve Preservation</div><div class="dec-val">CN IX–XII course through the jugular foramen and hypoglossal canal at the edges of this corridor. Foramen magnum meningiomas displace these nerves superolaterally. Identify early and work medial to them when possible.</div></div>
+      </div>
+      <div class="pearls-h">Failure Modes & Complications</div>
+      <p class="or-text">Common pitfalls and what goes wrong in this corridor. Content coming soon.</p>
+    </div>
+  </div>
+
+  <div class="site-footer" id="footer"></div>
+
+</main>
+</div>
+
+<script src="../../js/components.js"></script>
+<script src="../../js/viewer.js"></script>
+<script>initViewer('cards.json');</script>
+</body>
+</html>
