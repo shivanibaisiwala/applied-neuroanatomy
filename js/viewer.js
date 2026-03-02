@@ -46,27 +46,48 @@ function render() {
   const ci = order[idx], card = cards[ci];
   revealed = false;
 
-  const imgBase = document.getElementById('img-base');
-  imgBase.onload = fitImage;
-  imgBase.src = card.base;
-  const hl = document.getElementById('img-hl');
-  hl.classList.remove('show');
-  hl.src = card.img;
-  hl.onload = function(){ hl.classList.add('show'); };
-
+  // Hide everything immediately
   const dot = document.getElementById('dot');
-  dot.style.left = card.dx + '%'; dot.style.top = card.dy + '%';
-  dot.classList.remove('revealed');
-
   const fl = document.getElementById('flabel');
-  fl.textContent = ''; fl.classList.remove('show'); fl.textContent = card.l;
-  fl.className = 'float-label ' + (card.side === 'r' ? 'r' : 'l');
-  if (card.side === 'r') { fl.style.left = (card.dx + 3.5) + '%'; fl.style.right = ''; }
-  else { fl.style.right = (100 - card.dx + 3.5) + '%'; fl.style.left = ''; }
-  fl.style.top = card.dy + '%';
+  const hl = document.getElementById('img-hl');
+  const hint = document.getElementById('hint');
 
-  document.getElementById('hint').classList.remove('hide');
+  dot.style.display = 'none';
+  fl.classList.remove('show');
+  fl.textContent = '';
+  hl.classList.remove('show');
+  hint.classList.add('hide');
 
+  // Load base image, then set up everything else after it loads
+  const imgBase = document.getElementById('img-base');
+  imgBase.onload = function() {
+    fitImage();
+
+    // Load highlight
+    hl.src = card.img;
+    hl.onload = function() {
+      hl.classList.add('show');
+
+      // Now position and show dot
+      dot.style.left = card.dx + '%';
+      dot.style.top = card.dy + '%';
+      dot.classList.remove('revealed');
+      dot.style.display = '';
+
+      // Set up label (hidden until click)
+      fl.textContent = card.l;
+      fl.className = 'float-label ' + (card.side === 'r' ? 'r' : 'l');
+      if (card.side === 'r') { fl.style.left = (card.dx + 3.5) + '%'; fl.style.right = ''; }
+      else { fl.style.right = (100 - card.dx + 3.5) + '%'; fl.style.left = ''; }
+      fl.style.top = card.dy + '%';
+
+      // Show hint
+      hint.classList.remove('hide');
+    };
+  };
+  imgBase.src = card.base;
+
+  // Update UI controls (these can happen immediately)
   if (mode === 'study') {
     let ss = 0, sc = 0;
     for (let i = 0; i < N; i++) { if (cards[order[i]].s === card.s) { if (sc === 0) ss = i; sc++; } }
