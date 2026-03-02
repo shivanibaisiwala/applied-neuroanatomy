@@ -57,7 +57,7 @@ function render() {
   dot.classList.remove('revealed');
 
   const fl = document.getElementById('flabel');
-  fl.classList.remove('show'); fl.textContent = card.l;
+  fl.textContent = ''; fl.classList.remove('show'); fl.textContent = card.l;
   fl.className = 'float-label ' + (card.side === 'r' ? 'r' : 'l');
   if (card.side === 'r') { fl.style.left = (card.dx + 3.5) + '%'; fl.style.right = ''; }
   else { fl.style.right = (100 - card.dx + 3.5) + '%'; fl.style.left = ''; }
