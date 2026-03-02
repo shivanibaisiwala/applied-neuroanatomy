@@ -24,10 +24,10 @@
     { num: 2, name: 'Midline Anterior Skull Base', ready: true },
     { num: 3, name: 'Middle Fossa & Petroclival', ready: true },
     { num: 4, name: 'Cerebellopontine Angle', ready: true },
-    { num: 5, name: 'Midline Posterior Fossa', ready: false },
-    { num: 6, name: 'Craniovertebral Junction', ready: false },
-    { num: 7, name: 'Intraventricular', ready: false },
-    { num: 8, name: 'Transorbital & Orbital', ready: false }
+    { num: 5, name: 'Midline Posterior Fossa', ready: true },
+    { num: 6, name: 'Craniovertebral Junction', ready: true },
+    { num: 7, name: 'Intraventricular', ready: true },
+    { num: 8, name: 'Transorbital & Orbital', ready: true }
   ];
 
   // Build corridor sidebar links
