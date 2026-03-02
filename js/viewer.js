@@ -49,8 +49,10 @@ function render() {
   const imgBase = document.getElementById('img-base');
   imgBase.onload = fitImage;
   imgBase.src = card.base;
-  document.getElementById('img-hl').src = card.img;
-  document.getElementById('img-hl').classList.add('show');
+  const hl = document.getElementById('img-hl');
+  hl.classList.remove('show');
+  hl.src = card.img;
+  hl.onload = function(){ hl.classList.add('show'); };
 
   const dot = document.getElementById('dot');
   dot.style.left = card.dx + '%'; dot.style.top = card.dy + '%';
