@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Applied Neuroanatomy — Cerebellopontine Angle</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+<nav class="top-nav" id="top-nav"></nav>
+
+<div class="layout">
+
+<aside class="sidebar" id="sidebar"></aside>
+
+<main class="main">
+
+  <div class="cor-num">Corridor 04</div>
+  <h1 class="cor-title">Cerebellopontine Angle</h1>
+
+  <!-- 1. OVERVIEW -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Overview</div></div>
+    <div class="overview">
+      <p class="ov-desc">The cerebellopontine angle corridor accesses the lateral posterior fossa between the cerebellum, pons, and petrous bone. This is the primary route for vestibular schwannomas, CPA meningiomas, epidermoids, and vascular compression syndromes (trigeminal neuralgia, hemifacial spasm). The corridor provides access to cranial nerves V through XI, the vertebrobasilar system, and the lateral brainstem. The relationship between tumor, cranial nerves, and vascular structures defines the surgical strategy.</p>
+      <div class="ov-h">Approaches</div>
+      <div class="appr-grid">
+        <div class="appr-card">
+          <div class="appr-name">Retrosigmoid</div>
+          <div class="appr-desc">Posterior fossa craniotomy behind the sigmoid sinus. Versatile access to the entire CPA, CN V–XI, and petroclival region. Workhorse for vestibular schwannomas, microvascular decompression, and CPA meningiomas.</div>
+        </div>
+        <div class="appr-card">
+          <div class="appr-name">Translabyrinthine</div>
+          <div class="appr-desc">Through the mastoid and labyrinth directly into the CPA. Sacrifices hearing but provides wide access to the IAC and facial nerve with minimal cerebellar retraction. For large vestibular schwannomas with non-serviceable hearing.</div>
+        </div>
+        <div class="appr-card">
+          <div class="appr-name">Far Lateral (Transcondylar Extensions)</div>
+          <div class="appr-desc">Extends the retrosigmoid inferiorly with condyle drilling to access the lower CPA, jugular foramen, and vertebral artery. For jugular foramen schwannomas, lower cranial nerve pathology.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. ANATOMY -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Anatomy</div><div class="sec-count">39 slides · 612 structures</div></div>
+    <div class="viewer">
+      <div class="v-tb"><span class="v-info" id="info"></span><div class="mode-tog"><button class="active" id="m-study" onclick="setMode('study')">Study</button><button id="m-quiz" onclick="setMode('quiz')">Quiz</button></div></div>
+      <div class="sl-nav" id="slide-nav"></div>
+      <div class="img-area">
+        <img id="img-base" src="" alt="Rhoton anatomy">
+        <img id="img-hl" src="" alt="">
+        <div class="dot" id="dot" onclick="revealCurrent()"><div class="dot-inner"></div></div>
+        <div class="float-label" id="flabel"></div>
+        <div class="hint" id="hint">click dot to reveal</div>
+      </div>
+      <div class="v-ctrl"><button class="btn" id="bp" onclick="goPrev()" disabled>← Prev</button><div class="spacer"></div><button class="btn primary" id="bn" onclick="goNext()">Next →</button></div>
+      <div class="v-attr">Adapted from the Rhoton Cranial Anatomy and Surgical Approaches collection. Images used for educational purposes with attribution to Albert L. Rhoton Jr. and the Rhoton Collection at neurosurgicalatlas.com.</div>
+    </div>
+  </div>
+
+  <!-- 3. RADIOLOGY & PATHOLOGY -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Radiology & Pathology</div><div class="sec-count">Coming soon</div></div>
+    <div class="placeholder pink-zone"><div class="ph-title">Imaging cases for this corridor</div><div class="ph-sub">Vestibular schwannoma, CPA meningioma, epidermoid, trigeminal neuralgia (vascular loop), jugular foramen tumors</div></div>
+  </div>
+
+  <!-- 4. KEY CONCEPTS -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>
+    <div class="placeholder pink-zone"><div class="ph-title">Management, boards-relevant facts, and discussion points</div><div class="ph-sub">Text-based cards tagged by category — anatomy, boards, concepts</div></div>
+  </div>
+
+  <!-- 5. OR PEARLS -->
+  <div class="section">
+    <div class="sec-head"><div class="sec-title">OR Pearls</div></div>
+    <div class="pearls-card">
+      <div class="pearls-h">Setup</div>
+      <p class="or-text">Lateral decubitus or park bench for retrosigmoid, supine with head turned for translabyrinthine. Retrosigmoid: head flexed and vertex tilted slightly down to open the CPA. Mastoid emissary vein is the landmark for the transverse-sigmoid junction. Craniotomy exposes the sigmoid sinus anteriorly — this is your anterior limit. Lumbar drain or CSF release from the cisterna magna to relax the cerebellum early.</p>
+      <div class="pearls-h">Imaging Review</div>
+      <p class="or-text">What to look for on preoperative imaging for this corridor. Content coming soon.</p>
+      <div class="pearls-h">Decision Points</div>
+      <div class="dec-grid">
+        <div class="dec-card"><div class="dec-label">Retrosigmoid vs Translabyrinthine?</div><div class="dec-val">Retrosigmoid preserves hearing (for tumors &lt;2cm with serviceable hearing). Translabyrinthine sacrifices hearing but offers wider IAC access and less cerebellar retraction — preferred for large tumors or non-serviceable hearing.</div></div>
+        <div class="dec-card"><div class="dec-label">Facial Nerve Management</div><div class="dec-val">Always identify facial nerve before debulking. Stimulation mapping at the brainstem root entry zone and at the porus. The nerve is typically anterior-inferior on the tumor capsule. Internal debulking before capsule dissection.</div></div>
+        <div class="dec-card"><div class="dec-label">MVD Target Vessel</div><div class="dec-val">Trigeminal neuralgia: SCA or AICA compressing CN V root entry zone. Hemifacial spasm: PICA or AICA on CN VII. Interpose Teflon felt between vessel and nerve — do not just displace the vessel.</div></div>
+        <div class="dec-card"><div class="dec-label">Subtotal vs Gross Total</div><div class="dec-val">For vestibular schwannomas adherent to the facial nerve, a thin rind of tumor left on the nerve preserves function better than aggressive dissection. Near-total resection with planned observation is often the right call.</div></div>
+      </div>
+      <div class="pearls-h">Failure Modes & Complications</div>
+      <p class="or-text">Common pitfalls and what goes wrong in this corridor. Content coming soon.</p>
+    </div>
+  </div>
+
+  <div class="site-footer" id="footer"></div>
+
+</main>
+</div>
+
+<script src="../../js/components.js"></script>
+<script src="../../js/viewer.js"></script>
+<script>initViewer('cards.json');</script>
+</body>
+</html>
