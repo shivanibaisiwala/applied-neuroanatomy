@@ -115,6 +115,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);lin
 .footer-note{font-size:.74rem;color:var(--text2);line-height:1.7;margin-bottom:.75rem}
 .footer-credit{font-size:.72rem;color:var(--muted);line-height:1.7}
 .footer-disclaimer{font-size:.65rem;color:var(--muted);margin-top:.75rem;font-style:italic}
+.footer-report{margin-top:.75rem}.footer-report a{font-size:.65rem;color:var(--accent);text-decoration:none;opacity:.6;transition:opacity .2s}.footer-report a:hover{opacity:1}
 
 /* RESPONSIVE */
 @media(max-width:900px){
