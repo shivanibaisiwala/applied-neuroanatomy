@@ -126,3 +126,29 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);lin
   .dec-grid{grid-template-columns:1fr}
 }
 ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+
+
+/* KEY CONCEPTS VIEWER */
+.concepts-viewer{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative}
+.concepts-viewer::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--boards);z-index:2}
+#concept-tabs{display:flex;gap:.25rem;padding:.35rem .75rem;background:var(--bg2);flex-wrap:wrap;border-bottom:1px solid rgba(42,47,63,.3)}
+.cc-tab{font-family:'JetBrains Mono',monospace;font-size:.72rem;padding:.2rem .5rem;border-radius:4px;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap}
+.cc-tab:hover{color:var(--text);background:var(--elevated)}
+.cc-tab.active{background:var(--boards-dim);color:var(--boards);border-color:transparent}
+.cc-tab-count{opacity:.5;margin-left:.2rem}
+#concept-card{min-height:220px;padding:1.5rem 1.5rem 2.5rem;cursor:pointer;transition:background .15s}
+#concept-card:hover{background:rgba(255,255,255,.02)}
+.cc-front{display:flex;flex-direction:column;align-items:center;gap:.75rem}
+.cc-img{max-width:100%;max-height:400px;border-radius:6px;object-fit:contain}
+.cc-question{font-size:1rem;color:var(--text);line-height:1.7;text-align:center;max-width:560px}
+.cc-divider{height:1px;background:var(--border);margin:1rem 0}
+.cc-back{display:flex;flex-direction:column;align-items:center;gap:.75rem;animation:ccFadeIn .25s ease}
+.cc-back-img{max-height:300px}
+.cc-answer{font-size:.95rem;color:var(--text2);line-height:1.7;text-align:center;max-width:560px}
+.cc-empty{font-size:.8rem;color:var(--muted);text-align:center;padding:2rem}
+@keyframes ccFadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+#concept-hint{text-align:center;padding:.5rem 0;font-size:.65rem;color:rgba(255,255,255,.25);transition:opacity .3s}
+.cc-nav{display:flex;align-items:center;gap:.5rem;padding:.45rem .75rem;background:var(--bg2);border-top:1px solid rgba(42,47,63,.5)}
+.cc-nav .spacer{flex:1}
+#concept-counter{font-family:'JetBrains Mono',monospace;font-size:.68rem;color:var(--muted)}
+

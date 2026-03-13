@@ -69,8 +69,22 @@
 
   <!-- 4. KEY CONCEPTS -->
   <div class="section">
-    <div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>
-    <div class="placeholder pink-zone"><div class="ph-title">Management, boards-relevant facts, and discussion points</div><div class="ph-sub">Text-based cards tagged by category</div></div>
+    <div class="sec-head">
+      <div class="sec-title">Key Concepts</div>
+      <div class="sec-count" id="concept-sec-count"></div>
+    </div>
+    <div class="concepts-viewer">
+      <div id="concept-tabs"></div>
+      <div id="concept-card"></div>
+      <div id="concept-hint">click to reveal</div>
+      <div class="cc-nav">
+        <button class="btn" id="concept-prev" onclick="window._conceptPrev()" disabled>&#8592; Prev</button>
+        <div class="spacer"></div>
+        <span id="concept-counter"></span>
+        <div class="spacer"></div>
+        <button class="btn primary" id="concept-next" onclick="window._conceptNext()">Next &#8594;</button>
+      </div>
+    </div>
   </div>
 
   <!-- 5. OR PEARLS -->
@@ -99,5 +113,7 @@
 <script src="../../js/components.js"></script>
 <script src="../../js/viewer.js"></script>
 <script>initViewer('cards.json');</script>
+<script src="../../js/concepts.js"></script>
+<script>initConcepts('concepts.json');</script>
 </body>
 </html>

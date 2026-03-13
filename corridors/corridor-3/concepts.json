@@ -1,0 +1,135 @@
+[
+  {
+    "front": null,
+    "back": "Sacral chordoma",
+    "cat": "radiology",
+    "frontImgs": [
+      "concept-images/concept-0.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Carotid-cavernous fistula (CCF), see\ndilated sup ophthalmic vein",
+    "cat": "radiology",
+    "frontImgs": [
+      "concept-images/concept-1.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "hemangiopericytoma",
+    "cat": "radiology",
+    "frontImgs": [
+      "concept-images/concept-2.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Clival chordoma: midline, purely lytic on\nCT, strong/heterogenous C+\n\nDDx: chondrosarcoma: eccentric/petroclival,\nlytic but w internal chondroid matrix on CT, very similar MR characteristics\nonly *bright on ADC*",
+    "cat": "radiology",
+    "frontImgs": [
+      "concept-images/concept-3.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Glomus jugulare = paraganglioma",
+    "cat": "radiology",
+    "frontImgs": [
+      "concept-images/concept-4.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Persistent trigeminal artery (from\ncavernous ICA, most common)\n\nOtic = from petrous ICA (very rare, first\nanastomosis to regress)\n\nHyoglossal = from cervical ICA (C1-3), comes\nthrough hypoglossal canal\n\nProatlantal = from cervical ICA/ECA",
+    "cat": "radiology",
+    "frontImgs": [
+      "concept-images/concept-5.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Tentorial meningioma fed by artery of bernasconi\n& cassinari\n(MHT)",
+    "cat": "radiology",
+    "frontImgs": [
+      "concept-images/concept-6.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Hemangiopericytoma \u2013 staghorn vessels, +Vimentin + CD34, -EMA\n(unlike meningioma),",
+    "cat": "pathology",
+    "frontImgs": [
+      "concept-images/concept-7.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Chordoma - Sheets/cords\nof large vacuolated cells (physaliphorous\nor bubbly cells) surrounded by mucin; +EMA +cytokeratin\n(ectoderm) +S100\nbrachyury (mesenchymal/neural\ncrest)",
+    "cat": "pathology",
+    "frontImgs": [
+      "concept-images/concept-8.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Paraganglioma - zellballen",
+    "cat": "pathology",
+    "frontImgs": [
+      "concept-images/concept-9.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Chondrosarcoma - S100+,\nEMA-,\nbiphasic pattern: spindle shaped cells + well-diff cartilage",
+    "cat": "pathology",
+    "frontImgs": [
+      "concept-images/concept-10.jpg"
+    ]
+  },
+  {
+    "front": "What structures pass through the jugular foramen?",
+    "back": "Internal jugular vein \nGlossopharyngeal nerve\nVagus nerve\nAccessory nerve\nInferior petrosal sinus \nPosterior meningeal artery",
+    "cat": "anatomy"
+  },
+  {
+    "front": "What structures pass through the foramen rotundum?",
+    "back": "CN V2 (mnemonic: CN rotwondum)",
+    "cat": "anatomy"
+  },
+  {
+    "front": "What structures pass through the foramen ovale?",
+    "back": "CN V3 (mnemonic: ovalee = CN three)\n\nLesser superficial petrosal nerve",
+    "cat": "anatomy"
+  },
+  {
+    "front": "What are the contents and borders of the anteromedial triangle?",
+    "back": "Medial: CN V1\nLateral: CN V2 \nBase: Line btwn the SOF and foramen rotundum \nContents: sphenoid sinus, CN VI",
+    "cat": "anatomy"
+  },
+  {
+    "front": "What are the contents and borders of the anterolateral triangle?",
+    "back": "Medial: CN V2 \nLateral: CN V3 \nBase: Line between foramen rotundum and ovale \nContents: none",
+    "cat": "anatomy"
+  },
+  {
+    "front": "What is Gradenigo's Syndrome?",
+    "back": "Associated with bacterial otitis media . Triad of periorbital/facial pain (CNV), diplopia (CNVI), and persistent otorrhea.",
+    "cat": "clinical"
+  },
+  {
+    "front": "What is the Gradenigo syndrome triad?",
+    "back": "1) 6th CN palsy\n2) retro orbital pain\n3) draining ear (caused by otitis media) with mastoiditis and petrous apex involvement",
+    "cat": "clinical"
+  },
+  {
+    "front": "What is Tolosa-Hunt syndrome?",
+    "back": "inflammation of superior orbital fissure or cavernous sinus, painful ophthalmoplegia with multiple CN palsies, but pupil is spared; dramatic improvement with steroids",
+    "cat": "clinical"
+  },
+  {
+    "front": "What are ocular manifestations of CCF?",
+    "back": "Ocular manifestations of a carotid cavernous fistula (CCF) include eye redness (conjunctival hyperemia), bulging eye (proptosis), eyelid swelling (ptosis), double vision (diplopia), reduced vision, ophthalmoplegia, and an elevated eye pressure (glaucoma).",
+    "cat": "clinical"
+  }
+]
