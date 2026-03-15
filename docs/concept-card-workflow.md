@@ -64,3 +64,31 @@ This supports your current category UI while allowing progressive growth from hi
 - **Monthly:** duplicate sweep + taxonomy cleanup.
 
 This keeps quality high and prevents massive cleanup later.
+
+## Tag model for source decks (boards vs rhoton)
+
+To support source tracking without changing the current category tabs, add an optional `tags` array on each card.
+
+Example:
+
+```json
+{
+  "front": "Identify the most likely diagnosis on this image.",
+  "back": "Most likely diagnosis: clival chordoma.",
+  "cat": "radiology",
+  "tags": ["source:boards", "corridor:3", "stage:core"],
+  "frontImgs": ["concept-images/concept-3.jpg"]
+}
+```
+
+Recommended conventions:
+
+- `source:boards` or `source:rhoton`
+- `corridor:3`, `corridor:8`, etc.
+- `stage:memorize`, `stage:core`, `stage:advanced`
+
+Why this fits the UI:
+
+- Keep existing category tabs as primary navigation (anatomy/pathology/radiology/clinical/surgical).
+- Add a lightweight secondary filter later (chips/dropdown) for tags, starting with `source:*` only.
+- Existing cards without `tags` remain valid; tagging can be rolled out incrementally.
