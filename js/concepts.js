@@ -130,7 +130,7 @@
     var tabBar = document.getElementById('concept-tabs');
     if (tabBar) {
       var h = '<button class="cc-tab active" data-tab="all" onclick="window._setConceptTab(\'all\')">All <span class="cc-tab-count">' + cards.length + '</span></button>';
-      var order = ['anatomy','pathology','radiology','clinical','surgical','surgical-steps'];
+      var order = ['pathology','radiology','anatomy','surgical','surgical-steps','clinical'];
       var labels = {pathology:'Path',radiology:'Rad',anatomy:'Anatomy',surgical:'Surgical', 'surgical-steps':'Surg Steps', clinical:'Clinical'};
       order.forEach(function(cat) {
         if (cats[cat]) {

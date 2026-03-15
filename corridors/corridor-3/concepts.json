@@ -118,6 +118,11 @@
     "cat": "clinical"
   },
   {
+    "front": "What is the Gradenigo syndrome triad?",
+    "back": "Classic Gradenigo triad: (1) ipsilateral CN VI palsy, (2) retro-orbital pain in the trigeminal distribution, and (3) persistent otorrhea from otitis media/petrous apicitis.",
+    "cat": "clinical"
+  },
+  {
     "front": "What is Tolosa-Hunt syndrome?",
     "back": "Tolosa-Hunt syndrome is idiopathic granulomatous inflammation of the cavernous sinus/superior orbital fissure causing painful ophthalmoplegia with multiple cranial neuropathies; it is typically steroid responsive.",
     "cat": "clinical"
