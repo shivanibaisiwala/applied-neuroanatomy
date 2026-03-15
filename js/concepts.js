@@ -14,6 +14,20 @@
     return a;
   }
 
+  function normalizeCategory(cat) {
+    if (!cat) return '';
+    var value = String(cat).toLowerCase().trim();
+    if (value === 'surgical_steps' || value === 'surgical-steps' || value === 'steps') return 'surgical-steps';
+    return value;
+  }
+
+  function promptForCard(card) {
+    if (card.front && card.front.trim().length > 0) return card.front;
+    if (card.prompt && card.prompt.trim().length > 0) return card.prompt;
+    if (card.frontImgs && card.frontImgs.length > 0) return 'Identify the key concept shown.';
+    return 'Identify the diagnosis';
+  }
+
   function filterCards() {
     if (activeTab === 'all') {
       filtered = shuffle(cards.slice());
@@ -53,13 +67,7 @@
       }
     }
 
-    if (card.front && card.front.trim().length > 0) {
-      html += '<div class="cc-question">' + card.front.replace(/\n/g, '<br>') + '</div>';
-    }
-
-    if ((!card.frontImgs || card.frontImgs.length === 0) && (!card.front || card.front.trim().length === 0)) {
-      html += '<div class="cc-question">Identify the diagnosis</div>';
-    }
+    html += '<div class="cc-question">' + promptForCard(card).replace(/\n/g, '<br>') + '</div>';
 
     html += '</div>';
 
@@ -122,8 +130,8 @@
     var tabBar = document.getElementById('concept-tabs');
     if (tabBar) {
       var h = '<button class="cc-tab active" data-tab="all" onclick="window._setConceptTab(\'all\')">All <span class="cc-tab-count">' + cards.length + '</span></button>';
-      var order = ['pathology','radiology','anatomy','surgical','clinical'];
-      var labels = {pathology:'Path',radiology:'Rad',anatomy:'Anatomy',surgical:'Surgical',clinical:'Clinical'};
+      var order = ['anatomy','pathology','radiology','clinical','surgical','surgical-steps'];
+      var labels = {pathology:'Path',radiology:'Rad',anatomy:'Anatomy',surgical:'Surgical', 'surgical-steps':'Surg Steps', clinical:'Clinical'};
       order.forEach(function(cat) {
         if (cats[cat]) {
           h += '<button class="cc-tab" data-tab="'+cat+'" onclick="window._setConceptTab(\''+cat+'\')">'+labels[cat]+' <span class="cc-tab-count">'+cats[cat]+'</span></button>';
@@ -159,7 +167,11 @@
     xhr.onload = function() {
       if (xhr.responseText && xhr.responseText.length > 0) {
         try {
-          cards = JSON.parse(xhr.responseText);
+          cards = JSON.parse(xhr.responseText).map(function(card) {
+            var next = Object.assign({}, card);
+            next.cat = normalizeCategory(next.cat);
+            return next;
+          });
           buildTabs();
         } catch(e) {
           console.error('Failed to parse concepts JSON:', e);

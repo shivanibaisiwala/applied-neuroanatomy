@@ -1,87 +1,87 @@
 [
   {
-    "front": null,
-    "back": "Sacral chordoma",
+    "front": "Identify the most likely diagnosis on this image.",
+    "back": "Most likely diagnosis: sacral chordoma.",
     "cat": "radiology",
     "frontImgs": [
       "concept-images/concept-0.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Carotid-cavernous fistula (CCF), see\ndilated sup ophthalmic vein",
+    "front": "Identify the vascular diagnosis shown.",
+    "back": "Most likely diagnosis: carotid-cavernous fistula (CCF). Key clue: dilation of the superior ophthalmic vein.",
     "cat": "radiology",
     "frontImgs": [
       "concept-images/concept-1.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "hemangiopericytoma",
+    "front": "Identify the most likely diagnosis on this image.",
+    "back": "Most likely diagnosis: hemangiopericytoma (solitary fibrous tumor spectrum).",
     "cat": "radiology",
     "frontImgs": [
       "concept-images/concept-2.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Clival chordoma: midline, purely lytic on\nCT, strong/heterogenous C+\n\nDDx: chondrosarcoma: eccentric/petroclival,\nlytic but w internal chondroid matrix on CT, very similar MR characteristics\nonly *bright on ADC*",
+    "front": "Differentiate the skull base lesion shown from its main imaging mimic.",
+    "back": "Clival chordoma is typically midline, lytic on CT, and heterogeneously enhancing. Main differential: chondrosarcoma, which is usually eccentric/petroclival, often with chondroid matrix calcification, and may appear bright on ADC.",
     "cat": "radiology",
     "frontImgs": [
       "concept-images/concept-3.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Glomus jugulare = paraganglioma",
+    "front": "Identify the most likely diagnosis at the jugular foramen.",
+    "back": "Most likely diagnosis: glomus jugulare (paraganglioma).",
     "cat": "radiology",
     "frontImgs": [
       "concept-images/concept-4.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Persistent trigeminal artery (from\ncavernous ICA, most common)\n\nOtic = from petrous ICA (very rare, first\nanastomosis to regress)\n\nHyoglossal = from cervical ICA (C1-3), comes\nthrough hypoglossal canal\n\nProatlantal = from cervical ICA/ECA",
+    "front": "Identify the persistent embryonic carotid-basilar anastomosis pattern.",
+    "back": "Most common persistent anastomosis: persistent trigeminal artery (from the cavernous ICA). Rare variants include the otic artery (petrous ICA), hypoglossal artery (cervical ICA through the hypoglossal canal), and proatlantal artery (cervical ICA/ECA).",
     "cat": "radiology",
     "frontImgs": [
       "concept-images/concept-5.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Tentorial meningioma fed by artery of bernasconi\n& cassinari\n(MHT)",
+    "front": "Identify the tumor type and key arterial feeder.",
+    "back": "Tentorial meningioma. A classic feeder is the artery of Bernasconi and Cassinari (meningohypophyseal trunk).",
     "cat": "radiology",
     "frontImgs": [
       "concept-images/concept-6.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Hemangiopericytoma \u2013 staghorn vessels, +Vimentin + CD34, -EMA\n(unlike meningioma),",
+    "front": "Identify the histopathologic diagnosis.",
+    "back": "Hemangiopericytoma/solitary fibrous tumor pattern: staghorn vessels, typically CD34 positive and EMA negative.",
     "cat": "pathology",
     "frontImgs": [
       "concept-images/concept-7.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Chordoma - Sheets/cords\nof large vacuolated cells (physaliphorous\nor bubbly cells) surrounded by mucin; +EMA +cytokeratin\n(ectoderm) +S100\nbrachyury (mesenchymal/neural\ncrest)",
+    "front": "Identify the histopathologic diagnosis.",
+    "back": "Chordoma: cords/sheets of physaliphorous (vacuolated) cells in a myxoid matrix; typically positive for cytokeratin, EMA, S100, and brachyury.",
     "cat": "pathology",
     "frontImgs": [
       "concept-images/concept-8.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Paraganglioma - zellballen",
+    "front": "Identify the histopathologic diagnosis.",
+    "back": "Paraganglioma: classic zellballen growth pattern.",
     "cat": "pathology",
     "frontImgs": [
       "concept-images/concept-9.jpg"
     ]
   },
   {
-    "front": null,
-    "back": "Chondrosarcoma - S100+,\nEMA-,\nbiphasic pattern: spindle shaped cells + well-diff cartilage",
+    "front": "Identify the histopathologic diagnosis.",
+    "back": "Chondrosarcoma: S100 positive and EMA negative, with malignant cartilaginous differentiation.",
     "cat": "pathology",
     "frontImgs": [
       "concept-images/concept-10.jpg"
@@ -89,47 +89,42 @@
   },
   {
     "front": "What structures pass through the jugular foramen?",
-    "back": "Internal jugular vein \nGlossopharyngeal nerve\nVagus nerve\nAccessory nerve\nInferior petrosal sinus \nPosterior meningeal artery",
+    "back": "Jugular foramen contents include CN IX (glossopharyngeal), CN X (vagus), CN XI (accessory), the jugular bulb/internal jugular vein, the inferior petrosal sinus, and meningeal arterial branches.",
     "cat": "anatomy"
   },
   {
     "front": "What structures pass through the foramen rotundum?",
-    "back": "CN V2 (mnemonic: CN rotwondum)",
+    "back": "Primary structure: maxillary nerve (CN V2).",
     "cat": "anatomy"
   },
   {
     "front": "What structures pass through the foramen ovale?",
-    "back": "CN V3 (mnemonic: ovalee = CN three)\n\nLesser superficial petrosal nerve",
+    "back": "Primary structure: mandibular nerve (CN V3). Additional transmitted structures can include the lesser petrosal nerve, accessory meningeal artery, and emissary veins.",
     "cat": "anatomy"
   },
   {
     "front": "What are the contents and borders of the anteromedial triangle?",
-    "back": "Medial: CN V1\nLateral: CN V2 \nBase: Line btwn the SOF and foramen rotundum \nContents: sphenoid sinus, CN VI",
+    "back": "Anteromedial triangle: medial border CN V1, lateral border CN V2, base between the superior orbital fissure and foramen rotundum; contents include the sphenoid sinus and CN VI in relevant exposures.",
     "cat": "anatomy"
   },
   {
     "front": "What are the contents and borders of the anterolateral triangle?",
-    "back": "Medial: CN V2 \nLateral: CN V3 \nBase: Line between foramen rotundum and ovale \nContents: none",
+    "back": "Anterolateral triangle: medial border CN V2, lateral border CN V3, base between foramen rotundum and foramen ovale; no consistent named neurovascular content.",
     "cat": "anatomy"
   },
   {
     "front": "What is Gradenigo's Syndrome?",
-    "back": "Associated with bacterial otitis media . Triad of periorbital/facial pain (CNV), diplopia (CNVI), and persistent otorrhea.",
-    "cat": "clinical"
-  },
-  {
-    "front": "What is the Gradenigo syndrome triad?",
-    "back": "1) 6th CN palsy\n2) retro orbital pain\n3) draining ear (caused by otitis media) with mastoiditis and petrous apex involvement",
+    "back": "Gradenigo syndrome is a complication of petrous apicitis classically presenting with the triad of persistent otorrhea, retro-orbital/facial pain in the CN V distribution, and diplopia from CN VI palsy.",
     "cat": "clinical"
   },
   {
     "front": "What is Tolosa-Hunt syndrome?",
-    "back": "inflammation of superior orbital fissure or cavernous sinus, painful ophthalmoplegia with multiple CN palsies, but pupil is spared; dramatic improvement with steroids",
+    "back": "Tolosa-Hunt syndrome is idiopathic granulomatous inflammation of the cavernous sinus/superior orbital fissure causing painful ophthalmoplegia with multiple cranial neuropathies; it is typically steroid responsive.",
     "cat": "clinical"
   },
   {
     "front": "What are ocular manifestations of CCF?",
-    "back": "Ocular manifestations of a carotid cavernous fistula (CCF) include eye redness (conjunctival hyperemia), bulging eye (proptosis), eyelid swelling (ptosis), double vision (diplopia), reduced vision, ophthalmoplegia, and an elevated eye pressure (glaucoma).",
+    "back": "Ocular findings in carotid-cavernous fistula include conjunctival injection/chemosis, proptosis, cranial neuropathy-related diplopia/ophthalmoplegia, elevated intraocular pressure, and possible vision decline.",
     "cat": "clinical"
   }
 ]
