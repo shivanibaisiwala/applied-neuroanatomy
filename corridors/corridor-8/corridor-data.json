@@ -1,0 +1,54 @@
+{
+  "num": "08",
+  "title": "Transorbital & Orbital",
+  "pageTitle": "Applied Neuroanatomy - Transorbital & Orbital",
+  "overview": {
+    "description": "The transorbital and orbital corridor accesses the orbit, orbital apex, optic canal, superior orbital fissure, and anterior cranial fossa through or around the orbital walls. This corridor is essential for orbital tumors (cavernous hemangiomas, schwannomas, dermoids, lymphomas), optic nerve sheath meningiomas, sphenoid wing meningiomas with orbital extension, and orbital decompression for thyroid eye disease. Endoscopic transorbital approaches are an emerging access route to the lateral and anterior middle cranial fossa and anterior skull base using the orbit as a natural corridor.",
+    "approaches": [
+      {
+        "name": "Lateral Orbitotomy (Kronlein)",
+        "desc": "Lateral wall removal for intraconal and extraconal lateral orbital lesions. Standard approach for cavernous hemangiomas and lacrimal gland tumors. Can be combined with craniotomy for lesions extending intracranially."
+      },
+      {
+        "name": "Endoscopic Transorbital",
+        "desc": "Emerging approach using the orbit as a corridor to the middle cranial fossa, lateral cavernous sinus, and Meckel's cave. Through an eyelid incision and lateral orbital wall. For middle fossa lesions not accessible endonasally."
+      },
+      {
+        "name": "Transcranial (with Orbital Osteotomy)",
+        "desc": "Frontotemporal craniotomy with orbital roof or rim removal for lesions spanning the orbit and anterior or middle fossa. For sphenoid wing meningiomas with orbital invasion, optic canal decompression, and orbital apex tumors."
+      }
+    ]
+  },
+  "anatomy": {
+    "count": "15 slides - 334 structures"
+  },
+  "radiology": {
+    "cases": "Orbital cavernous hemangioma, optic nerve meningioma, sphenoid wing meningioma, dermoid, thyroid orbitopathy"
+  },
+  "concepts": {
+    "type": "placeholder",
+    "sub": "Text-based cards tagged by category"
+  },
+  "orPearls": {
+    "imagingReview": "Lesion location relative to the muscle cone (intraconal vs extraconal). Relationship to the optic nerve and ophthalmic artery. Whether the lesion extends through the superior orbital fissure or optic canal intracranially. Bone involvement of the orbital walls or sphenoid wing. Globe displacement and degree of proptosis.",
+    "setup": "Supine, head neutral or slightly extended. Lateral orbitotomy: lateral canthotomy incision, dissection to the lateral orbital rim, rim osteotomy to access the intraconal or extraconal space. For transcranial approaches with orbital osteotomy, plan the craniotomy to include the orbital roof and provide access toward the superior orbital fissure and orbital apex. Corneal shield throughout the case.",
+    "decisions": [
+      {
+        "label": "Approach Selection",
+        "val": "Lateral orbitotomy for lateral and intraconal lesions. Transcranial with orbital roof removal for lesions extending intracranially or at the orbital apex. Endoscopic transorbital for middle fossa access. Medial (endonasal) for medial orbital lesions."
+      },
+      {
+        "label": "Optic Canal Decompression",
+        "val": "Unroof the optic canal by drilling the orbital roof medially. The falciform ligament is opened, and the optic sheath is opened selectively when indicated. Can be approached from a frontotemporal craniotomy or endoscopic endonasally."
+      },
+      {
+        "label": "Intraconal Access",
+        "val": "Work between the rectus muscles to reach intraconal lesions. The lateral approach between lateral rectus and superior rectus is the most common corridor. Inferolateral corridors may also be used depending on lesion position. Preserve the ciliary nerves and vessels along the muscle cone."
+      },
+      {
+        "label": "Globe Protection",
+        "val": "Monitor for orbital compartment syndrome during and after retraction. Lateral canthotomy provides additional exposure and reduces globe pressure. Check vision and pupil function immediately postoperatively."
+      }
+    ]
+  }
+}

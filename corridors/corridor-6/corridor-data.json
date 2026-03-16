@@ -1,0 +1,54 @@
+{
+  "num": "06",
+  "title": "Craniovertebral Junction",
+  "pageTitle": "Applied Neuroanatomy - Craniovertebral Junction",
+  "overview": {
+    "description": "The craniovertebral junction corridor accesses the foramen magnum, lower clivus, ventral and ventrolateral brainstem at the cervicomedullary junction, and the C1-C2 complex. This corridor is essential for foramen magnum meningiomas, ventral brainstem lesions, vertebral artery aneurysms, and CVJ instability requiring fixation. The vertebral arteries, lower cranial nerves (IX-XII), and the cervicomedullary junction define the critical neurovascular anatomy. Understanding the bony anatomy of the occipital condyles, C1 lateral masses, and C2 pars is fundamental to both tumor surgery and instrumented fusion.",
+    "approaches": [
+      {
+        "name": "Far Lateral (Transcondylar)",
+        "desc": "Lateral suboccipital craniotomy with partial condyle resection to access the ventrolateral foramen magnum and lower clivus. For foramen magnum meningiomas, vertebral artery aneurysms, and ventral cervicomedullary lesions."
+      },
+      {
+        "name": "Posterior Midline (Foramen Magnum Decompression)",
+        "desc": "Suboccipital craniectomy with C1 laminectomy for dorsal pathology and Chiari malformation. Can be extended inferiorly for upper cervical intradural tumors or combined with occipitocervical fusion if instability is present."
+      },
+      {
+        "name": "Endoscopic Endonasal (Transclival-Transodontoid)",
+        "desc": "Ventral access to the lower clivus and odontoid through the nose. For ventral cervicomedullary compression from pannus, os odontoideum, or chordomas extending to the CVJ. Often requires posterior fusion if destabilizing."
+      }
+    ]
+  },
+  "anatomy": {
+    "count": "29 slides - 260 structures"
+  },
+  "radiology": {
+    "cases": "Foramen magnum meningioma, chordoma, os odontoideum, CVJ instability, vertebral artery dissection"
+  },
+  "concepts": {
+    "type": "placeholder",
+    "sub": "Text-based cards tagged by category"
+  },
+  "orPearls": {
+    "imagingReview": "Tumor position relative to the vertebral arteries (ventral vs dorsal). Condyle integrity and whether there is bony erosion. CVJ alignment and stability on dynamic imaging. Dominant vertebral artery, especially if the tumor involves one side. Origin of PICA relative to the lesion. For chordomas, extent of clival involvement and relationship to the brainstem.",
+    "setup": "Park bench or lateral decubitus for far lateral, prone for posterior midline. Far lateral: hockey-stick incision curving from behind the mastoid to the upper cervical midline. Subperiosteal dissection exposes the suboccipital triangle, bounded by the superior oblique, inferior oblique, and rectus capitis posterior major. The V3 segment of the vertebral artery traverses this region, coursing over the posterior arch of C1. Identify and mobilize V3 before any condyle drilling.",
+    "decisions": [
+      {
+        "label": "How Much Condyle?",
+        "val": "Posterior third can usually be removed without destabilizing. Beyond 50% risks occipitocervical instability. Most foramen magnum meningiomas need minimal condyle removal, as the exposure comes mainly from lateral positioning and dural opening."
+      },
+      {
+        "label": "Vertebral Artery Control",
+        "val": "Identify V3 in the suboccipital triangle before opening dura. If tumor displaces or encases the intradural vertebral artery, plan for proximal and distal control. Assess dominance preoperatively."
+      },
+      {
+        "label": "Fusion Decision",
+        "val": "Occipitocervical fusion if condyle resection exceeds 50%, CVJ ligaments are incompetent, or ventral decompression removes the dens. The extent of bony removal and preoperative stability determine the need."
+      },
+      {
+        "label": "Lower Cranial Nerves",
+        "val": "CN IX-XII course through the jugular foramen and hypoglossal canal at the edges of this corridor. Foramen magnum meningiomas typically displace these nerves superolaterally. Identify early and preserve."
+      }
+    ]
+  }
+}

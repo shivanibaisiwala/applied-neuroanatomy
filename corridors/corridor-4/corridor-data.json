@@ -1,0 +1,54 @@
+{
+  "num": "04",
+  "title": "Cerebellopontine Angle",
+  "pageTitle": "Applied Neuroanatomy . Cerebellopontine Angle",
+  "overview": {
+    "description": "The cerebellopontine angle is the subarachnoid space at the junction of the cerebellum, pons, and petrous temporal bone. Surgical corridors within the CPA follow natural arachnoid planes and cerebellar clefts that contain the cranial nerves and vasculature. The corridor provides access to CN V, VII/VIII, and IX-XI, as well as the AICA, SCA, and the petrosal venous complex. This is the primary route for vestibular schwannomas, CPA meningiomas, epidermoids, and microvascular decompression for trigeminal neuralgia and hemifacial spasm.",
+    "approaches": [
+      {
+        "name": "Retrosigmoid",
+        "desc": "Craniotomy behind the sigmoid sinus. Most versatile CPA approach, with access to CN V-XI, the IAC, and petroclival region. Workhorse for MVD, hearing-preservation schwannoma surgery, and CPA meningiomas."
+      },
+      {
+        "name": "Translabyrinthine",
+        "desc": "Through the mastoid and semicircular canals. Sacrifices hearing but provides wide IAC access and early facial nerve identification. Preferred for large schwannomas with non-serviceable hearing."
+      },
+      {
+        "name": "Middle Fossa",
+        "desc": "Extradural temporal approach to the IAC from above. For small intracanalicular schwannomas with serviceable hearing."
+      }
+    ]
+  },
+  "anatomy": {
+    "count": "39 slides \u00b7 612 structures"
+  },
+  "radiology": {
+    "cases": "Vestibular schwannoma, CPA meningioma, epidermoid, trigeminal neuralgia (vascular loop), jugular foramen tumors"
+  },
+  "concepts": {
+    "type": "placeholder",
+    "sub": "Text-based cards tagged by category . anatomy, boards, concepts"
+  },
+  "orPearls": {
+    "imagingReview": "Confirm tumor size and IAC extension. Identify AICA position relative to the IAC. Check for high-riding jugular bulb or anteriorly positioned sigmoid sinus. For MVD, confirm the offending vessel on CISS/FIESTA.",
+    "setup": "Lateral decubitus or park bench. Head in Mayfield, flexed and vertex tilted slightly down. Mastoid emissary vein marks the transverse-sigmoid junction. Craniotomy exposes the sigmoid anteriorly and the transverse-sigmoid junction superiorly. Early CSF release from the cerebellomedullary fissure relaxes the cerebellum.",
+    "decisions": [
+      {
+        "label": "Approach Selection",
+        "val": "Hearing status and tumor size drive the choice. Serviceable hearing + small tumor favors retrosigmoid or middle fossa. Non-serviceable hearing or large tumor favors translabyrinthine."
+      },
+      {
+        "label": "Petrosal Vein",
+        "val": "Sacrifice risks venous infarction. Preserve when possible; drainage pattern determines risk when sacrifice is necessary."
+      },
+      {
+        "label": "Facial Nerve Strategy",
+        "val": "Typically anterior on the capsule but variable in large tumors. Near-total resection preserves function better than aggressive dissection of an adherent nerve."
+      },
+      {
+        "label": "IAC Drilling",
+        "val": "Bill's bar (vertical crest) separates facial from superior vestibular nerve. Facial nerve is anterior-superior. Extent of drilling depends on tumor and labyrinth proximity."
+      }
+    ]
+  }
+}

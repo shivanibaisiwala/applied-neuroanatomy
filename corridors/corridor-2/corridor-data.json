@@ -1,0 +1,54 @@
+{
+  "num": "02",
+  "title": "Midline Anterior Skull Base",
+  "pageTitle": "Applied Neuroanatomy - Midline Anterior Skull Base",
+  "overview": {
+    "description": "The midline anterior skull base corridor provides access to pathology from the cribriform plate through the planum sphenoidale, sella turcica, and upper clivus. This is the primary route for pituitary adenomas, craniopharyngiomas, tuberculum and planum meningiomas, Rathke cleft cysts, and clival chordomas. The corridor spans from the anterior cranial fossa floor to the posterior clinoids, with the cavernous sinuses defining the lateral boundaries.",
+    "approaches": [
+      {
+        "name": "Endoscopic Endonasal Transsphenoidal",
+        "desc": "Standard sellar approach via nasal corridor and sphenoidotomy. Workhorse for pituitary adenomas and Rathke cleft cysts."
+      },
+      {
+        "name": "Extended Endonasal",
+        "desc": "Extends the sellar opening superiorly to planum or inferiorly to clivus. For craniopharyngiomas, tuberculum meningiomas, and chordomas."
+      },
+      {
+        "name": "Subfrontal / Transbasal",
+        "desc": "Open craniotomy to the anterior skull base floor. For esthesioneuroblastomas, large anterior fossa meningiomas, or when endonasal is not feasible."
+      }
+    ]
+  },
+  "anatomy": {
+    "count": "18 slides - 354 structures"
+  },
+  "radiology": {
+    "cases": "Pituitary adenoma, craniopharyngioma, tuberculum meningioma, Rathke cleft cyst, chordoma"
+  },
+  "concepts": {
+    "type": "placeholder",
+    "sub": "Text-based cards tagged by category"
+  },
+  "orPearls": {
+    "imagingReview": "Sphenoid sinus pneumatization pattern (conchal, presellar, sellar). Septal deviation and nasal anatomy. ICA position and any bony deficiency over the carotid canal. Tumor relationship to the optic chiasm, including prefixed vs postfixed chiasm. Assess for cavernous sinus invasion.",
+    "setup": "Supine, head in Mayfield or horseshoe. Binostril technique with image guidance registered to facial landmarks. 0 degree scope for sellar work, transitioning to 30/45 degree angled scopes for suprasellar and parasellar visualization. Harvest nasoseptal flap early (before posterior septectomy) if skull base reconstruction will be needed.",
+    "decisions": [
+      {
+        "label": "Endo vs Open?",
+        "val": "Lateral extension beyond the carotids, vascular encasement, or significant brain invasion may favor craniotomy. Prior surgery with a compromised nasoseptal flap is also a consideration."
+      },
+      {
+        "label": "Flap Strategy",
+        "val": "Nasoseptal flap pedicled on the posterior septal artery. Must harvest before posterior septectomy. Plan contralateral flap if septum is involved by tumor."
+      },
+      {
+        "label": "Skull Base Reconstruction",
+        "val": "Depends on defect size and whether there is a high-flow CSF leak. Options range from fat graft alone to multilayer closure with fascia lata graft buttressed by the nasoseptal flap. Synthetic options like TachoSil or Evarrest can supplement the repair."
+      },
+      {
+        "label": "Carotid Localization",
+        "val": "Identify paraclival and parasellar ICA segments. Lateral sellar limit is the carotid prominence. Confirm position with neuronavigation and Doppler ultrasound."
+      }
+    ]
+  }
+}

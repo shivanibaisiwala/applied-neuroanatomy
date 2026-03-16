@@ -1,0 +1,54 @@
+{
+  "num": "07",
+  "title": "Intraventricular",
+  "pageTitle": "Applied Neuroanatomy - Intraventricular",
+  "overview": {
+    "description": "The intraventricular corridor accesses pathology within the lateral ventricles, third ventricle, and their connections. This corridor is essential for colloid cysts, choroid plexus tumors, subependymomas, central neurocytomas, intraventricular meningiomas, and lesions of the septum pellucidum and fornix. The ventricular system is surrounded by eloquent deep structures including the fornix, internal cerebral veins, thalamostriate veins, and choroidal arteries, making corridor selection and preservation of these structures the central surgical challenge.",
+    "approaches": [
+      {
+        "name": "Transcortical-Transventricular",
+        "desc": "Cortical incision through the middle frontal gyrus into the lateral ventricle. Direct access to the frontal horn and body. For lateral ventricle tumors and colloid cysts, especially when ventricles are enlarged."
+      },
+      {
+        "name": "Interhemispheric Transcallosal",
+        "desc": "Midline interhemispheric approach with callosotomy to enter the lateral ventricle. Avoids cortical incision. For third ventricle lesions, colloid cysts, and midline intraventricular tumors."
+      },
+      {
+        "name": "Endoscopic Intraventricular",
+        "desc": "Neuroendoscopy through a burr hole and single cortical trajectory. For colloid cyst aspiration, ETV, biopsy, and small intraventricular tumors."
+      }
+    ]
+  },
+  "anatomy": {
+    "count": "17 slides - 187 structures"
+  },
+  "radiology": {
+    "cases": "Colloid cyst, central neurocytoma, choroid plexus papilloma, subependymoma, intraventricular meningioma"
+  },
+  "concepts": {
+    "type": "placeholder",
+    "sub": "Text-based cards tagged by category"
+  },
+  "orPearls": {
+    "imagingReview": "Ventricle size, as ventriculomegaly facilitates transcortical access. Lesion location within the ventricular system (frontal horn, body, trigone, third ventricle). Whether the lesion is obstructing the foramen of Monro. Enhancement pattern and vascularity. Deep venous anatomy on MRV, particularly the internal cerebral veins and their relationship to the lesion.",
+    "setup": "Supine for all approaches. Transcortical: craniotomy centered over the middle frontal gyrus, corticotomy along a sulcus when possible. Transcallosal: midline craniotomy crossing midline, interhemispheric dissection to the corpus callosum, callosotomy of approximately 2 cm at the junction of the anterior and middle third. Navigate to the foramen of Monro using the septal and thalamostriate veins as landmarks.",
+    "decisions": [
+      {
+        "label": "Transcortical vs Transcallosal?",
+        "val": "Transcallosal avoids cortical incision and is often preferred for midline and third ventricle lesions. Transcortical is more direct for lateral ventricle tumors, especially in the trigone or temporal horn. Ventriculomegaly makes transcortical straightforward."
+      },
+      {
+        "label": "Foramen of Monro Strategy",
+        "val": "Interforniceal splits the fornix in the midline. Transchoroidal opens the choroidal fissure along the tenia fornicis. Subchoroidal goes beneath the choroid plexus. Choice depends on tumor location, venous anatomy, and fornical displacement."
+      },
+      {
+        "label": "Open vs Endoscopic?",
+        "val": "Endoscopic for small lesions, colloid cyst aspiration, ETV, and biopsy. Open microsurgical for large or vascular tumors where bimanual dissection and hemostasis are critical."
+      },
+      {
+        "label": "Venous Preservation",
+        "val": "The internal cerebral veins and thalamostriate veins are both landmarks and critical structures. Injury to the deep venous system risks thalamic infarction. Identify and preserve throughout the approach."
+      }
+    ]
+  }
+}
