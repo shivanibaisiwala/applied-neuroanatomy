@@ -8,14 +8,45 @@ const doneSet = new Set();
 let order = [];
 let slidesOrder = [];
 
+// O(1) slide lookup: maps slide number -> first order-index for that slide
+let slideIndex = new Map();
+
+// Cached DOM references (populated after first render)
+let domCache = null;
+
+function getDom() {
+  if (!domCache) {
+    domCache = {
+      dot:    document.getElementById('dot'),
+      fl:     document.getElementById('flabel'),
+      hl:     document.getElementById('img-hl'),
+      hint:   document.getElementById('hint'),
+      imgBase: document.getElementById('img-base'),
+      info:   document.getElementById('info'),
+      bp:     document.getElementById('bp'),
+    };
+  }
+  return domCache;
+}
+
 async function initViewer(cardsUrl) {
-  const resp = await fetch(cardsUrl);
+  const resp = await fetch(cardsUrl).catch(err => {
+    console.error('Failed to load cards:', err);
+    return null;
+  });
+  if (!resp || !resp.ok) {
+    console.error('Cards fetch failed:', cardsUrl);
+    return;
+  }
   cards = await resp.json();
   N = cards.length;
   order = cards.map((_, i) => i);
 
   const seen = new Set();
   cards.forEach(c => { if (!seen.has(c.s)) { seen.add(c.s); slidesOrder.push(c.s); } });
+
+  // Build O(1) slideIndex map
+  buildSlideIndex();
 
   const snav = document.getElementById('slide-nav');
   slidesOrder.forEach(s => {
@@ -28,11 +59,27 @@ async function initViewer(cardsUrl) {
   render();
 }
 
+// Rebuild slideIndex after order changes (study vs quiz mode)
+function buildSlideIndex() {
+  slideIndex.clear();
+  for (let i = 0; i < N; i++) {
+    const s = cards[order[i]].s;
+    if (!slideIndex.has(s)) slideIndex.set(s, i);
+  }
+}
+
+// Debounced resize handler
+let _resizeTimer = null;
 function fitImage() {
-  const img = document.getElementById('img-base');
+  clearTimeout(_resizeTimer);
+  _resizeTimer = setTimeout(_doFitImage, 100);
+}
+
+function _doFitImage() {
+  const { imgBase } = getDom();
   const area = document.querySelector('.img-area');
   const maxH = window.innerHeight * 0.85;
-  const ratio = img.naturalWidth / img.naturalHeight;
+  const ratio = imgBase.naturalWidth / imgBase.naturalHeight;
   const fullW = area.parentElement.clientWidth;
   const heightAtFullW = fullW / ratio;
   if (heightAtFullW > maxH) {
@@ -46,12 +93,9 @@ function render() {
   const ci = order[idx], card = cards[ci];
   revealed = false;
 
-  // Hide everything immediately
-  const dot = document.getElementById('dot');
-  const fl = document.getElementById('flabel');
-  const hl = document.getElementById('img-hl');
-  const hint = document.getElementById('hint');
+  const { dot, fl, hl, hint, imgBase, info, bp } = getDom();
 
+  // Hide everything immediately
   dot.style.display = 'none';
   fl.classList.remove('show');
   fl.textContent = '';
@@ -59,13 +103,12 @@ function render() {
   hint.classList.add('hide');
 
   // Load base image, then set up everything else after it loads
-  const imgBase = document.getElementById('img-base');
-  imgBase.onload = function() {
-    fitImage();
+  imgBase.onload = () => {
+    _doFitImage();
 
     // Load highlight
     hl.src = card.img;
-    hl.onload = function() {
+    hl.onload = () => {
       hl.classList.add('show');
 
       // Now position and show dot
@@ -91,24 +134,25 @@ function render() {
   if (mode === 'study') {
     let ss = 0, sc = 0;
     for (let i = 0; i < N; i++) { if (cards[order[i]].s === card.s) { if (sc === 0) ss = i; sc++; } }
-    document.getElementById('info').textContent = (idx - ss + 1) + ' / ' + sc + ' \u00b7 Slide ' + card.s;
+    info.textContent = (idx - ss + 1) + ' / ' + sc + ' \u00b7 Slide ' + card.s;
   } else {
-    document.getElementById('info').textContent = (idx + 1) + ' / ' + N;
+    info.textContent = (idx + 1) + ' / ' + N;
   }
 
   document.querySelectorAll('.sl-btn').forEach(b => {
     b.classList.toggle('active', parseInt(b.dataset.slide) === card.s);
   });
 
-  document.getElementById('bp').disabled = (idx === 0);
+  bp.disabled = (idx === 0);
 }
 
 function revealCurrent() {
   if (revealed) return;
   revealed = true; doneSet.add(order[idx]);
-  document.getElementById('flabel').classList.add('show');
-  document.getElementById('dot').classList.add('revealed');
-  document.getElementById('hint').classList.add('hide');
+  const { fl, dot, hint } = getDom();
+  fl.classList.add('show');
+  dot.classList.add('revealed');
+  hint.classList.add('hide');
 }
 
 function goNext() {
@@ -119,7 +163,9 @@ function goNext() {
 function goPrev() { if (idx > 0) { idx--; render(); } }
 
 function jumpToSlide(s) {
-  for (let i = 0; i < N; i++) { if (cards[order[i]].s === s) { idx = i; render(); return; } }
+  // O(1) lookup via slideIndex map
+  const i = slideIndex.get(s);
+  if (i !== undefined) { idx = i; render(); }
 }
 
 function setMode(m) {
@@ -135,6 +181,7 @@ function setMode(m) {
   } else {
     order = cards.map((_, i) => i);
   }
+  buildSlideIndex();
   idx = 0; doneSet.clear(); render();
 }
 

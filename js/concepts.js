@@ -1,22 +1,22 @@
 (function() {
-  var cards = [];
-  var filtered = [];
-  var currentIndex = 0;
-  var revealed = false;
-  var activeTab = 'all';
+  let cards = [];
+  let filtered = [];
+  let currentIndex = 0;
+  let revealed = false;
+  let activeTab = 'all';
 
   function shuffle(arr) {
-    var a = arr.slice();
-    for (var i = a.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
     }
     return a;
   }
 
   function normalizeCategory(cat) {
     if (!cat) return '';
-    var value = String(cat).toLowerCase().trim();
+    const value = String(cat).toLowerCase().trim();
     if (value === 'surgical_steps' || value === 'surgical-steps' || value === 'steps') return 'surgical-steps';
     return value;
   }
@@ -29,55 +29,48 @@
   }
 
   function filterCards() {
-    if (activeTab === 'all') {
-      filtered = shuffle(cards.slice());
-    } else {
-      filtered = shuffle(cards.filter(function(c) { return c.cat === activeTab; }));
-    }
+    filtered = activeTab === 'all'
+      ? shuffle(cards.slice())
+      : shuffle(cards.filter(c => c.cat === activeTab));
     currentIndex = 0;
     revealed = false;
     render();
   }
 
   function render() {
-    var cardArea = document.getElementById('concept-card');
-    var counter = document.getElementById('concept-counter');
-    var prevBtn = document.getElementById('concept-prev');
-    var nextBtn = document.getElementById('concept-next');
-    var hint = document.getElementById('concept-hint');
-    var secCount = document.getElementById('concept-sec-count');
+    const cardArea  = document.getElementById('concept-card');
+    const counter   = document.getElementById('concept-counter');
+    const prevBtn   = document.getElementById('concept-prev');
+    const nextBtn   = document.getElementById('concept-next');
+    const hint      = document.getElementById('concept-hint');
+    const secCount  = document.getElementById('concept-sec-count');
 
     if (!cardArea) return;
 
     if (filtered.length === 0) {
       cardArea.innerHTML = '<div class="cc-empty">No cards in this category</div>';
-      if (counter) counter.textContent = '0 / 0';
-      if (prevBtn) prevBtn.disabled = true;
-      if (nextBtn) nextBtn.disabled = true;
+      if (counter)  counter.textContent = '0 / 0';
+      if (prevBtn)  prevBtn.disabled = true;
+      if (nextBtn)  nextBtn.disabled = true;
       if (secCount) secCount.textContent = '0 cards';
       return;
     }
 
-    var card = filtered[currentIndex];
-    var html = '<div class="cc-front">';
+    const card = filtered[currentIndex];
+    let html = '<div class="cc-front">';
 
     if (card.frontImgs && card.frontImgs.length > 0) {
-      for (var i = 0; i < card.frontImgs.length; i++) {
-        html += '<img class="cc-img" src="' + card.frontImgs[i] + '" alt="">';
-      }
+      card.frontImgs.forEach(src => { html += '<img class="cc-img" src="' + src + '" alt="">'; });
     }
 
     html += '<div class="cc-question">' + promptForCard(card).replace(/\n/g, '<br>') + '</div>';
-
     html += '</div>';
 
     if (revealed) {
       html += '<div class="cc-divider"></div>';
       html += '<div class="cc-back">';
       if (card.backImgs && card.backImgs.length > 0) {
-        for (var j = 0; j < card.backImgs.length; j++) {
-          html += '<img class="cc-img cc-back-img" src="' + card.backImgs[j] + '" alt="">';
-        }
+        card.backImgs.forEach(src => { html += '<img class="cc-img cc-back-img" src="' + src + '" alt="">'; });
       }
       if (card.back && card.back.trim().length > 0) {
         html += '<div class="cc-answer">' + card.back.replace(/\n/g, '<br>') + '</div>';
@@ -86,10 +79,10 @@
     }
 
     cardArea.innerHTML = html;
-    if (hint) hint.style.opacity = revealed ? '0' : '1';
-    if (counter) counter.textContent = (currentIndex + 1) + ' / ' + filtered.length;
-    if (prevBtn) prevBtn.disabled = (currentIndex === 0);
-    if (nextBtn) nextBtn.disabled = (currentIndex >= filtered.length - 1);
+    if (hint)     hint.style.opacity = revealed ? '0' : '1';
+    if (counter)  counter.textContent = (currentIndex + 1) + ' / ' + filtered.length;
+    if (prevBtn)  prevBtn.disabled = (currentIndex === 0);
+    if (nextBtn)  nextBtn.disabled = (currentIndex >= filtered.length - 1);
     if (secCount) secCount.textContent = filtered.length + ' cards';
   }
 
@@ -117,37 +110,36 @@
 
   function setTab(tab) {
     activeTab = tab;
-    var tabs = document.querySelectorAll('.cc-tab');
-    for (var i = 0; i < tabs.length; i++) {
-      tabs[i].classList.toggle('active', tabs[i].getAttribute('data-tab') === tab);
-    }
+    document.querySelectorAll('.cc-tab').forEach(t => {
+      t.classList.toggle('active', t.getAttribute('data-tab') === tab);
+    });
     filterCards();
   }
 
   function buildTabs() {
-    var cats = {};
-    cards.forEach(function(c) { cats[c.cat] = (cats[c.cat] || 0) + 1; });
-    var tabBar = document.getElementById('concept-tabs');
+    const cats = {};
+    cards.forEach(c => { cats[c.cat] = (cats[c.cat] || 0) + 1; });
+
+    const tabBar = document.getElementById('concept-tabs');
     if (tabBar) {
-      var h = '<button class="cc-tab active" data-tab="all" onclick="window._setConceptTab(\'all\')">All <span class="cc-tab-count">' + cards.length + '</span></button>';
-      var order = ['pathology','radiology','anatomy','surgical','surgical-steps','clinical'];
-      var labels = {pathology:'Path',radiology:'Rad',anatomy:'Anatomy',surgical:'Surgical', 'surgical-steps':'Surg Steps', clinical:'Clinical'};
-      order.forEach(function(cat) {
+      const order = ['pathology', 'radiology', 'anatomy', 'surgical', 'surgical-steps', 'clinical'];
+      const labels = { pathology: 'Path', radiology: 'Rad', anatomy: 'Anatomy', surgical: 'Surgical', 'surgical-steps': 'Surg Steps', clinical: 'Clinical' };
+      let h = '<button class="cc-tab active" data-tab="all" onclick="window._setConceptTab(\'all\')">All <span class="cc-tab-count">' + cards.length + '</span></button>';
+      order.forEach(cat => {
         if (cats[cat]) {
-          h += '<button class="cc-tab" data-tab="'+cat+'" onclick="window._setConceptTab(\''+cat+'\')">'+labels[cat]+' <span class="cc-tab-count">'+cats[cat]+'</span></button>';
+          h += '<button class="cc-tab" data-tab="' + cat + '" onclick="window._setConceptTab(\'' + cat + '\')">' + labels[cat] + ' <span class="cc-tab-count">' + cats[cat] + '</span></button>';
         }
       });
       tabBar.innerHTML = h;
     }
-    var cardArea = document.getElementById('concept-card');
+
+    const cardArea = document.getElementById('concept-card');
     if (cardArea) {
-      cardArea.addEventListener('click', function() {
-        if (!revealed) reveal();
-      });
+      cardArea.addEventListener('click', () => { if (!revealed) reveal(); });
     }
 
     // Arrow key navigation
-    document.addEventListener('keydown', function(e) {
+    document.addEventListener('keydown', e => {
       if (e.key === 'ArrowRight' || e.key === 'Right') {
         goNext();
       } else if (e.key === 'ArrowLeft' || e.key === 'Left') {
@@ -161,27 +153,19 @@
     filterCards();
   }
 
-  window.initConcepts = function(jsonPath) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', jsonPath, true);
-    xhr.onload = function() {
-      if (xhr.responseText && xhr.responseText.length > 0) {
-        try {
-          cards = JSON.parse(xhr.responseText).map(function(card) {
-            var next = Object.assign({}, card);
-            next.cat = normalizeCategory(next.cat);
-            return next;
-          });
-          buildTabs();
-        } catch(e) {
-          console.error('Failed to parse concepts JSON:', e);
-        }
-      }
-    };
-    xhr.onerror = function() {
-      console.error('Failed to load concepts JSON');
-    };
-    xhr.send();
+  window.initConcepts = jsonPath => {
+    fetch(jsonPath)
+      .then(r => {
+        if (!r.ok) throw new Error('Failed to load ' + jsonPath);
+        return r.json();
+      })
+      .then(data => {
+        cards = data.map(card => ({ ...card, cat: normalizeCategory(card.cat) }));
+        buildTabs();
+      })
+      .catch(e => {
+        console.error('Failed to load concepts JSON:', e);
+      });
   };
 
   window._conceptNext = goNext;
