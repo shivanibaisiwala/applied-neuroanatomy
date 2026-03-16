@@ -1,0 +1,54 @@
+{
+  "num": "03",
+  "title": "Middle Fossa & Petroclival",
+  "pageTitle": "Applied Neuroanatomy - Middle Fossa & Petroclival",
+  "overview": {
+    "description": "The middle fossa-petroclival corridor encompasses extradural and intradural approaches along the superior petrous surface and petroclival junction, including access to Meckel's cave, the petrous apex, and the upper clivus. This corridor is essential for petroclival meningiomas, trigeminal schwannomas, epidermoids extending into Meckel's cave, and petrous apex lesions (e.g., cholesterol granuloma, chondrosarcoma). The petrous apex, cavernous sinus, and tentorium define the surgical boundaries.",
+    "approaches": [
+      {
+        "name": "Subtemporal / Kawase (Anterior Petrosectomy)",
+        "desc": "Temporal lobe elevation with drilling of Kawase's triangle to access the posterior fossa anterior to the IAC. For petroclival meningiomas and upper clival lesions."
+      },
+      {
+        "name": "Middle Fossa Approach",
+        "desc": "Extradural elevation of the temporal lobe to expose the tegmen, IAC, and petrous apex. For vestibular schwannomas with serviceable hearing, facial nerve decompression, and tegmen defects."
+      },
+      {
+        "name": "Combined Petrosal (Transpetrosal)",
+        "desc": "Combines anterior (Kawase) and posterior petrosectomy with tentorial division. Provides the widest petroclival exposure above and below the tentorium for large, complex meningiomas."
+      }
+    ]
+  },
+  "anatomy": {
+    "count": "23 slides - 473 structures"
+  },
+  "radiology": {
+    "cases": "Petroclival meningioma, trigeminal schwannoma, epidermoid, cholesterol granuloma, chondrosarcoma"
+  },
+  "concepts": {
+    "type": "live",
+    "file": "concepts.json"
+  },
+  "orPearls": {
+    "imagingReview": "Tumor relationship to the petrous ICA. Extent of petrous bone involvement and pneumatization. Position of the vein of Labbe on MRV. Labyrinth integrity if hearing preservation is a consideration. Cochlear position relative to the petrous apex (critical for safe Kawase drilling). Whether the lesion crosses the tentorial edge, which helps determine the extent of petrosectomy needed.",
+    "setup": "Supine, head in Mayfield, turned 60-75 degrees contralateral for subtemporal. Temporal craniotomy flush to the middle fossa floor to minimize temporal lobe retraction. Lumbar drain may be used selectively to relax the brain. Extradural elevation of the temporal lobe identifies the GSPN, arcuate eminence, and tegmen tympani as key landmarks before any drilling.",
+    "decisions": [
+      {
+        "label": "Kawase vs Combined Petrosal?",
+        "val": "Kawase alone for lesions anterior to the IAC. Add posterior petrosectomy and tentorial division for large lesions extending posterior to the IAC or below the tentorial edge."
+      },
+      {
+        "label": "Drilling Extent",
+        "val": "Kawase's triangle is defined by the GSPN, arcuate eminence, petrous ridge, and the trigeminal impression. The petrous ICA forms the anteromedial limit, and the cochlea is the critical lateral limit. How aggressively to drill depends on the exposure needed."
+      },
+      {
+        "label": "Hearing Preservation",
+        "val": "Middle fossa approach accesses the IAC from above without opening the labyrinth. Requires intraoperative ABR monitoring. Tumor size and hearing status determine candidacy."
+      },
+      {
+        "label": "Vein of Labbe",
+        "val": "Limits the posterior extent of temporal lobe retraction. Assess venous drainage preoperatively. A dominant vein of Labbe constrains safe subtemporal exposure."
+      }
+    ]
+  }
+}
