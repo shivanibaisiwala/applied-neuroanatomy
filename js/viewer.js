@@ -125,8 +125,8 @@ function render() {
       dot.classList.remove('revealed');
       dot.style.display = '';
 
-      // Set up label (hidden until click)
-      fl.textContent = card.l;
+      // Set up label positioning (text is set in revealCurrent to avoid flash
+      // when prefetched images load before the opacity transition finishes)
       fl.className = 'float-label ' + (card.side === 'r' ? 'r' : 'l');
       if (card.side === 'r') { fl.style.left = (card.dx + 3.5) + '%'; fl.style.right = ''; }
       else { fl.style.right = (100 - card.dx + 3.5) + '%'; fl.style.left = ''; }
@@ -165,6 +165,7 @@ function revealCurrent() {
   if (revealed) return;
   revealed = true; doneSet.add(order[idx]);
   const { fl, dot, hint } = getDom();
+  fl.textContent = cards[order[idx]].l;
   fl.classList.add('show');
   dot.classList.add('revealed');
   hint.classList.add('hide');
