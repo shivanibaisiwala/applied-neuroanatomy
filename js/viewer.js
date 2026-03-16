@@ -8,8 +8,9 @@ const doneSet = new Set();
 let order = [];
 let slidesOrder = [];
 
-// O(1) slide lookup: maps slide number -> first order-index for that slide
+// O(1) slide lookup: maps slide number -> first order-index, and -> card count
 let slideIndex = new Map();
+let slideCount = new Map();
 
 // Cached DOM references (populated after first render)
 let domCache = null;
@@ -29,7 +30,7 @@ function getDom() {
   return domCache;
 }
 
-async function initViewer(cardsUrl) {
+async function initViewer(cardsUrl, corridorNum) {
   const resp = await fetch(cardsUrl).catch(err => {
     console.error('Failed to load cards:', err);
     return null;
@@ -38,14 +39,19 @@ async function initViewer(cardsUrl) {
     console.error('Cards fetch failed:', cardsUrl);
     return;
   }
-  cards = await resp.json();
+  const data = await resp.json();
+  // Flatten slides structure: each slide has { num, base, cards: [...] }
+  const allCards = data.slides.flatMap(slide =>
+    slide.cards.map(c => ({ s: slide.num, base: slide.base, ...c }))
+  );
+  cards = corridorNum ? allCards.filter(c => c.corridors && c.corridors.includes(corridorNum)) : allCards;
   N = cards.length;
   order = cards.map((_, i) => i);
 
   const seen = new Set();
   cards.forEach(c => { if (!seen.has(c.s)) { seen.add(c.s); slidesOrder.push(c.s); } });
 
-  // Build O(1) slideIndex map
+  // Build O(1) slideIndex and slideCount maps
   buildSlideIndex();
 
   const snav = document.getElementById('slide-nav');
@@ -59,12 +65,14 @@ async function initViewer(cardsUrl) {
   render();
 }
 
-// Rebuild slideIndex after order changes (study vs quiz mode)
+// Rebuild slideIndex and slideCount after order changes (study vs quiz mode)
 function buildSlideIndex() {
   slideIndex.clear();
+  slideCount.clear();
   for (let i = 0; i < N; i++) {
     const s = cards[order[i]].s;
     if (!slideIndex.has(s)) slideIndex.set(s, i);
+    slideCount.set(s, (slideCount.get(s) || 0) + 1);
   }
 }
 
@@ -126,14 +134,21 @@ function render() {
 
       // Show hint
       hint.classList.remove('hide');
+
+      // Prefetch next card's images while user reads current
+      if (idx + 1 < N) {
+        const next = cards[order[idx + 1]];
+        new Image().src = next.base;
+        new Image().src = next.img;
+      }
     };
   };
   imgBase.src = card.base;
 
-  // Update UI controls (these can happen immediately)
+  // Update UI controls immediately (O(1) via precomputed maps)
   if (mode === 'study') {
-    let ss = 0, sc = 0;
-    for (let i = 0; i < N; i++) { if (cards[order[i]].s === card.s) { if (sc === 0) ss = i; sc++; } }
+    const ss = slideIndex.get(card.s);
+    const sc = slideCount.get(card.s);
     info.textContent = (idx - ss + 1) + ' / ' + sc + ' \u00b7 Slide ' + card.s;
   } else {
     info.textContent = (idx + 1) + ' / ' + N;
