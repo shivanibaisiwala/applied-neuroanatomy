@@ -29,7 +29,7 @@ function getDom() {
   return domCache;
 }
 
-async function initViewer(cardsUrl) {
+async function initViewer(cardsUrl, corridorNum) {
   const resp = await fetch(cardsUrl).catch(err => {
     console.error('Failed to load cards:', err);
     return null;
@@ -38,7 +38,8 @@ async function initViewer(cardsUrl) {
     console.error('Cards fetch failed:', cardsUrl);
     return;
   }
-  cards = await resp.json();
+  const allCards = await resp.json();
+  cards = corridorNum ? allCards.filter(c => c.corridors && c.corridors.includes(corridorNum)) : allCards;
   N = cards.length;
   order = cards.map((_, i) => i);
 

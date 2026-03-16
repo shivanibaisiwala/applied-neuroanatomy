@@ -12,7 +12,7 @@ function initCorridor(dataFile) {
       document.title = data.pageTitle;
       document.getElementById('corridor-content').innerHTML = buildCorridorHTML(data);
       if (typeof initViewer === 'function') {
-        initViewer('cards.json');
+        initViewer('../../cards.json', parseInt(data.num, 10));
       }
       if (data.concepts && data.concepts.type === 'live' && typeof initConcepts === 'function') {
         initConcepts(data.concepts.file || 'concepts.json');
