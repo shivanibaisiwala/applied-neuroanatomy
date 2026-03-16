@@ -84,6 +84,13 @@
     if (prevBtn)  prevBtn.disabled = (currentIndex === 0);
     if (nextBtn)  nextBtn.disabled = (currentIndex >= filtered.length - 1);
     if (secCount) secCount.textContent = filtered.length + ' cards';
+
+    // Prefetch next card's images so they load in the background
+    if (currentIndex + 1 < filtered.length) {
+      const next = filtered[currentIndex + 1];
+      if (next.frontImgs) next.frontImgs.forEach(src => { new Image().src = src; });
+      if (next.backImgs)  next.backImgs.forEach(src  => { new Image().src = src; });
+    }
   }
 
   function reveal() {
