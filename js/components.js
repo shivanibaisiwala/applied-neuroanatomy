@@ -55,7 +55,7 @@
   const sidebar = document.getElementById('sidebar');
   if (sidebar) {
     let html = '<div class="sb-label">Cranial</div>';
-    corridors.forEach(function(c) {
+    corridors.forEach(c => {
       const isActive = c.num === activeCorridor;
       const href = corridorHref(c.num, c.ready);
       html += '<a class="sb-item' + (isActive ? ' active' : '') + '" href="' + href + '">' +

@@ -4,11 +4,11 @@
 
 function initCorridor(dataFile) {
   fetch(dataFile)
-    .then(function(r) {
+    .then(r => {
       if (!r.ok) throw new Error('Failed to load ' + dataFile);
       return r.json();
     })
-    .then(function(data) {
+    .then(data => {
       document.title = data.pageTitle;
       document.getElementById('corridor-content').innerHTML = buildCorridorHTML(data);
       if (typeof initViewer === 'function') {
@@ -18,7 +18,7 @@ function initCorridor(dataFile) {
         initConcepts(data.concepts.file || 'concepts.json');
       }
     })
-    .catch(function(e) {
+    .catch(e => {
       console.error('Corridor load error:', e);
     });
 }
@@ -36,14 +36,12 @@ function buildCorridorHTML(data) {
 }
 
 function buildOverviewSection(ov) {
-  var approachCards = ov.approaches.map(function(a) {
-    return (
-      '<div class="appr-card">' +
-        '<div class="appr-name">' + a.name + '</div>' +
-        '<div class="appr-desc">' + a.desc + '</div>' +
-      '</div>'
-    );
-  }).join('');
+  const approachCards = ov.approaches.map(a =>
+    '<div class="appr-card">' +
+      '<div class="appr-name">' + a.name + '</div>' +
+      '<div class="appr-desc">' + a.desc + '</div>' +
+    '</div>'
+  ).join('');
   return (
     '<div class="section">' +
       '<div class="sec-head"><div class="sec-title">Overview</div></div>' +
@@ -109,7 +107,7 @@ function buildConceptsSection(concepts) {
       '</div>'
     );
   }
-  var sub = (concepts && concepts.sub) ? concepts.sub : 'Text-based cards tagged by category';
+  const sub = (concepts && concepts.sub) ? concepts.sub : 'Text-based cards tagged by category';
   return (
     '<div class="section">' +
       '<div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>' +
@@ -119,11 +117,9 @@ function buildConceptsSection(concepts) {
 }
 
 function buildOrPearlsSection(pearls) {
-  var decCards = pearls.decisions.map(function(d) {
-    return (
-      '<div class="dec-card"><div class="dec-label">' + d.label + '</div><div class="dec-val">' + d.val + '</div></div>'
-    );
-  }).join('');
+  const decCards = pearls.decisions.map(d =>
+    '<div class="dec-card"><div class="dec-label">' + d.label + '</div><div class="dec-val">' + d.val + '</div></div>'
+  ).join('');
   return (
     '<div class="section">' +
       '<div class="sec-head"><div class="sec-title">OR Pearls</div></div>' +
