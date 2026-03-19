@@ -480,11 +480,12 @@ body{
   white-space:nowrap;
   opacity:0;
   pointer-events:none;
-  transition:opacity .2s;
   transform:translateY(-50%);
 }
 
-.float-label.show{opacity:1}
+/* Transition only on show so hide is instant — prevents flash when
+   prefetched images fire onload before the previous fade-out completes */
+.float-label.show{opacity:1;transition:opacity .2s}
 .float-label.r{left:20px}
 .float-label.l{right:20px}
 
