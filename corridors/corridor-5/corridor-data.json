@@ -16,6 +16,10 @@
       {
         "name": "Suboccipital Decompression",
         "desc": "Removal of the posterior arch of C1 and suboccipital bone with duraplasty (with or without tonsillar reduction depending on anatomy). For Chiari I malformation with syringomyelia."
+      },
+      {
+        "name": "Occipital Interhemispheric Transtentorial",
+        "desc": "Posterior interhemispheric approach with tentorial division to access the superior cerebellum, pineal region, and tentorial incisura from above. For falcotentorial meningiomas, pineal tumors with supratentorial extension, and posterior medial temporal lobe lesions not reachable from below."
       }
     ]
   },

@@ -16,6 +16,10 @@
       {
         "name": "Endoscopic Endonasal (Transclival-Transodontoid)",
         "desc": "Ventral access to the lower clivus and odontoid through the nose. For ventral cervicomedullary compression from pannus, os odontoideum, or chordomas extending to the CVJ. Often requires posterior fusion if destabilizing."
+      },
+      {
+        "name": "Extreme Lateral (Supracondylar Transtubercular)",
+        "desc": "Variant of the far lateral with aggressive drilling of the jugular tubercle without condyle resection. Accesses the ventral lower clivus and premedullary cistern while preserving occipitocervical stability. For lower clival meningiomas and intradural ventral cervicomedullary lesions."
       }
     ]
   },

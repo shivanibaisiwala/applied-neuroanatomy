@@ -14,8 +14,12 @@
         "desc": "Through the mastoid and semicircular canals. Sacrifices hearing but provides wide IAC access and early facial nerve identification. Preferred for large schwannomas with non-serviceable hearing."
       },
       {
-        "name": "Middle Fossa",
-        "desc": "Extradural temporal approach to the IAC from above. For small intracanalicular schwannomas with serviceable hearing."
+        "name": "Middle Fossa (for CPA Access)",
+        "desc": "Extradural temporal lobe elevation to access the IAC from above. Preserves hearing for small intracanalicular vestibular schwannomas. The only approach that accesses the lateral IAC without drilling through the labyrinth."
+      },
+      {
+        "name": "Transcochlear",
+        "desc": "Extension of the translabyrinthine approach with cochlear removal and facial nerve rerouting. Maximum exposure of the ventral brainstem and petroclival region through the temporal bone. For extensive petroclival tumors where translabyrinthine exposure is insufficient."
       }
     ]
   },
