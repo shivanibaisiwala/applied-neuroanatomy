@@ -140,6 +140,12 @@ body{
 
 .sb-item.active .num{color:var(--accent)}
 
+.sb-item.not-ready{
+  opacity:.4;
+  cursor:default;
+  pointer-events:none;
+}
+
 /* MAIN */
 .main{
   margin-left:300px;
