@@ -7,7 +7,7 @@
     "approaches": [
       {
         "name": "Subtemporal / Kawase (Anterior Petrosectomy)",
-        "desc": "Temporal lobe elevation with drilling of Kawase's triangle to access the posterior fossa anterior to the IAC. For petroclival meningiomas and upper clival lesions."
+        "desc": "Temporal lobe elevation with drilling of Kawase's triangle to access the posterior fossa anterior to the IAC. Preferred for petroclival meningiomas and upper clival lesions with hearing preservation."
       },
       {
         "name": "Middle Fossa Approach",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Extradural Subtemporal",
-        "desc": "Extradural elevation of the temporal lobe without opening dura to access the middle fossa floor, foramen ovale, foramen spinosum, and Meckel's cave. For trigeminal neuralgia (percutaneous or open rhizotomy), trigeminal schwannomas with extradural extension, and middle fossa fractures."
+        "desc": "Extradural temporal lobe elevation accessing the middle fossa floor, foramen ovale, and Meckel's cave. For trigeminal neuralgia, extradural trigeminal schwannomas, and middle fossa floor fractures."
       }
     ]
   },
