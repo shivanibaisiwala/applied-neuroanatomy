@@ -16,6 +16,10 @@
       {
         "name": "Transsylvian",
         "desc": "Wide splitting of the sylvian fissure for insular pathology, MCA aneurysms, and mesial temporal lesions accessed laterally."
+      },
+      {
+        "name": "Supraorbital (Eyebrow Craniotomy)",
+        "desc": "Minimally invasive keyhole craniotomy through an eyebrow incision. Limited but direct access to the anterior cranial fossa, suprasellar cistern, and anterior circle of Willis. For small anterior fossa meningiomas, Rathke cleft cysts, and selected anterior communicating artery aneurysms."
       }
     ]
   },

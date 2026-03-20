@@ -16,6 +16,10 @@
       {
         "name": "Combined Petrosal (Transpetrosal)",
         "desc": "Combines anterior (Kawase) and posterior petrosectomy with tentorial division. Provides the widest petroclival exposure above and below the tentorium for large, complex meningiomas."
+      },
+      {
+        "name": "Extradural Subtemporal",
+        "desc": "Extradural elevation of the temporal lobe without opening dura to access the middle fossa floor, foramen ovale, foramen spinosum, and Meckel's cave. For trigeminal neuralgia (percutaneous or open rhizotomy), trigeminal schwannomas with extradural extension, and middle fossa fractures."
       }
     ]
   },
