@@ -73,6 +73,6 @@
       '<p class="footer-note">Applied Neuroanatomy is a free educational resource for neurosurgery residents, designed as a jumping-off point for structured anatomy review and case-based discussion. Supplement your study with publicly available resources, such as papers and operative videos.</p>' +
       '<p class="footer-credit">Built by Shivani Baisiwala, MD with Claude as co-author</p>' +
       '<p class="footer-disclaimer">This site is for educational purposes only and does not constitute medical advice. Clinical decisions should be based on individual patient assessment, current evidence, and attending physician guidance.</p>' +
-      '<p class="footer-report"><a href="#" id="report-link">Report an issue</a></p>';
+      '<p class="footer-report"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_p0-l9zT8aS7VppSJhd8hRdc094Dq8QindA-Aj7H0K_Eh5w/viewform" id="report-link" target="_blank">Report an issue</a></p>';
   }
 })();
