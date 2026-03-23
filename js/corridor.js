@@ -25,7 +25,6 @@ function initCorridor(dataFile) {
 
 function buildCorridorHTML(data) {
   return (
-    '<div class="cor-num">Corridor ' + data.num + '</div>' +
     '<h1 class="cor-title">' + data.title + '</h1>' +
     buildOverviewSection(data.overview) +
     buildAnatomySection(data.anatomy) +
