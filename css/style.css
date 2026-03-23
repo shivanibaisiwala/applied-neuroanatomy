@@ -158,16 +158,6 @@ body{
   max-width:1040px;
 }
 
-.cor-num{
-  font-family:'JetBrains Mono',monospace;
-  font-size:.74rem;
-  font-weight:500;
-  color:var(--accent);
-  text-transform:uppercase;
-  letter-spacing:.12em;
-  margin-bottom:.4rem;
-}
-
 .cor-title{
   font-family:'Instrument Serif',serif;
   font-size:2.35rem;
