@@ -129,8 +129,8 @@
 
     const tabBar = document.getElementById('concept-tabs');
     if (tabBar) {
-      const order = ['pathology', 'radiology', 'anatomy', 'surgical', 'surgical-steps', 'clinical'];
-      const labels = { pathology: 'Path', radiology: 'Rad', anatomy: 'Anatomy', surgical: 'Surgical', 'surgical-steps': 'Surg Steps', clinical: 'Clinical' };
+      const order = ['anatomy', 'clinical', 'radiology', 'pathology', 'surgical', 'surgical-steps'];
+      const labels = { anatomy: 'Anatomy', clinical: 'Clinical', radiology: 'Rad', pathology: 'Path', surgical: 'Surgical', 'surgical-steps': 'Surg Steps' };
       let h = '<button class="cc-tab active" data-tab="all" onclick="window._setConceptTab(\'all\')">All <span class="cc-tab-count">' + cards.length + '</span></button>';
       order.forEach(cat => {
         if (cats[cat]) {
