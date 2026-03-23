@@ -7,6 +7,8 @@
   let root = '';
   if (path.includes('/corridors/')) {
     root = '../../';
+  } else if (path.includes('/cases/')) {
+    root = '../';
   }
 
   // Determine active nav link
@@ -33,9 +35,10 @@
 
   // Spine corridors data - ADD NEW SPINE CORRIDORS HERE
   const spineCorridors = [
-    { num: 9, name: 'Cervical', ready: false },
-    { num: 10, name: 'Thoracic', ready: false },
-    { num: 11, name: 'Lumbar', ready: false }
+    { num: 9, name: 'Anterior Cervical', ready: false },
+    { num: 10, name: 'Posterior Cervical', ready: false },
+    { num: 11, name: 'Thoracic', ready: false },
+    { num: 12, name: 'Lumbar', ready: false }
   ];
 
   // Build corridor sidebar links
@@ -43,6 +46,9 @@
     if (!ready) return '#';
     if (path.includes('/corridors/')) {
       return '../corridor-' + num + '/index.html';
+    }
+    if (path.includes('/cases/')) {
+      return '../corridors/corridor-' + num + '/index.html';
     }
     return 'corridors/corridor-' + num + '/index.html';
   }
@@ -80,7 +86,7 @@
       html += '<div class="sb-label">Spine</div>';
       spineCorridors.forEach(c => {
         html += '<a class="sb-item not-ready" href="#">' +
-          '<span class="num">C' + c.num + '.</span> ' + c.name + '</a>';
+          '<span class="num">' + c.num + '.</span> ' + c.name + '</a>';
       });
       sidebar.innerHTML = html;
     }

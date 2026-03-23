@@ -29,8 +29,8 @@ function buildCorridorHTML(data) {
     '<h1 class="cor-title">' + data.title + '</h1>' +
     buildOverviewSection(data.overview) +
     buildAnatomySection(data.anatomy) +
-    buildRadiologySection(data.radiology) +
     buildConceptsSection(data.concepts) +
+    buildCasesSection(data.radiology) +
     buildOrPearlsSection(data.orPearls)
   );
 }
@@ -75,10 +75,10 @@ function buildAnatomySection(anatomy) {
   );
 }
 
-function buildRadiologySection(radiology) {
+function buildCasesSection(radiology) {
   return (
     '<div class="section">' +
-      '<div class="sec-head"><div class="sec-title">Radiology & Pathology</div><div class="sec-count">Coming soon</div></div>' +
+      '<div class="sec-head"><div class="sec-title">Cases</div><div class="sec-count">Coming soon</div></div>' +
       '<div class="placeholder pink-zone"><div class="ph-title">Imaging cases for this corridor</div><div class="ph-sub">' + radiology.cases + '</div></div>' +
     '</div>'
   );
