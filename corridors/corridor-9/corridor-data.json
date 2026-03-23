@@ -1,0 +1,59 @@
+{
+  "num": "09",
+  "title": "Anterior Cervical",
+  "pageTitle": "Applied Neuroanatomy — Anterior Cervical",
+  "overview": {
+    "description": "The anterior cervical corridor provides access to the ventral cervical spine through the Smith-Robinson approach and its extensions. This is the workhorse approach for cervical disc herniations, cervical spondylotic myelopathy, vertebral body fractures, and ventral intradural pathology. Key anatomical considerations include the carotid sheath, recurrent laryngeal nerve, esophagus, and vertebral arteries.",
+    "approaches": [
+      {
+        "name": "Anterior Cervical Discectomy & Fusion (ACDF)",
+        "desc": "Smith-Robinson approach through a transverse skin incision. Plane between the carotid sheath laterally and the tracheoesophageal complex medially. Workhorse for single- and multi-level disc herniations and spondylosis."
+      },
+      {
+        "name": "Anterior Cervical Corpectomy",
+        "desc": "Extension of the anterior approach with vertebral body removal. For multi-level stenosis, burst fractures, and vertebral body tumors. Requires strut graft and anterior plating."
+      },
+      {
+        "name": "Cervical Disc Replacement",
+        "desc": "Motion-preserving alternative to ACDF for appropriately selected patients. Same anterior approach with arthroplasty device placement instead of fusion."
+      },
+      {
+        "name": "Odontoid Screw Fixation",
+        "desc": "Direct anterior approach to the odontoid for type II fracture fixation. Requires fluoroscopic guidance and appropriate fracture morphology."
+      }
+    ]
+  },
+  "anatomy": {
+    "placeholder": true,
+    "sub": "Cervical vertebral anatomy, disc spaces, longus colli, carotid sheath, recurrent laryngeal nerve, vertebral arteries"
+  },
+  "radiology": {
+    "cases": "Cervical disc herniation, cervical spondylotic myelopathy, odontoid fracture, vertebral body tumor, OPLL"
+  },
+  "concepts": {
+    "type": "live",
+    "file": "concepts.json"
+  },
+  "orPearls": {
+    "imagingReview": "Evaluate disc height, osteophyte burden, cord signal change on T2, and vertebral artery course on CTA. For trauma, assess fracture pattern, ligamentous injury on MRI, and alignment on CT sagittal reconstructions.",
+    "setup": "Supine, neck slightly extended on a shoulder roll, head in neutral on a horseshoe. Arms tucked. Left-sided approach preferred (more predictable RLN course). Fluoroscopy to confirm levels. Key landmarks: hyoid (C3), thyroid cartilage (C4-5), cricoid (C6).",
+    "decisions": [
+      {
+        "label": "ACDF vs Corpectomy?",
+        "val": "ACDF for 1-2 level disease with disc-level compression. Corpectomy for retrovertebral pathology, multi-level stenosis behind vertebral bodies, or burst fractures requiring decompression."
+      },
+      {
+        "label": "Approach Side",
+        "val": "Left-sided preferred due to more predictable RLN course in the tracheoesophageal groove. Right side considered for revision, left VA dominance, or right-sided pathology."
+      },
+      {
+        "label": "Fusion vs Arthroplasty?",
+        "val": "Arthroplasty for single-level disease in younger patients without facet arthropathy, instability, or osteoporosis. Fusion for most other indications."
+      },
+      {
+        "label": "Need for Posterior Fixation?",
+        "val": "Consider staged or same-day posterior fixation for multi-level corpectomy, disrupted posterior tension band, or significant instability patterns."
+      }
+    ]
+  }
+}

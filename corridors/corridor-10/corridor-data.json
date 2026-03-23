@@ -1,0 +1,59 @@
+{
+  "num": "10",
+  "title": "Posterior Cervical",
+  "pageTitle": "Applied Neuroanatomy — Posterior Cervical",
+  "overview": {
+    "description": "The posterior cervical corridor provides access to the dorsal cervical spine, posterior fossa-cervical junction, and lateral masses. Approaches range from midline laminectomy and laminoplasty to lateral mass and pedicle screw fixation. Key anatomical considerations include the nuchal ligament, vertebral arteries at C1-2, and the cervical facet joints and lateral masses.",
+    "approaches": [
+      {
+        "name": "Posterior Cervical Laminectomy & Fusion",
+        "desc": "Midline approach with laminectomy for decompression and lateral mass or pedicle screw fixation for stabilization. For multi-level stenosis with instability or kyphosis."
+      },
+      {
+        "name": "Laminoplasty",
+        "desc": "Open-door or French-door technique to expand the spinal canal while preserving posterior elements. Motion-preserving option for multi-level cervical stenosis with maintained lordosis."
+      },
+      {
+        "name": "C1-2 Fusion (Goel-Harms)",
+        "desc": "C1 lateral mass screws with C2 pedicle or pars screws for atlantoaxial instability. Requires careful identification of the vertebral artery groove on C1 and the C2 pedicle anatomy."
+      },
+      {
+        "name": "Posterior Cervical Foraminotomy",
+        "desc": "Keyhole laminotomy for lateral disc herniations or foraminal stenosis. Motion-preserving alternative to ACDF for unilateral radiculopathy with lateral pathology."
+      }
+    ]
+  },
+  "anatomy": {
+    "placeholder": true,
+    "sub": "Posterior cervical musculature, lamina, lateral masses, C1-2 anatomy, vertebral artery V3 segment, cervical pedicles"
+  },
+  "radiology": {
+    "cases": "Multi-level cervical stenosis, atlantoaxial instability, cervical facet dislocation, OPLL, os odontoideum"
+  },
+  "concepts": {
+    "type": "live",
+    "file": "concepts.json"
+  },
+  "orPearls": {
+    "imagingReview": "Evaluate sagittal alignment (C2-7 SVA, lordosis), cord compression and signal change, facet integrity, and vertebral artery course — especially V3 segment on CTA for C1-2 surgery. Assess pedicle size on axial CT for screw planning.",
+    "setup": "Prone, Mayfield pins, neck in neutral to slight flexion. Avoid hyperflexion which can worsen cord compression. Confirm levels with fluoroscopy. For C1-2 fixation, palpate the C1 lateral mass and identify the C2 pedicle entry point under fluoroscopy.",
+    "decisions": [
+      {
+        "label": "Laminectomy vs Laminoplasty?",
+        "val": "Laminoplasty for multi-level stenosis with maintained lordosis and no instability. Laminectomy with fusion when kyphosis, instability, or need for fixation exists."
+      },
+      {
+        "label": "Lateral Mass vs Pedicle Screws?",
+        "val": "Lateral mass screws (Magerl technique) for subaxial spine — safe, reliable. Pedicle screws offer stronger fixation at C2 and C7, but higher VA risk in subaxial spine."
+      },
+      {
+        "label": "C1-2: Pars vs Pedicle at C2?",
+        "val": "Pedicle screws provide strongest fixation. Pars screws (isthmus screws) are an alternative when vertebral artery anatomy makes pedicle screws risky — shorter trajectory, lower VA risk."
+      },
+      {
+        "label": "Extent of Fusion?",
+        "val": "Fuse the minimum segments needed. Extending to occiput significantly restricts motion. Consider standalone C1-2 fusion when possible rather than occipitocervical fusion."
+      }
+    ]
+  }
+}

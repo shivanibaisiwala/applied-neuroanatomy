@@ -11,7 +11,7 @@ function initCorridor(dataFile) {
     .then(data => {
       document.title = data.pageTitle;
       document.getElementById('corridor-content').innerHTML = buildCorridorHTML(data);
-      if (typeof initViewer === 'function') {
+      if (typeof initViewer === 'function' && !data.anatomy.placeholder) {
         initViewer('../../cards.json', parseInt(data.num, 10));
       }
       if (data.concepts && data.concepts.type === 'live' && typeof initConcepts === 'function') {
@@ -25,6 +25,7 @@ function initCorridor(dataFile) {
 
 function buildCorridorHTML(data) {
   return (
+    '<div class="cor-num">Corridor ' + data.num + '</div>' +
     '<h1 class="cor-title">' + data.title + '</h1>' +
     buildOverviewSection(data.overview) +
     buildAnatomySection(data.anatomy) +
@@ -54,6 +55,14 @@ function buildOverviewSection(ov) {
 }
 
 function buildAnatomySection(anatomy) {
+  if (anatomy.placeholder) {
+    return (
+      '<div class="section">' +
+        '<div class="sec-head"><div class="sec-title">Anatomy</div><div class="sec-count">Coming soon</div></div>' +
+        '<div class="placeholder viewer"><div class="ph-title">Anatomy slides for this corridor</div><div class="ph-sub">' + anatomy.sub + '</div></div>' +
+      '</div>'
+    );
+  }
   return (
     '<div class="section">' +
       '<div class="sec-head"><div class="sec-title">Anatomy</div><div class="sec-count">' + anatomy.count + '</div></div>' +

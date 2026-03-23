@@ -57,7 +57,7 @@ body{
   text-decoration:none;
 }
 
-.brand .accent{color:var(--text);font-style:italic}
+.brand .accent{color:var(--accent);font-style:italic}
 .brand .solid{color:var(--text)}
 
 .nav-links{display:flex;gap:.25rem}
@@ -130,9 +130,9 @@ body{
 }
 
 .sb-item.active{
-  color:var(--text);
-  background:rgba(255,255,255,0.06);
-  border-left-color:var(--text2);
+  color:var(--accent);
+  background:var(--accent-glow);
+  border-left-color:var(--accent);
 }
 
 .sb-item .num{
@@ -142,7 +142,7 @@ body{
   min-width:22px;
 }
 
-.sb-item.active .num{color:var(--text)}
+.sb-item.active .num{color:var(--accent)}
 
 .sb-item.not-ready{
   opacity:.4;
@@ -156,6 +156,16 @@ body{
   flex:1;
   padding:2rem 2.75rem;
   max-width:1040px;
+}
+
+.cor-num{
+  font-family:'JetBrains Mono',monospace;
+  font-size:.74rem;
+  font-weight:500;
+  color:var(--accent);
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  margin-bottom:.4rem;
 }
 
 .cor-title{
@@ -189,8 +199,8 @@ body{
 
 /* OVERVIEW */
 .overview{
-  --zone:var(--anatomy);
-  --zone-dim:var(--anatomy-dim);
+  --zone:var(--accent);
+  --zone-dim:var(--accent-dim);
   background:var(--card);
   border:1px solid var(--border);
   border-radius:12px;
@@ -206,7 +216,7 @@ body{
   left:0;
   right:0;
   height:2px;
-  background:var(--anatomy);
+  background:var(--accent);
 }
 
 .ov-desc{
@@ -221,7 +231,7 @@ body{
   font-weight:600;
   text-transform:uppercase;
   letter-spacing:.08em;
-  color:var(--anatomy);
+  color:var(--accent);
   margin-bottom:.45rem;
 }
 
@@ -314,10 +324,10 @@ body{
 }
 
 /* PINK ZONE */
-.pink-zone{--zone:var(--cases);--zone-dim:var(--cases-dim);position:relative;overflow:hidden}
+.pink-zone{--zone:var(--boards);--zone-dim:var(--boards-dim);position:relative;overflow:hidden}
 
-.pink-zone.zone-overview{--zone:var(--anatomy);--zone-dim:var(--anatomy-dim)}
-.pink-zone.zone-overview::before{background:var(--anatomy)}
+.pink-zone.zone-overview{--zone:var(--accent);--zone-dim:var(--accent-dim)}
+.pink-zone.zone-overview::before{background:var(--accent)}
 
 .pink-zone::before{
   content:'';
@@ -326,7 +336,7 @@ body{
   left:0;
   right:0;
   height:2px;
-  background:var(--cases);
+  background:var(--boards);
 }
 
 /* ANATOMY VIEWER */
