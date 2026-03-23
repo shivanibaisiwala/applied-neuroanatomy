@@ -79,10 +79,6 @@
       const card = filtered[currentIndex];
       let html = '<div class="cc-front">';
 
-      if (card.boards) {
-        html += '<span class="cc-boards-badge">Boards</span>';
-      }
-
       if (card.frontImgs && card.frontImgs.length > 0) {
         card.frontImgs.forEach(src => { html += '<img class="cc-img" src="' + src + '" alt="">'; });
       }
@@ -100,6 +96,10 @@
           html += '<div class="cc-answer">' + card.back.replace(/\n/g, '<br>') + '</div>';
         }
         html += '</div>';
+      }
+
+      if (card.boards) {
+        html += '<span class="cc-boards-badge">Boards</span>';
       }
 
       cardArea.innerHTML = html;

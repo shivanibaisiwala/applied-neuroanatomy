@@ -214,7 +214,7 @@ body{
   left:0;
   right:0;
   height:2px;
-  background:var(--accent);
+  background:var(--anatomy);
 }
 
 .ov-desc{
@@ -229,7 +229,7 @@ body{
   font-weight:600;
   text-transform:uppercase;
   letter-spacing:.08em;
-  color:var(--accent);
+  color:var(--anatomy);
   margin-bottom:.45rem;
 }
 
@@ -348,7 +348,7 @@ body{
   left:0;
   right:0;
   height:2px;
-  background:var(--anatomy);
+  background:var(--accent);
   z-index:2;
 }
 
@@ -389,8 +389,8 @@ body{
 .mode-tog button:first-child{border-right:1px solid var(--border)}
 
 .mode-tog button.active{
-  background:var(--anatomy-dim);
-  color:var(--anatomy);
+  background:var(--accent-dim);
+  color:var(--accent);
 }
 
 .sl-nav{
@@ -694,6 +694,7 @@ body{
   padding:1.6rem 1.6rem 2.6rem;
   cursor:pointer;
   transition:background .15s;
+  position:relative;
 }
 
 #concept-card:hover{background:rgba(255,255,255,.02)}
@@ -701,7 +702,9 @@ body{
 .cc-front{display:flex;flex-direction:column;align-items:center;gap:.8rem}
 
 .cc-boards-badge{
-  float:right;
+  position:absolute;
+  bottom:12px;
+  right:16px;
   font-family:'JetBrains Mono',monospace;
   font-size:10px;
   padding:2px 8px;
