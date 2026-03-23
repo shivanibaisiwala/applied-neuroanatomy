@@ -16,6 +16,10 @@
   --warm-dim:rgba(240,184,102,0.15);
   --boards:#e879a8;
   --boards-dim:rgba(232,121,168,0.15);
+  --anatomy:#8b9cf7;
+  --anatomy-dim:rgba(139,156,247,0.15);
+  --cases:#7c9bdb;
+  --cases-dim:rgba(124,155,219,0.15);
   --success:#6fcf97;
 }
 
@@ -325,7 +329,7 @@ body{
   left:0;
   right:0;
   height:2px;
-  background:var(--boards);
+  background:var(--cases);
 }
 
 /* ANATOMY VIEWER */
@@ -334,6 +338,18 @@ body{
   border:1px solid var(--border);
   border-radius:12px;
   overflow:hidden;
+  position:relative;
+}
+
+.viewer::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:2px;
+  background:var(--anatomy);
+  z-index:2;
 }
 
 .v-tb{
@@ -373,8 +389,8 @@ body{
 .mode-tog button:first-child{border-right:1px solid var(--border)}
 
 .mode-tog button.active{
-  background:var(--accent-dim);
-  color:var(--accent);
+  background:var(--anatomy-dim);
+  color:var(--anatomy);
 }
 
 .sl-nav{
@@ -685,18 +701,14 @@ body{
 .cc-front{display:flex;flex-direction:column;align-items:center;gap:.8rem}
 
 .cc-boards-badge{
-  display:inline-block;
-  background:var(--boards-dim);
-  color:var(--boards);
-  border:1px solid var(--boards);
-  border-radius:4px;
-  font-size:.65rem;
+  float:right;
   font-family:'JetBrains Mono',monospace;
-  letter-spacing:.05em;
-  padding:.15rem .45rem;
-  font-weight:600;
-  text-transform:uppercase;
-  align-self:flex-start;
+  font-size:10px;
+  padding:2px 8px;
+  border-radius:3px;
+  background:rgba(232,121,168,0.12);
+  color:var(--boards);
+  letter-spacing:0.04em;
 }
 
 .cc-img{max-width:100%;max-height:430px;border-radius:6px;object-fit:contain}
