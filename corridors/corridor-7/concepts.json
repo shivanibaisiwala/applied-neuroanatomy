@@ -27,7 +27,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Tuberous sclerosis, see hyperdense\nperiventricular nodules",
     "cat": "radiology",
     "boards": true,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Central neurocytoma",
     "cat": "radiology",
     "boards": true,
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "SEGA in a TS patient",
     "cat": "radiology",
     "boards": true,
@@ -54,8 +54,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Choroid plexus papilloma \u2013 cauliflower,\navid C+, prefers lateral vent, but can occur in 4th also",
+    "front": "Identify the diagnosis.",
+    "back": "Choroid plexus papilloma\nCauliflower-like, avid enhancement\nPrefers lateral ventricle (can occur in 4th)",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Colloid cyst",
     "cat": "radiology",
     "boards": true,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "SEGA: a/w tuberous sclerosis",
     "cat": "pathology",
     "boards": true,
@@ -81,8 +81,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Central neurocytoma -Monotonous\nuniform cells w perinuclear halo ,\nSynaptophysin",
+    "front": "Identify the histopathological finding.",
+    "back": "Central neurocytoma\nMonotonous uniform cells with perinuclear halos\nSynaptophysin+",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Flexner-Wintersteiner rosettes \u2013\nmedulloblastoma/ retinoblastoma/pinealblastoma,\ncentrally projecting cytoplasmic extensions from tumor cells",
     "cat": "pathology",
     "boards": true,
@@ -99,8 +99,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Choroid plexus papilloma - +S100/Vimentin/cytokeratin",
+    "front": "Identify the histopathological finding.",
+    "back": "Choroid plexus papilloma\nS100+, vimentin+, cytokeratin+",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Pineocytoma - Rosette-like\nclusters (almost Homer Wright)",
     "cat": "pathology",
     "boards": true,
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Germinoma - large\npolygonal cells, prominent nucleoli",
     "cat": "pathology",
     "boards": true,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Schuller duval body = Yolk sac tumor (endodermal sinus)",
     "cat": "pathology",
     "boards": true,
@@ -135,8 +135,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Colloid cyst - mucin\nfilled, +/-ciliated columnal cells, PAS+\ngoblet cells",
+    "front": "Identify the histopathological finding.",
+    "back": "Colloid cyst\nMucin-filled, ciliated columnar cells\nPAS+ goblet cells",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -145,13 +145,13 @@
   },
   {
     "front": "Describe parinaud's syndrome",
-    "back": "impaired upgaze\nimpaired convergence\nmydriasis\nconvergence nystagmus,\n\nlid retraction (Collier\u2019s sign)\ndissociated near light response can also be present \n\nResults from damage to dorsal midbrain and tectum from tumor, MS, or stroke",
+    "back": "Parinaud syndrome\nImpaired upgaze, impaired convergence, mydriasis\nConvergence-retraction nystagmus, lid retraction (Collier sign)\nCaused by dorsal midbrain/tectal compression (pineal tumor, MS, stroke)",
     "cat": "clinical",
     "boards": true
   },
   {
-    "front": null,
-    "back": "This is a retinal hamartoma",
+    "front": "What does this image show?",
+    "back": "Retinal hamartoma\nAssociated with tuberous sclerosis",
     "cat": "clinical",
     "boards": true,
     "frontImgs": [

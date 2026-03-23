@@ -1,6 +1,6 @@
 [
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Dermoid, purely lytic. Prefer the ant fontanelle/suture line",
     "cat": "radiology",
     "boards": true,
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Epidermoid, smooth sclerotic borders.\nLess preference for suture lines, parietal bone most common. Restrict on DWI",
     "cat": "radiology",
     "boards": true,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "CPA = epidermoid cyst",
     "cat": "radiology",
     "boards": true,
@@ -27,8 +27,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Dermoid:oily/chol\nfluid, hair shafts, glands",
+    "front": "Identify the histopathological finding.",
+    "back": "Dermoid\nOily/cholesterol-containing fluid, hair shafts, glands",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Epidermoid -dry\nkeratin",
+    "front": "Identify the histopathological finding.",
+    "back": "Epidermoid\nDry keratin (pearly white material)",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -45,8 +45,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Verocay bodies - palisading\nnuclei around eosinophillic\ncore - Schwannoma",
+    "front": "Identify the histopathological finding.",
+    "back": "Verocay bodies\nPalisading nuclei around eosinophilic core \u2192 schwannoma",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Schwannoma \u2013 Antoni A & B, school of fish, S100+",
     "cat": "pathology",
     "boards": true,

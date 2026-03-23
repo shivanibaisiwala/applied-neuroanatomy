@@ -1,6 +1,6 @@
 [
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Lhermitte Duclos = Dysplastic cerebellar\ngangliocytoma",
     "cat": "radiology",
     "boards": true,
@@ -9,8 +9,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "subependymoma \nnon enhancing 4th ventricle",
+    "front": "Identify the diagnosis.",
+    "back": "Subependymoma\nNon-enhancing 4th ventricle mass",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Dandy Walker",
     "cat": "radiology",
     "boards": true,
@@ -27,8 +27,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Juvenile pilocytic astrocytoma (JPA) - Biphasic pattern (loose/dense\nmicrocytic)",
+    "front": "Identify the histopathological finding.",
+    "back": "Juvenile pilocytic astrocytoma (JPA)\nBiphasic pattern: loose microcystic and dense piloid areas",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Rosenthal fibers \u2013 JPA, Alexander disease",
     "cat": "pathology",
     "boards": true,
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Homer Wright rosettes \u2013 medulloblastoma,\nneuroblastoma",
     "cat": "pathology",
     "boards": true,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Flexner-Wintersteiner rosettes \u2013\nmedulloblastoma/ retinoblastoma/pinealblastoma,\ncentrally projecting cytoplasmic extensions from tumor cells",
     "cat": "pathology",
     "boards": true,
@@ -63,8 +63,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Medulloblastoma = small,\nround undifferentiated cells with mild to moderate nuclear pleomorphism",
+    "front": "Identify the histopathological finding.",
+    "back": "Medulloblastoma\nSmall round blue cells with mild-moderate nuclear pleomorphism",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "True rosettes (around central canal,\nleft) and perivascular pseudo-rosettes (right) - ependymoma",
+    "front": "Identify the histopathological finding.",
+    "back": "Ependymoma\nTrue rosettes (around central canal) and perivascular pseudo-rosettes",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -81,8 +81,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Hemangioblastoma - +Vimentin,\n-EMA",
+    "front": "Identify the histopathological finding.",
+    "back": "Hemangioblastoma\nVimentin+, EMA\u2212",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Subependymoma - Islands\nof blue in sea of pink",
+    "front": "Identify the histopathological finding.",
+    "back": "Subependymoma\n\"Islands of blue in a sea of pink\"",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "ATRT",
     "cat": "pathology",
     "boards": true,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Pilocytic astrocytoma smear",
     "cat": "pathology",
     "boards": true,

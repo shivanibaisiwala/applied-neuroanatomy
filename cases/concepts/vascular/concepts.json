@@ -1,7 +1,7 @@
 [
   {
-    "front": null,
-    "back": "Benign venous angioma = can be associated with cav mal",
+    "front": "Identify the diagnosis.",
+    "back": "Developmental venous anomaly (venous angioma)\nCan be associated with cavernous malformation",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Carotid-cavernous fistula (CCF), see\ndilated sup ophthalmic vein",
     "cat": "radiology",
     "boards": true,
@@ -18,8 +18,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Fibro muscular dysplasia = beads on\nstring",
+    "front": "Identify the diagnosis.",
+    "back": "Fibromuscular dysplasia\nBeads-on-a-string appearance on angiography",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -27,8 +27,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Cognard type1 \ndAVF",
+    "front": "Identify the diagnosis.",
+    "back": "Cognard type I dAVF\nDrains into dural sinus, no cortical venous drainage",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Cognard type 2 glomus AVM",
+    "front": "Identify the diagnosis.",
+    "back": "Cognard type II dAVF\nDrains into dural sinus with cortical venous reflux",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -45,8 +45,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Cavernous malformation - Endothelium\nlined caverns w/o mature vessel wall",
+    "front": "Identify the histopathological finding.",
+    "back": "Cavernous malformation\nEndothelium-lined caverns without mature vessel wall elements",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "AVM",
     "cat": "pathology",
     "boards": true,

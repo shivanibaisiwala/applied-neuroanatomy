@@ -1,6 +1,6 @@
 [
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "DISH (diffuse idiopathic skeletal\nhyperostosis)",
     "cat": "radiology",
     "boards": true,

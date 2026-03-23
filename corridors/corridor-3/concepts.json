@@ -1,6 +1,6 @@
 [
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Carotid-cavernous fistula (CCF), see\ndilated sup ophthalmic vein",
     "cat": "radiology",
     "boards": true,
@@ -9,8 +9,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "hemangiopericytoma",
+    "front": "Identify the diagnosis.",
+    "back": "Hemangiopericytoma",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -18,8 +18,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Clival chordoma: midline, purely lytic on\nCT, strong/heterogenous C+\n\nDDx: chondrosarcoma: eccentric/petroclival,\nlytic but w internal chondroid matrix on CT, very similar MR characteristics\nonly *bright on ADC*",
+    "front": "Identify the diagnosis.",
+    "back": "Clival chordoma\nMidline, purely lytic on CT, strong heterogeneous enhancement\n\nDDx chondrosarcoma: eccentric/petroclival, internal chondroid matrix on CT, bright on ADC",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Glomus jugulare = paraganglioma",
     "cat": "radiology",
     "boards": true,
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Persistent trigeminal artery (from\ncavernous ICA, most common)\n\nOtic = from petrous ICA (very rare, first\nanastomosis to regress)\n\nHyoglossal = from cervical ICA (C1-3), comes\nthrough hypoglossal canal\n\nProatlantal = from cervical ICA/ECA",
+    "front": "Identify the diagnosis.",
+    "back": "Persistent trigeminal artery\nFrom cavernous ICA (most common persistent carotid-basilar anastomosis)\n\nOtic = from petrous ICA (very rare)\nHypoglossal = from cervical ICA, through hypoglossal canal\nProatlantal = from cervical ICA/ECA",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -45,8 +45,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Tentorial meningioma fed by artery of bernasconi\n& cassinari\n(MHT)",
+    "front": "Identify the diagnosis.",
+    "back": "Tentorial meningioma\nFed by artery of Bernasconi & Cassinari (branch of MHT)",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -54,8 +54,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Hemangiopericytoma \u2013 staghorn vessels, +Vimentin + CD34, -EMA\n(unlike meningioma),",
+    "front": "Identify the histopathological finding.",
+    "back": "Hemangiopericytoma (solitary fibrous tumor)\nStaghorn vessels\nVimentin+, CD34+, EMA\u2212 (unlike meningioma)",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -63,8 +63,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Chordoma - Sheets/cords\nof large vacuolated cells (physaliphorous\nor bubbly cells) surrounded by mucin; +EMA +cytokeratin\n(ectoderm) +S100\nbrachyury (mesenchymal/neural\ncrest)",
+    "front": "Identify the histopathological finding.",
+    "back": "Chordoma\nPhysaliphorous (bubbly) cells in sheets/cords surrounded by mucin\nEMA+, cytokeratin+, S100+, brachyury+",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Paraganglioma - zellballen",
     "cat": "pathology",
     "boards": true,
@@ -81,8 +81,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Chondrosarcoma - S100+,\nEMA-,\nbiphasic pattern: spindle shaped cells + well-diff cartilage",
+    "front": "Identify the histopathological finding.",
+    "back": "Chondrosarcoma\nS100+, EMA\u2212\nBiphasic: spindle cells + well-differentiated cartilage",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -121,7 +121,7 @@
   },
   {
     "front": "What are the borders and contents of the clinoidal triangle?",
-    "back": "Medial: CN II\nLateral: CNIII\nBase: Tentorium \nConents: Clinoidal segment of the ICA",
+    "back": "Clinoidal triangle\nMedial: CN II\nLateral: CN III\nBase: Tentorium\nContents: Clinoidal segment of ICA",
     "cat": "anatomy",
     "boards": true
   },
@@ -163,7 +163,7 @@
   },
   {
     "front": "What is Tolosa-Hunt syndrome?",
-    "back": "inflammation of superior orbital fissure or cavernous sinus, painful ophthalmoplegia with multiple CN palsies, but pupil is spared; dramatic improvement with steroids",
+    "back": "Inflammation of superior orbital fissure or cavernous sinus, painful ophthalmoplegia with multiple CN palsies, but pupil is spared; dramatic improvement with steroids",
     "cat": "clinical",
     "boards": true
   },

@@ -1,6 +1,6 @@
 [
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Myxopapillary ependymoma (sausage shape @\nconus)",
     "cat": "radiology",
     "boards": true,
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Giant cell tumor",
     "cat": "radiology",
     "boards": true,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Sacral chordoma",
     "cat": "radiology",
     "boards": true,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Polka dot sign\nBenign hemangioma",
     "cat": "radiology",
     "boards": true,
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Osteoid osteoma (because less than 2cm)",
     "cat": "radiology",
     "boards": true,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Aneurysmal bone cyst",
     "cat": "radiology",
     "boards": true,
@@ -63,8 +63,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Myoxopapillary\nependymoma = pseudo-papillary\nstructures with cuboidal ependymal cells centered around mucin-rich\nperivascular spaces and central vessels forming perivascular pseudo-rosettes.\nMyxoid material is commonly found adjacent to tumor cells.",
+    "front": "Identify the histopathological finding.",
+    "back": "Myxopapillary ependymoma\nPseudo-papillary structures with cuboidal ependymal cells\nPerivascular pseudo-rosettes with myxoid material",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Osteochondroma = benign\nexophytic lesions that may be sessile or peduncular",
+    "front": "Identify the histopathological finding.",
+    "back": "Osteochondroma\nBenign exophytic lesion, sessile or pedunculated",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Giant cell tumor of bone \u2013 lytic sacral\ntumor",
     "cat": "pathology",
     "boards": true,

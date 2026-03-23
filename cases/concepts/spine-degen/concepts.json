@@ -1,7 +1,7 @@
 [
   {
-    "front": null,
-    "back": "Bamboo spine + SI joint inflammation =\nAnkylosing spondilitis",
+    "front": "Identify the diagnosis.",
+    "back": "Bamboo spine + SI joint inflammation =\nAnkylosing spondylitis",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "DISH (diffuse idiopathic skeletal\nhyperostosis)",
     "cat": "radiology",
     "boards": true,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "OPLL",
     "cat": "radiology",
     "boards": true,

@@ -1,7 +1,7 @@
 [
   {
-    "front": null,
-    "back": "Port wine stain \nSturge weber",
+    "front": "What does this image show?",
+    "back": "Port wine stain \u2192 Sturge-Weber syndrome",
     "cat": "clinical",
     "boards": true,
     "frontImgs": [
@@ -9,8 +9,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Benign venous angioma = can be associated with cav mal",
+    "front": "Identify the diagnosis.",
+    "back": "Developmental venous anomaly (venous angioma)\nCan be associated with cavernous malformation",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Tram track calcification = sturge weber",
     "cat": "radiology",
     "boards": true,
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Desmoplastic infantile glioma (DIG)",
     "cat": "radiology",
     "boards": true,
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Dysembryoplastic\nneuroepithelial tumor (DNET), bubble appearance",
+    "front": "Identify the diagnosis.",
+    "back": "Dysembryoplastic neuroepithelial tumor (DNET)\nBubble appearance on MRI",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Ganglioglioma, Ca+ cyst w C+ nodule",
     "cat": "radiology",
     "boards": true,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the diagnosis.",
     "back": "Pleomorphic xanthoastrocytoma",
     "cat": "radiology",
     "boards": true,
@@ -63,8 +63,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Fibro muscular dysplasia = beads on\nstring",
+    "front": "Identify the diagnosis.",
+    "back": "Fibromuscular dysplasia\nBeads-on-a-string appearance on angiography",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Cognard type1 \ndAVF",
+    "front": "Identify the diagnosis.",
+    "back": "Cognard type I dAVF\nDrains into dural sinus, no cortical venous drainage",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -81,8 +81,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Cognard type 2 glomus AVM",
+    "front": "Identify the diagnosis.",
+    "back": "Cognard type II dAVF\nDrains into dural sinus with cortical venous reflux",
     "cat": "radiology",
     "boards": true,
     "frontImgs": [
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Pleomorphic xanthoastrocytoma (PXA) - Pleomorphic\nastrocytes and xanthomatous\nfat cells, S100+",
+    "front": "Identify the histopathological finding.",
+    "back": "Pleomorphic xanthoastrocytoma (PXA)\nPleomorphic astrocytes with xanthomatous fat cells\nS100+",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -99,8 +99,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Ganglioglioma: GFAP,\nsynaptophysin,\nabnormal neurons, some binucleate",
+    "front": "Identify the histopathological finding.",
+    "back": "Ganglioglioma\nGFAP+, synaptophysin+\nAbnormal neurons, some binucleate",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "DNET (dysembryoplastic neuro-epithelial tumor): Soap\nbubble tumor, Floating neurons . columns\nof axons lined by monotonous oligodendroglioma-like cells with intervening\n\u201cfloating\u201d neurons (cortical neurons in mucin pools)",
+    "front": "Identify the histopathological finding.",
+    "back": "DNET (dysembryoplastic neuroepithelial tumor)\nSoap-bubble appearance\nFloating neurons: cortical neurons in mucin pools\nColumns of axons lined by oligodendroglioma-like cells",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -117,8 +117,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "GBM: pseudopalisading\nnecrosis, microvascular proliferation, high\nmitotic count, nuclear polymorph",
+    "front": "Identify the histopathological finding.",
+    "back": "GBM\nPseudopalisading necrosis, microvascular proliferation\nHigh mitotic count, nuclear pleomorphism",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Astrocytoma",
     "cat": "pathology",
     "boards": true,
@@ -135,8 +135,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Oligodendroglioma - egg\nyolk cytoplasm, chicken wire vessels",
+    "front": "Identify the histopathological finding.",
+    "back": "Oligodendroglioma\nFried egg / perinuclear halo cytoplasm\nChicken wire vasculature",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "Meningioma \u2013 whorls and psammoma bodies",
     "cat": "pathology",
     "boards": true,
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "CNS lymphoma \u2013 perivascular lymphocytic\ninfiltrate",
     "cat": "pathology",
     "boards": true,
@@ -162,8 +162,8 @@
     ]
   },
   {
-    "front": null,
-    "back": "Cavernous malformation - Endothelium\nlined caverns w/o mature vessel wall",
+    "front": "Identify the histopathological finding.",
+    "back": "Cavernous malformation\nEndothelium-lined caverns without mature vessel wall elements",
     "cat": "pathology",
     "boards": true,
     "frontImgs": [
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "front": null,
+    "front": "Identify the histopathological finding.",
     "back": "AVM",
     "cat": "pathology",
     "boards": true,
