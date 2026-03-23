@@ -30,8 +30,8 @@
     "cases": "Vestibular schwannoma, CPA meningioma, epidermoid, trigeminal neuralgia (vascular loop), jugular foramen tumors"
   },
   "concepts": {
-    "type": "placeholder",
-    "sub": "Text-based cards tagged by category . anatomy, boards, concepts"
+    "type": "live",
+    "file": "concepts.json"
   },
   "orPearls": {
     "imagingReview": "Confirm tumor size and IAC extension. Identify AICA position relative to the IAC. Check for high-riding jugular bulb or anteriorly positioned sigmoid sinus. For MVD, confirm the offending vessel on CISS/FIESTA.",

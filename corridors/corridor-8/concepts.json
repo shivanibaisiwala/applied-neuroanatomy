@@ -1,0 +1,345 @@
+[
+  {
+    "front": "What is this finding and what is it associated with?",
+    "back": "Cafe au lait macules\nNF1",
+    "cat": "clinical",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-0.jpg"
+    ]
+  },
+  {
+    "front": "Review APD. When this this occur?",
+    "back": "Marcus Gun pupil / RAPD = CN2 lesion / MS\n/ NMO",
+    "cat": "clinical",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-1.jpg"
+    ]
+  },
+  {
+    "front": "What is this called and what is it a sign of?",
+    "back": "Adie\u2019s pupil = sluggish/absent response\n(constriction) to light, but better response to accommodation. 2/2 ciliary\nganglion degen",
+    "cat": "clinical",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-2.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Carotid-cavernous fistula (CCF), see\ndilated sup ophthalmic vein",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-3.jpg"
+    ]
+  },
+  {
+    "front": "What structures pass through the superior orbital fissure? \n(There are 6 groups of things to name)",
+    "back": "CN III, IV, VI\n\nCN V1: all three branches (nasociliary, frontal, lacrimal)\n\nSympathetic fibers from ICA plexus\n\nMiddle meningeal artery (orbital branch)\n\nLacrimal artery (recurrent meningeal branch)\n\nSuperior ophthalmic vein",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What structures pass through the inferior orbital fissure?",
+    "back": "CN V2\n\nZygomatic nerve\n\nMaxillary nerve (pterygopalatine branch)\n\nInfraorbital artery and vein\n\nInferior ophthalmic vein",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What structures pass through the foramen rotundum?",
+    "back": "CN V2 (mnemonic: CN rotwondum)",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What structures pass through the foramen ovale?",
+    "back": "CN V3 (mnemonic: ovalee = CN three)\n\nLesser superficial petrosal nerve",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What structures pass through the supraorbital foramen?",
+    "back": "CN V1: supraorbital vessels and nerve",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What structures pass through the infraorbital foramen?",
+    "back": "CN V2: infraorbital vessels and nerve",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What is the optic strut?",
+    "back": "Bone between the optic foramen and superior orbital fissure",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What is the falciform ligament?",
+    "back": "Dura extending between anterior clinoid and planum sphenoidale, covering the optic nerve",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What are the borders and contents of the clinoidal triangle?",
+    "back": "Medial: CN II\nLateral: CNIII\nBase: Tentorium \nConents: Clinoidal segment of the ICA",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What are the contents and borders of the anteromedial triangle?",
+    "back": "Medial: CN V1\nLateral: CN V2 \nBase: Line btwn the SOF and foramen rotundum \nContents: sphenoid sinus, CN VI",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What are the contents and borders of the anterolateral triangle?",
+    "back": "Medial: CN V2 \nLateral: CN V3 \nBase: Line between foramen rotundum and ovale \nContents: none",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What are the structures that pass above and through the annulus of Zinn?",
+    "back": "",
+    "cat": "anatomy",
+    "boards": true,
+    "backImgs": [
+      "concept-images/concept-4.jpg",
+      "concept-images/concept-5.jpg"
+    ]
+  },
+  {
+    "front": "Do the optic nerve and ophthlamic artery pass through the annulus of Zinn?",
+    "back": "Yes, they enter orbit through optic canal and pass through annulus of Zinn",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "Do the superior and inferior ophthalmic veins pass through the annulus of Zinn?",
+    "back": "Superior and inferior ophthalmic veins: pass through the superior and inferior orbital fissures, respectively. \nDo not pass through the anulus of Zinn.",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What does CN III superior division innervate?",
+    "back": "CN III superior division: levator palpebrae superioris and superior rectus",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What does CN III inferior division innervate?",
+    "back": "CN III inferior division: inferior rectus, medial rectus, and inferior oblique",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What does CN IV innervate?",
+    "back": "CN IV: superior oblique",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What does CN VI innervate?",
+    "back": "Lateral rectus",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What does Muller's muscle innervate?",
+    "back": "Eyelid retractor, sympathetic",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Parasympathetic innervation of the eye \n1. begins at the Edinger\u2013Westphal nucleus \n2. transmitting via the third nerve \u2192 ciliary ganglion behind the eye \u2192 short ciliary nerves \u2192 ciliary muscle (for accommodation) and iris sphincter\n\nWhat does the parasympathetic innervation cause - miosis or mydriasis?",
+    "back": "Miosis",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Sympathetic innervation of the eye: \n\nfrom the T1 level \u2192 sympathetic chain \u2192 superior cervical ganglion, up\n\nalong the carotid artery to the small vessels, and then as the long and short ciliary nerves to the eye\u2019s radial iris fibers to M\u00fcller\u2019s muscle of the eyelid and weakly to the ciliary muscle.\n\nDoes this cause miosis or mydriasis?",
+    "back": "Mydriasis",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What is the argyll robertson pupil?",
+    "back": "No response to light\nAccomodation is intact \n\nSeen in syphilis \"Doesn't react but accomodates\" from sketchy micro",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Describe horner's syndrome? What causes it and what are the symptoms (x5)?",
+    "back": "caused by impaired sympathetic input resulting in miosis, ptosis (i.e., sympathetic nerves innervate the smooth muscle of the eyelid), anhidrosis, enophthalmos, and dilated facial vessels.",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What does fovea centralis have in the eye? What are the other two receptor fields",
+    "back": "Maximal visual acuity and highest receptor density \n\nthe next is the macular zone; and the outermost is the temporal crescent.",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What is anisocoria?",
+    "back": "It's a difference in pupil diameter, up to 1mm is normal",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "When do you get a fixed and dilated pupil?",
+    "back": "uncal hernation \nDilation occurs first then the position change because parasympathetic fibers mediating pupillary constriction are at the periphery of CN III and are affected first by compressive lesions",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What should you consider in the ddx for ptosis?",
+    "back": "If with ipsilateral pupillary dilation - CN III palsy \nIf with ipsilateral pupillary constriction - Horner's syndrome",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What does pilocarpine do?",
+    "back": "It's an Ach agonist that should constrict any pupil unless dilated by atropine",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What is near light dissocation? What conditions can it be seen in?",
+    "back": "failure of pupillary constriction to light, but preserved to accommodation \n\n1) Parinaud's syndrome (with pineal region lesions) \n2) MS \n3) alcoholism \n4) diabetes \n5) Argyll Robertson pupils \n6) Adie's syndrome",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What is retinitis pigmentosa?",
+    "back": "affects children and adolescents, with male predominance and autosomal\n\nrecessive or dominant inheritance (chromosome 3). \n\nIt causes bilateral degeneration of all layers of the retina with foveal sparing.\n\nSymptoms include decreased night vision progressing to blindness.\n\nAssociated with multiple diseases (Refsum\u2019s disease, Leber\u2019s disease, etc.).",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Review your visual field deficits",
+    "back": "",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Describe parinaud's syndrome",
+    "back": "impaired upgaze\nimpaired convergence\nmydriasis\nconvergence nystagmus,\n\nlid retraction (Collier\u2019s sign)\ndissociated near light response can also be present \n\nResults from damage to dorsal midbrain and tectum from tumor, MS, or stroke",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What are causes of upgaze palsy",
+    "back": "Parinaud's \nNiemann Pick's \naging \nincreased ICP",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Describe an INO lesion",
+    "back": "caused by ipsilateral MLF lesion rostral to the abducens nucleus:\n\na. The ipsilateral eye does not adduct completely when looking to the contralateral side.\nb. The contralateral eye exhibits nystagmus as it abducts.\nc. MS is the most common cause in the young.\nd. Bilateral INO causes bilateral adduction weakness.\n\ne. Anterior INO caused by a lesion in the high midbrain. There is decreased convergence with bilateral adduction weakness.\n\nf. Posterior INO caused by a pontine lesion. There is normal convergence with bilateral adduction weakness. Convergence occurs by means of paths to the CN III nuclei that are not in the MLF.",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Describe one and a half syndrome.",
+    "back": "INO on one side and horizontal gaze palsy on the other secondary to bilat-\n\neral MLF and unilateral CN VI nucleus or nerve palsy:\n\na. One eye is fixed at midline for horizontal movements and one eye can only abduct.\nb. Caused by vascular or demyelinating disease.",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What is Gradenigo's Syndrome?",
+    "back": "Associated with bacterial otitis media . Triad of periorbital/facial pain (CNV), diplopia (CNVI), and persistent otorrhea.",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What is the Gradenigo syndrome triad?",
+    "back": "1) 6th CN palsy\n2) retro orbital pain\n3) draining ear (caused by otitis media) with mastoiditis and petrous apex involvement",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What is Tolosa-Hunt syndrome?",
+    "back": "inflammation of superior orbital fissure or cavernous sinus, painful ophthalmoplegia with multiple CN palsies, but pupil is spared; dramatic improvement with steroids",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Adie's syndrome",
+    "back": "degeneration of the ciliary ganglia and postganglionic parasympathetics (responsible for pupillary constriction). **more common in females, responds better to accommodation than light. Responds to 0.1% pilocarpine.",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What is another name for a relative afferent pupillary defect (RAPD)? How is it detected?",
+    "back": "A Marcus gunn pupil - caused by optic neuritis or compression of a single optic nerve. Detected by the swinging flashlight test",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": null,
+    "back": "Lisch nodules\nNF1",
+    "cat": "clinical",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-6.jpg"
+    ]
+  },
+  {
+    "front": "What is this? What is a sign of?",
+    "back": "Choroidal hemangioma \nSign of sturge weber",
+    "cat": "clinical",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-7.jpg"
+    ]
+  },
+  {
+    "front": "What is this sign and what is it associated with?",
+    "back": "Argyll Robertson pupils = Near-light\ndissociation, big b/l pupils w/o\nlight response, but appropriately constrict to accommodation\n\nOccurs with pineal/tectal\ntumors, teritary syphilis, Wernicke encephalopathy",
+    "cat": "clinical",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-8.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "fibrous dysplasia",
+    "cat": "clinical",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-9.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Orbital cavernous hemangioma (most common\nadult orbital lesion, melanoma is most common tumor)",
+    "cat": "clinical",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-10.jpg"
+    ]
+  },
+  {
+    "front": "The presence of a Marcus Gunn pupil in association with multiple sclerosis indicates that the lesion is in which of the following locations?",
+    "back": "Optic nerve\nRelative afferent pupillary defect \nIllicited by a swinging flashlight test - aberrant pupillary dilatation upon light stimulation of the ipsilateral eye\nImpaired action of the pupillary light reflex - stimulation of the retina triggers the optic nerve, ipsilateral optic tract, and bilateral pretectal nuclei, which then synapse upon the bilateral III and ciliary ganglion, resulting in iris contraction",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "A 30 year old woman struck her forehead in a motor vehicle accident and she did not lose consciousness. Examination in the dark revealed a right pupil of 6 mm that was sluggishly reactive to light and a left pupil of 4 mm that was briskly reactive to light. There was no ptosis or ocular motility disturbance. Thirty minutes after instillation into the eyes of dilute pilocarpine, her right pupil was 2 mm and the left was 4 mm. What pupil abnormality is most likely?",
+    "back": "Adie's pupil \n\nThis patient has sensitivity to dilute pilocarpine, which is a hallmark feature of the benign Adie's pupil that occurs more commonly in women in their early fourth decade of life.\n\nWhen mydriatics are instilled into the eye, as rarely happens in a case of medical malingering or Munchausen's, the pupil becomes sluggish or tonic and does not respond to even concentrated pilocarpine. A traumatic mydriasis would not show supersensitivity to dilute pilocarpine and would also likely show a rupture of the iris.",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "What are ocular manifestations of CCF?",
+    "back": "Ocular manifestations of a carotid cavernous fistula (CCF) include eye redness (conjunctival hyperemia), bulging eye (proptosis), eyelid swelling (ptosis), double vision (diplopia), reduced vision, ophthalmoplegia, and an elevated eye pressure (glaucoma).",
+    "cat": "clinical",
+    "boards": true
+  }
+]

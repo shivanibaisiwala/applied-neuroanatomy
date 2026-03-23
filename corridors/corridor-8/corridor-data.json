@@ -26,8 +26,8 @@
     "cases": "Orbital cavernous hemangioma, optic nerve meningioma, sphenoid wing meningioma, dermoid, thyroid orbitopathy"
   },
   "concepts": {
-    "type": "placeholder",
-    "sub": "Text-based cards tagged by category"
+    "type": "live",
+    "file": "concepts.json"
   },
   "orPearls": {
     "imagingReview": "Lesion location relative to the muscle cone (intraconal vs extraconal). Relationship to the optic nerve and ophthalmic artery. Whether the lesion extends through the superior orbital fissure or optic canal intracranially. Bone involvement of the orbital walls or sphenoid wing. Globe displacement and degree of proptosis.",

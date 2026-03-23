@@ -1,0 +1,74 @@
+[
+  {
+    "front": null,
+    "back": "Pott\u2019s puffy tumor \u2013 frontal sinusitis +\nosteomyelitis",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-0.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Hypothalamic hamartoma",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-1.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Adamantinomatous\ncraniopharyngioma-wet keratin, palisading epithelium,\nstellate reticulum",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-2.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Pituitary adenoma: Acidophiles\n(40%: PRL, GH, FSH/LH), basophils (10%: ACTH, TSH), null cells (50%)",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-3.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Hypothalamic hamartoma",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-4.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Rathke\u2019s cleft cyst - watery\nmucous fluid w columnar/cuboid epithelium",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-5.jpg"
+    ]
+  },
+  {
+    "front": "What is the falciform ligament?",
+    "back": "Dura extending between anterior clinoid and planum sphenoidale, covering the optic nerve",
+    "cat": "anatomy",
+    "boards": true
+  },
+  {
+    "front": "What is Foster-kennedy syndrome?",
+    "back": "A large olfactory groove meningioma with decreased olfaction, ipsilateral optic nerve atrophy, and contralateral papilledema. Contralateral papilledema is from increased ICP, while ipsilateral atrophy is from direct mass effect.",
+    "cat": "clinical",
+    "boards": true
+  },
+  {
+    "front": "Describe the classic findings in Foster-Kennedy syndrome",
+    "back": "olfactory groove meningioma, ipsilateral anosmia, ipsilateral optic atrophy, contralateral papilledema",
+    "cat": "clinical",
+    "boards": true
+  }
+]

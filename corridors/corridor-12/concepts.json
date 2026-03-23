@@ -1,0 +1,47 @@
+[
+  {
+    "front": null,
+    "back": "Myxopapillary ependymoma (sausage shape @\nconus)",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-0.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Giant cell tumor",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-1.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Sacral chordoma",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-2.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Myoxopapillary\nependymoma = pseudo-papillary\nstructures with cuboidal ependymal cells centered around mucin-rich\nperivascular spaces and central vessels forming perivascular pseudo-rosettes.\nMyxoid material is commonly found adjacent to tumor cells.",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-3.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Giant cell tumor of bone \u2013 lytic sacral\ntumor",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-4.jpg"
+    ]
+  }
+]

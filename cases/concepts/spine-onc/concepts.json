@@ -1,0 +1,92 @@
+[
+  {
+    "front": null,
+    "back": "Myxopapillary ependymoma (sausage shape @\nconus)",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-0.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Giant cell tumor",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-1.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Sacral chordoma",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-2.jpg"
+    ]
+  },
+  {
+    "front": "What is this called in general? What does it signify in adults vs peds?",
+    "back": "Vertebra plana:\n\nAdult: plasmacytoma/myeloma/osteoporotic fx\n\nPeds: eosinophilic granuloma",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-3.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Polka dot sign\nBenign hemangioma",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-4.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Osteoid osteoma (because less than 2cm)",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-5.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Aneurysmal bone cyst",
+    "cat": "radiology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-6.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Myoxopapillary\nependymoma = pseudo-papillary\nstructures with cuboidal ependymal cells centered around mucin-rich\nperivascular spaces and central vessels forming perivascular pseudo-rosettes.\nMyxoid material is commonly found adjacent to tumor cells.",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-7.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Osteochondroma = benign\nexophytic lesions that may be sessile or peduncular",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-8.jpg"
+    ]
+  },
+  {
+    "front": null,
+    "back": "Giant cell tumor of bone \u2013 lytic sacral\ntumor",
+    "cat": "pathology",
+    "boards": true,
+    "frontImgs": [
+      "concept-images/concept-9.jpg"
+    ]
+  }
+]

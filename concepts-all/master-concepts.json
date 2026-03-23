@@ -1,0 +1,3222 @@
+{
+  "meta": {
+    "source": "Memorize Anki deck",
+    "generated": "2026-03-10",
+    "totalCards": 218,
+    "excludedCards": 28,
+    "corridorNames": {
+      "C1": "Fronto-Temporal (Sylvian)",
+      "C2": "Midline Anterior Skull Base",
+      "C3": "Middle Fossa & Petroclival",
+      "C4": "Cerebellopontine Angle",
+      "C5": "Midline Posterior Fossa",
+      "C6": "Craniovertebral Junction",
+      "C7": "Intraventricular",
+      "C8": "Transorbital & Orbital",
+      "C9": "Anterior Cervical",
+      "C10": "Posterior Cervical",
+      "C11": "Thoracic",
+      "C12": "Lumbar"
+    },
+    "topicNames": {
+      "spine-degen": "Spine Degenerative",
+      "spine-trauma": "Spine Trauma",
+      "spine-onc": "Spine Oncology",
+      "peds-dysraphism": "Pediatric / Dysraphism",
+      "cranial-trauma": "Cranial Trauma",
+      "vascular": "Vascular",
+      "general-boards": "General Boards"
+    }
+  },
+  "cards": [
+    {
+      "id": "mem-0",
+      "front": null,
+      "back": "Medial winging \nSerratus anterior is affected \nLong thoracic nerve palsy",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-ed674c928e0f48d5251d8a670c11bfb72a4f4007.jpg"
+      ]
+    },
+    {
+      "id": "mem-1",
+      "front": null,
+      "back": "Lateral winging \nRhomboid affected (dorsal scapular) \nTrapezius (CN XI)",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-5bb3ae2c37eb2699b6869470b0c2cffab0251c61.jpg"
+      ]
+    },
+    {
+      "id": "mem-2",
+      "front": null,
+      "back": "Port wine stain \nSturge weber",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-c09de957bdc950bdd7d2e8fa895f624d9ce89071.jpg"
+      ]
+    },
+    {
+      "id": "mem-3",
+      "front": "What is this? What is it a sign of?",
+      "back": "Facial angiofibroma \nSign of tuberous sclerosis",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-b5d121fc626ba3740c8a4337fa3ca99f083b383a.jpg"
+      ]
+    },
+    {
+      "id": "mem-4",
+      "front": "What is this? What is it a sign of?",
+      "back": "Ash leaf patch\nTuberous sclerosis",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-d0f88dcede0d02da96b5b0f6fa3c07844c3e1e20.jpg"
+      ]
+    },
+    {
+      "id": "mem-5",
+      "front": "What is this? What is it a sign of?",
+      "back": "Shagreen patch (differs from ash leaf patch in that it's on connective tissue) \nSign of tuberous sclerosis",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-428276ea06414c9da44ce30fd98e50f8de12e6c6.jpg"
+      ]
+    },
+    {
+      "id": "mem-6",
+      "front": "What is this finding and what is it associated with?",
+      "back": "Cafe au lait macules\nNF1",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-2623b844982743dd984d7c352e36f2299eccdbbd.jpg"
+      ]
+    },
+    {
+      "id": "mem-7",
+      "front": "What does this finding signify?",
+      "back": "Cutaenous/mucosal telangectasias =\nHereditary hemorrhagic telangectasia\n(HHT) aka Osler Weber Rendu",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-00279bd043736403dcf507a93bef96c2ba82b9e3.jpg"
+      ]
+    },
+    {
+      "id": "mem-8",
+      "front": "What is this?",
+      "back": "Dermal sinus tract",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "peds-dysraphism"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-07099dce7d496755f60f213f1113180ad1f4891a.jpg"
+      ]
+    },
+    {
+      "id": "mem-9",
+      "front": "What is this and what is it associated with?",
+      "back": "Hairy patch (hypertrichosis) = more\nlikely diastematomyelia/split cord",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "peds-dysraphism"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-2dc4ccdb7847dabf11f4037a90f46027acccae1a.jpg"
+      ]
+    },
+    {
+      "id": "mem-10",
+      "front": "What is this?",
+      "back": "Lumbar lipoma = lipomyelomeningocele",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "peds-dysraphism"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-c0fa2b98b3d7ba9e95de4651be8c3eb74e6ecf57.jpg"
+      ]
+    },
+    {
+      "id": "mem-11",
+      "front": "What is this and what is it associated with in peds/adults?",
+      "back": "Cherry red spot:\n\nPeds = Sphingolipidoses\n(Niemann-Pick/ Gaucher/ Tay-Sachs/ GM1 gangliosidosis)\n\nAdult = central retinal artery occlusion",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-4f23eb7a93e149a8fbadbd4c3bd1f58ad079c154.jpg"
+      ]
+    },
+    {
+      "id": "mem-12",
+      "front": "What is this? And what disease process is associated?",
+      "back": "Gilliat-Sumner hand:\nThenar+hypothenar\nwasting, thoracic outlet syndrome",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-3a8d93bf5dd6c65479e21d081f18a6ea99b71381.jpg"
+      ]
+    },
+    {
+      "id": "mem-13",
+      "front": "What is this sign and what is it associated with?",
+      "back": "Warternberg sign = ulnar compression @ cubital tunnel (2/2 weakness of adduction of\npinky)",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-cdf4b8d49f60b3d687c5416857027948cd3b2d8b.jpg"
+      ]
+    },
+    {
+      "id": "mem-14",
+      "front": "What is this sign and what is it associated with?",
+      "back": "Froment sign = ulnar compression @ cubital tunnel (2/2 weakness of adductor\npollicis)",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-e9c07102ccb66db91df3b77931301ac193c891eb.jpg"
+      ]
+    },
+    {
+      "id": "mem-15",
+      "front": "What is this sign and what is it associated with? \n(This occurs whne the patient tries to make a fist)",
+      "back": "Hand of benediction = proximal median\nnerve 2/2 weakness of d2-3 flexors",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-90844a01f4d566fe2ba62e1a21b307a426ccf3f8.jpg"
+      ]
+    },
+    {
+      "id": "mem-16",
+      "front": "What is this and what is it associated with? \noccurs when trying to open the hand",
+      "back": "Ulnar claw = ulnar compression @ cubital tunnel (2/2 weakness of d4/5\nextensors)\n\nSimilar to Klumpke\u2019s palsy 8/1",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-bedee677676441761fec83f0ae8d951c0af2c3cb.jpg"
+      ]
+    },
+    {
+      "id": "mem-17",
+      "front": "What is this sign and what weakness is it associated with?",
+      "back": "OK sign = AIN palsy 2/2 weakness of\nFDP+FPL",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-61b6bbc0d2b2a074f2e2be497af3bcdd1815d2ce.jpg"
+      ]
+    },
+    {
+      "id": "mem-18",
+      "front": "What is this sign and what is it associated with?",
+      "back": "Partial wrist drop w/ absent finger\nextension = PIN palsy",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-3b4f1f1bcadf18ffbe167b49aed1d7aa9f7956dd.jpg"
+      ]
+    },
+    {
+      "id": "mem-19",
+      "front": "What is this sign and what is it associated with?",
+      "back": "Erb\u2019s palsy/waiter\u2019s tip \u2013 C5/6",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-9f5e69ddd61bcd6309aecd5c04f387e463c920ae.jpg"
+      ]
+    },
+    {
+      "id": "mem-20",
+      "front": "Review APD. When this this occur?",
+      "back": "Marcus Gun pupil / RAPD = CN2 lesion / MS\n/ NMO",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-9a957f9f19cbedf543405445d571025f659a5e7d.jpg"
+      ]
+    },
+    {
+      "id": "mem-21",
+      "front": "What is this called and what is it a sign of?",
+      "back": "Adie\u2019s pupil = sluggish/absent response\n(constriction) to light, but better response to accommodation. 2/2 ciliary\nganglion degen",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-f975099ce64af4e5bf2c9b119fef0384963003a5.jpg"
+      ]
+    },
+    {
+      "id": "mem-22",
+      "front": null,
+      "back": "Window frame spine / sandwich vertebrae=\nosteopetrosis",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-2e2d63b0d322219f546b3ed81d0b3cc493bf6525.jpg"
+      ]
+    },
+    {
+      "id": "mem-23",
+      "front": null,
+      "back": "Myxopapillary ependymoma (sausage shape @\nconus)",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C12"
+      ],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-253e289d2f0e48aa566eded01f43f4e2e58ce2fd.jpg"
+      ]
+    },
+    {
+      "id": "mem-24",
+      "front": null,
+      "back": "Giant cell tumor",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C12"
+      ],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a2096a5d98bbc06a972b40b8c0c84020bc045d0e.jpg"
+      ]
+    },
+    {
+      "id": "mem-25",
+      "front": null,
+      "back": "Sacral chordoma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C12"
+      ],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-55d94070f1f73e78ae3b692b588008e1f2981f52.jpg"
+      ]
+    },
+    {
+      "id": "mem-26",
+      "front": "What is this called in general? What does it signify in adults vs peds?",
+      "back": "Vertebra plana:\n\nAdult: plasmacytoma/myeloma/osteoporotic fx\n\nPeds: eosinophilic granuloma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a7266f83bfc04efb5830e43036abe5fb049c643f.jpg"
+      ]
+    },
+    {
+      "id": "mem-27",
+      "front": null,
+      "back": "Polka dot sign\nBenign hemangioma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-25c5cd4420fcdb9d563b6b90e686994093875c86.jpg"
+      ]
+    },
+    {
+      "id": "mem-28",
+      "front": null,
+      "back": "Osteoid osteoma (because less than 2cm)",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-d89ad9fb68df37c5c35a5590a0b4a037380fdaa8.jpg"
+      ]
+    },
+    {
+      "id": "mem-29",
+      "front": null,
+      "back": "Aneurysmal bone cyst",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-eb072f31f2ede40aa3843f339799f00bd569bb4d.jpg"
+      ]
+    },
+    {
+      "id": "mem-30",
+      "front": null,
+      "back": "Bamboo spine + SI joint inflammation =\nAnkylosing spondilitis",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "spine-degen"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-ea7314a51d670c8e292208c7ff1a46ad81f5daae.jpg"
+      ]
+    },
+    {
+      "id": "mem-31",
+      "front": null,
+      "back": "DISH (diffuse idiopathic skeletal\nhyperostosis)",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C9"
+      ],
+      "topics": [
+        "spine-degen"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-ab7be20570d44c068e4711c3b9cc7d2fe0f06a9b.jpg"
+      ]
+    },
+    {
+      "id": "mem-32",
+      "front": null,
+      "back": "OPLL",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C10"
+      ],
+      "topics": [
+        "spine-degen"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-3cc2f815f63af578ef50cf838dfb2251361f3784.jpg"
+      ]
+    },
+    {
+      "id": "mem-33",
+      "front": null,
+      "back": "Charcot joint = neuropathic\nosteoarthropathy of shoulder joint w humeral head erosion; suspect presence of\nsyrinx/Chiari 1. Also\na/w\nDM/syphilis/MS",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-0c59f4cfa4d09b645cfa51e637f6dedbd7d5560d.jpg"
+      ]
+    },
+    {
+      "id": "mem-34",
+      "front": null,
+      "back": "Benign venous angioma = can be associated with cav mal",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [
+        "vascular"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-c97b5ed5027b93b3770d4ecf101735fefdcbdae5.jpg"
+      ]
+    },
+    {
+      "id": "mem-35",
+      "front": null,
+      "back": "Benign capillary telangectasia",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-adf8eb15af11d60b96faa736f3ee991e964aae5c.jpg"
+      ]
+    },
+    {
+      "id": "mem-36",
+      "front": null,
+      "back": "Carotid-cavernous fistula (CCF), see\ndilated sup ophthalmic vein",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [
+        "vascular"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-5fcf718340a116c14b871550278a3d046f34ce65.jpg"
+      ]
+    },
+    {
+      "id": "mem-37",
+      "front": null,
+      "back": "Tuberous sclerosis, see hyperdense\nperiventricular nodules",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-54983e34208aec51669c590a6b93c7fd44170a18.jpg"
+      ]
+    },
+    {
+      "id": "mem-38",
+      "front": null,
+      "back": "Tram track calcification = sturge weber",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-dd0d25ec61999f8445055acb19350c025030e6fe.jpg"
+      ]
+    },
+    {
+      "id": "mem-39",
+      "front": null,
+      "back": "Paget\u2019s disease aka Osteitis deformans",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-227c037055b5f74ec400d898becf7745f0e944f0.jpg"
+      ]
+    },
+    {
+      "id": "mem-40",
+      "front": null,
+      "back": "eosinophilic granuloma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-d41045e7a97367dc9e3e9387816432ddca680d47.jpg"
+      ]
+    },
+    {
+      "id": "mem-41",
+      "front": null,
+      "back": "Dermoid, purely lytic. Prefer the ant fontanelle/suture line",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C4"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-e24cfb8c945576f5f2219c78f54f9ad36f202af5.jpg"
+      ]
+    },
+    {
+      "id": "mem-42",
+      "front": null,
+      "back": "Epidermoid, smooth sclerotic borders.\nLess preference for suture lines, parietal bone most common. Restrict on DWI",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C4"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-d20030ac07c59dab38653188ff0ac6ca0447d884.jpg"
+      ]
+    },
+    {
+      "id": "mem-43",
+      "front": null,
+      "back": "Pott\u2019s puffy tumor \u2013 frontal sinusitis +\nosteomyelitis",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C2"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6a3fdc41d6959ce7886dfa40223f1fc8d1de227f.jpg"
+      ]
+    },
+    {
+      "id": "mem-44",
+      "front": null,
+      "back": "CPA = epidermoid cyst",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C4"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-b699bd2b604840d8975fb1ef9390f5db8563f850.jpg"
+      ]
+    },
+    {
+      "id": "mem-45",
+      "front": null,
+      "back": "hemangiopericytoma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-96f3786293be13f4ddae966d7b578341a1f1c859.jpg"
+      ]
+    },
+    {
+      "id": "mem-46",
+      "front": null,
+      "back": "Clival chordoma: midline, purely lytic on\nCT, strong/heterogenous C+\n\nDDx: chondrosarcoma: eccentric/petroclival,\nlytic but w internal chondroid matrix on CT, very similar MR characteristics\nonly *bright on ADC*",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-3d01f5fcd15cbaa42866fa6a7dd15ee71d86e439.jpg"
+      ]
+    },
+    {
+      "id": "mem-47",
+      "front": null,
+      "back": "Glomus jugulare = paraganglioma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-7ec37caeef86343b3ea915ad6d670803bd6cb9d0.jpg"
+      ]
+    },
+    {
+      "id": "mem-48",
+      "front": null,
+      "back": "Lhermitte Duclos = Dysplastic cerebellar\ngangliocytoma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-bd4fee91bcb47f48734dda0c20251c914b23b2a0.jpg"
+      ]
+    },
+    {
+      "id": "mem-49",
+      "front": null,
+      "back": "Central neurocytoma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-abf1d09695a5a486398d07cc182efdc0148c1859.jpg"
+      ]
+    },
+    {
+      "id": "mem-50",
+      "front": null,
+      "back": "SEGA in a TS patient",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-445fbbd38ae2304e8235801fde564ded259082ec.jpg"
+      ]
+    },
+    {
+      "id": "mem-51",
+      "front": null,
+      "back": "Desmoplastic infantile glioma (DIG)",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-3ef120b86e400153a8387c8abf5ad5d91b7cedb9.jpg"
+      ]
+    },
+    {
+      "id": "mem-52",
+      "front": null,
+      "back": "Dysembryoplastic\nneuroepithelial tumor (DNET), bubble appearance",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-d9fef026f743ebd7d26cac74a4aa8a44faa5bd95.jpg"
+      ]
+    },
+    {
+      "id": "mem-53",
+      "front": null,
+      "back": "Ganglioglioma, Ca+ cyst w C+ nodule",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-188454847828c37b1ad6b289657f8d1d228c3654.jpg"
+      ]
+    },
+    {
+      "id": "mem-54",
+      "front": null,
+      "back": "CO poisoning",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-eb5d6f6bec95ef0ca58f8c1af7863ce9b703b253.jpg"
+      ]
+    },
+    {
+      "id": "mem-55",
+      "front": null,
+      "back": "Persistent trigeminal artery (from\ncavernous ICA, most common)\n\nOtic = from petrous ICA (very rare, first\nanastomosis to regress)\n\nHyoglossal = from cervical ICA (C1-3), comes\nthrough hypoglossal canal\n\nProatlantal = from cervical ICA/ECA",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-261daeecc1e5fe90c7474092a9af0c7d290ebfe1.jpg"
+      ]
+    },
+    {
+      "id": "mem-56",
+      "front": null,
+      "back": "Pleomorphic xanthoastrocytoma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6022f5b0a4ae4c91b8798410857f0e9a8c7ff2dd.jpg"
+      ]
+    },
+    {
+      "id": "mem-57",
+      "front": null,
+      "back": "subependymoma \nnon enhancing 4th ventricle",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-1eea19a013be4cb4d578be96b6cf3f6908489515.jpg"
+      ]
+    },
+    {
+      "id": "mem-58",
+      "front": null,
+      "back": "Choroid plexus papilloma \u2013 cauliflower,\navid C+, prefers lateral vent, but can occur in 4th also",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-2dc42e9821be5bf905c3c7442c8c30f051663649.jpg"
+      ]
+    },
+    {
+      "id": "mem-59",
+      "front": null,
+      "back": "Tentorial meningioma fed by artery of bernasconi\n& cassinari\n(MHT)",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-fdc95e5a6b1187af719d32dc57bc7e8732b97fdc.jpg"
+      ]
+    },
+    {
+      "id": "mem-60",
+      "front": null,
+      "back": "Lipoma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-d8e557abfdd195fba396b8769b9b462afe47c347.jpg"
+      ]
+    },
+    {
+      "id": "mem-61",
+      "front": null,
+      "back": "Colloid cyst",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-37ab8eff6d989bd4866f5204a7458628a656208c.jpg"
+      ]
+    },
+    {
+      "id": "mem-62",
+      "front": null,
+      "back": "Fibro muscular dysplasia = beads on\nstring",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [
+        "vascular"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-925150a80a4c0cde728ebbcb9fcde33fab1c3c3d.jpg"
+      ]
+    },
+    {
+      "id": "mem-63",
+      "front": null,
+      "back": "Lyme disease, Bell\u2019s palsy, CN7\nenhancement",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-bae53116d20fe23c82613a28ab310e561aecf3c6.jpg"
+      ]
+    },
+    {
+      "id": "mem-64",
+      "front": null,
+      "back": "HSV1 encephalitis",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-b57d28e7c89daa84f6123323aac94198a0abf28a.jpg"
+      ]
+    },
+    {
+      "id": "mem-66",
+      "front": null,
+      "back": "Septooptic dysplasia = no septum pellucidum, thin\noptic nerves",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-0f745c3b401952cc9facce8e0b94797cd76462ac.jpg"
+      ]
+    },
+    {
+      "id": "mem-67",
+      "front": null,
+      "back": "Grey matter heterotopia, migration\ndisorder",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-0b85d3db135d1540a7b5582c89e4afb5ac996576.jpg"
+      ]
+    },
+    {
+      "id": "mem-68",
+      "front": null,
+      "back": "Schizencephaly",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-b66b07ac43ff1b796c5bda2b81476bacfd147620.jpg"
+      ]
+    },
+    {
+      "id": "mem-69",
+      "front": null,
+      "back": "Lissencephaly",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-929a2f48b3caabc23dd25510de8eaf5145360211.jpg"
+      ]
+    },
+    {
+      "id": "mem-70",
+      "front": null,
+      "back": "Polymicrogyria",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-e728453028f8a0585c3c27f3c8213a997bc95bea.jpg"
+      ]
+    },
+    {
+      "id": "mem-71",
+      "front": null,
+      "back": "Dandy Walker",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-b7bc40de77ac6e3f1f41792f3459c2b500c6cc37.jpg"
+      ]
+    },
+    {
+      "id": "mem-74",
+      "front": null,
+      "back": "neuromyelitis optica",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-ad81a620565f5296ac0e1377d00240f1cfd96a3a.jpg"
+      ]
+    },
+    {
+      "id": "mem-75",
+      "front": null,
+      "back": "Tigroid MRI \u2013 metachromic leukodystrophy, Pelizaeus-Merzbacher",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6655a7ab15c74b3e6d52c8cee0f866eebd54f560.jpg"
+      ]
+    },
+    {
+      "id": "mem-76",
+      "front": null,
+      "back": "adrenoleukodystrophy",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-23cab601da72616da172eba84984a73893a25f3f.jpg"
+      ]
+    },
+    {
+      "id": "mem-77",
+      "front": null,
+      "back": "Alexander disease (leukodystrophy)",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-627b65dd1b88e11097df90827a2fca7eac59e488.jpg"
+      ]
+    },
+    {
+      "id": "mem-78",
+      "front": null,
+      "back": "panda face\nwilson disease",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-653469d4f5bdaad65968de247217cfdcbde1a82d.jpg"
+      ]
+    },
+    {
+      "id": "mem-79",
+      "front": null,
+      "back": "\u2018Eye of the tiger\u2019 \u2013 iron deposits in Hallervorden-Spatz\ndisease",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-4a93637febc9d1cf91e0a784c9b1bfc8cfc4fe11.jpg"
+      ]
+    },
+    {
+      "id": "mem-80",
+      "front": null,
+      "back": "Hot crossed bun sign = multisystem\natrophy",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6d7987b321f4fdd4a58c1b26e132499df5210d66.jpg"
+      ]
+    },
+    {
+      "id": "mem-81",
+      "front": null,
+      "back": "Hummingbird sign \u2013 midbrain atrophy \u00e0 progressive supranuclear palsy (PSP",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6b0c9833cbc42234125234d61d456db522d72d95.jpg"
+      ]
+    },
+    {
+      "id": "mem-82",
+      "front": null,
+      "back": "Hockeystick sign = Creutzfeld Jacobs (CJD)",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-41f574c0012f5fa77114729c6c852e71d5453808.jpg"
+      ]
+    },
+    {
+      "id": "mem-83",
+      "front": null,
+      "back": "Cognard type1 \ndAVF",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [
+        "vascular"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-b90f8343e1b56d0e536c3d01b04ba11ea3636b04.jpg"
+      ]
+    },
+    {
+      "id": "mem-84",
+      "front": null,
+      "back": "Cognard type 2 glomus AVM",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [
+        "vascular"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-71f14305e07ce34cdb70c4f30dd20ad0b9734cc8.jpg"
+      ]
+    },
+    {
+      "id": "mem-85",
+      "front": null,
+      "back": "Wernicke\u2019s encephalopathy \u2013 signal\nabnormalities in b/l\nthalami + mammillary bodies",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-05253b0ffdbb719e3d39b81a84d2586b5da5450a.jpg"
+      ]
+    },
+    {
+      "id": "mem-86",
+      "front": null,
+      "back": "Hypothalamic hamartoma",
+      "cat": "radiology",
+      "boards": true,
+      "corridors": [
+        "C2"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-eb76bd8385d7effc7aa3646b3143526a424f4357.jpg"
+      ]
+    },
+    {
+      "id": "mem-87",
+      "front": null,
+      "back": "Adamantinomatous\ncraniopharyngioma-wet keratin, palisading epithelium,\nstellate reticulum",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C2"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-736c9a2ddc801bb589e5b0b7809caf16fc80b1b5.jpg"
+      ]
+    },
+    {
+      "id": "mem-88",
+      "front": null,
+      "back": "Pituitary adenoma: Acidophiles\n(40%: PRL, GH, FSH/LH), basophils (10%: ACTH, TSH), null cells (50%)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C2"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-5cbc38bba985f60fb666812cff61dcdc61035d50.jpg"
+      ]
+    },
+    {
+      "id": "mem-89",
+      "front": null,
+      "back": "Dermoid:oily/chol\nfluid, hair shafts, glands",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C4"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-5f39101854725631eae900ee94572ac8932a9bea.jpg"
+      ]
+    },
+    {
+      "id": "mem-90",
+      "front": null,
+      "back": "Epidermoid -dry\nkeratin",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C4"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-414272751165d4ac6d454466f1442ad019b87476.jpg"
+      ]
+    },
+    {
+      "id": "mem-91",
+      "front": null,
+      "back": "Pleomorphic xanthoastrocytoma (PXA) - Pleomorphic\nastrocytes and xanthomatous\nfat cells, S100+",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-9a460db02854e1304c7db1bff67754262f7a19d2.jpg"
+      ]
+    },
+    {
+      "id": "mem-92",
+      "front": null,
+      "back": "SEGA: a/w tuberous sclerosis",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-b74dea2dfdec9997615e7e344ae0d706171c3bad.jpg"
+      ]
+    },
+    {
+      "id": "mem-93",
+      "front": null,
+      "back": "Ganglioglioma: GFAP,\nsynaptophysin,\nabnormal neurons, some binucleate",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-7ff228384d7fa7d17c63164e071a999fb05780f3.jpg"
+      ]
+    },
+    {
+      "id": "mem-94",
+      "front": null,
+      "back": "DNET (dysembryoplastic neuro-epithelial tumor): Soap\nbubble tumor, Floating neurons . columns\nof axons lined by monotonous oligodendroglioma-like cells with intervening\n\u201cfloating\u201d neurons (cortical neurons in mucin pools)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a155adbc0ac7691351459aa25423a7f2a9d85ae2.jpg"
+      ]
+    },
+    {
+      "id": "mem-95",
+      "front": null,
+      "back": "Central neurocytoma -Monotonous\nuniform cells w perinuclear halo ,\nSynaptophysin",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-4fdb2ec0539ec4ce54f62b24425246cabc321e2d.jpg"
+      ]
+    },
+    {
+      "id": "mem-96",
+      "front": null,
+      "back": "Hypothalamic hamartoma",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C2"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-9b3aa5b99eee11bb0a79bd9541e52300f117a93f.jpg"
+      ]
+    },
+    {
+      "id": "mem-97",
+      "front": null,
+      "back": "GBM: pseudopalisading\nnecrosis, microvascular proliferation, high\nmitotic count, nuclear polymorph",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-fa55b55f9d0e9da81e0df3c698d8c57eb1a92065.jpg"
+      ]
+    },
+    {
+      "id": "mem-98",
+      "front": null,
+      "back": "Astrocytoma",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-53584734373f9d5a30b3b2156bb7c47d66d7e350.jpg"
+      ]
+    },
+    {
+      "id": "mem-99",
+      "front": null,
+      "back": "Oligodendroglioma - egg\nyolk cytoplasm, chicken wire vessels",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-c0f4381014f200ea81d23c498d85c6d1fe58c5f1.jpg"
+      ]
+    },
+    {
+      "id": "mem-102",
+      "front": null,
+      "back": "Pseudolaminar\nnecrosis \u2013 s/p ischemia",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-c80faca6c97c0c0bebd847fd12ee81f0ee20f4ff.jpg"
+      ]
+    },
+    {
+      "id": "mem-103",
+      "front": null,
+      "back": "Juvenile pilocytic astrocytoma (JPA) - Biphasic pattern (loose/dense\nmicrocytic)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-5ee0ed4bdfdcef578345a70787292473d7469f6e.jpg"
+      ]
+    },
+    {
+      "id": "mem-104",
+      "front": null,
+      "back": "Rosenthal fibers \u2013 JPA, Alexander disease",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-881ad4c576d1952bb4e7a36bbf0739e1455b95a2.jpg"
+      ]
+    },
+    {
+      "id": "mem-105",
+      "front": null,
+      "back": "Homer Wright rosettes \u2013 medulloblastoma,\nneuroblastoma",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-de1ce0dec1dd6a005c788ccc70d183097501784d.jpg"
+      ]
+    },
+    {
+      "id": "mem-106",
+      "front": null,
+      "back": "Flexner-Wintersteiner rosettes \u2013\nmedulloblastoma/ retinoblastoma/pinealblastoma,\ncentrally projecting cytoplasmic extensions from tumor cells",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5",
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-028af79574f0394a47e5c9b71ebf1b5ca2827011.jpg"
+      ]
+    },
+    {
+      "id": "mem-107",
+      "front": null,
+      "back": "Medulloblastoma = small,\nround undifferentiated cells with mild to moderate nuclear pleomorphism",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-5328bdceb6211ace64017074e4bf93ac58a394de.jpg"
+      ]
+    },
+    {
+      "id": "mem-108",
+      "front": null,
+      "back": "True rosettes (around central canal,\nleft) and perivascular pseudo-rosettes (right) - ependymoma",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-c8f4af2ebe7bdc6d0235774472b9788c6dd5cb12.jpg"
+      ]
+    },
+    {
+      "id": "mem-109",
+      "front": null,
+      "back": "Hemangioblastoma - +Vimentin,\n-EMA",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-220f8ff9cb45f3a0eebe04d8fa6ac978c72c09b3.jpg"
+      ]
+    },
+    {
+      "id": "mem-110",
+      "front": null,
+      "back": "Subependymoma - Islands\nof blue in sea of pink",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-f3f91fe09224c70d1ad5c9a11693491578d0b64f.jpg"
+      ]
+    },
+    {
+      "id": "mem-111",
+      "front": null,
+      "back": "Choroid plexus papilloma - +S100/Vimentin/cytokeratin",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-42731f53dfd84cf1fb3debb4549446bed2bcc663.jpg"
+      ]
+    },
+    {
+      "id": "mem-112",
+      "front": null,
+      "back": "Verocay bodies - palisading\nnuclei around eosinophillic\ncore - Schwannoma",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C4"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-efbf095981faa1ffb8b16e561ffa634bec52056f.jpg"
+      ]
+    },
+    {
+      "id": "mem-113",
+      "front": null,
+      "back": "Meningioma \u2013 whorls and psammoma bodies",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-68410fda16bd2490a1fc72bc80bb3f28b594be18.jpg"
+      ]
+    },
+    {
+      "id": "mem-114",
+      "front": null,
+      "back": "Schwannoma \u2013 Antoni A & B, school of fish, S100+",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C4"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-95c0a36f149de922b261b4d136f6ae29173e4750.jpg"
+      ]
+    },
+    {
+      "id": "mem-115",
+      "front": null,
+      "back": "Myoxopapillary\nependymoma = pseudo-papillary\nstructures with cuboidal ependymal cells centered around mucin-rich\nperivascular spaces and central vessels forming perivascular pseudo-rosettes.\nMyxoid material is commonly found adjacent to tumor cells.",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C12"
+      ],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-7abb46af6b9f11b62d13406219c4f3c1d2a1c72d.jpg"
+      ]
+    },
+    {
+      "id": "mem-116",
+      "front": null,
+      "back": "Hemangiopericytoma \u2013 staghorn vessels, +Vimentin + CD34, -EMA\n(unlike meningioma),",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a83ea578f7a21fdefbad1f0063f30f574d8822fd.jpg"
+      ]
+    },
+    {
+      "id": "mem-117",
+      "front": null,
+      "back": "Chordoma - Sheets/cords\nof large vacuolated cells (physaliphorous\nor bubbly cells) surrounded by mucin; +EMA +cytokeratin\n(ectoderm) +S100\nbrachyury (mesenchymal/neural\ncrest)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6c48832e3d8af48e98f6427b877ee409c5252078.jpg"
+      ]
+    },
+    {
+      "id": "mem-118",
+      "front": null,
+      "back": "Paraganglioma - zellballen",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-eb9a7b7a0d418ce3379f2f55c27df629508c4b00.jpg"
+      ]
+    },
+    {
+      "id": "mem-119",
+      "front": null,
+      "back": "Langerhans cell histiocytosis - Multinucleated\ngiant cells /\ngranulomas",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-747c7c77ef2252e2b8c74a2e2508e19d7ed12bdd.jpg"
+      ]
+    },
+    {
+      "id": "mem-120",
+      "front": null,
+      "back": "Fibrous dysplasia -Woven\nbone, thickened/sclerotic bone with ground grass diploe",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6abb234e66343ce0a75ebbf038567d5f3dfbca0e.jpg"
+      ]
+    },
+    {
+      "id": "mem-121",
+      "front": null,
+      "back": "Pineocytoma - Rosette-like\nclusters (almost Homer Wright)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-19b29eda615cbac850a1b480bd2a84a11c487d26.jpg"
+      ]
+    },
+    {
+      "id": "mem-122",
+      "front": null,
+      "back": "Germinoma - large\npolygonal cells, prominent nucleoli",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-5dc3e8ec5c905c1259a192022fb6cfb932945459.jpg"
+      ]
+    },
+    {
+      "id": "mem-123",
+      "front": null,
+      "back": "Schuller duval body = Yolk sac tumor (endodermal sinus)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-7f76a409e4408a352a54d47afd57b66d0db53717.jpg"
+      ]
+    },
+    {
+      "id": "mem-124",
+      "front": null,
+      "back": "ATRT",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-3ab66f5e8a0d06335f79d58a5d645a00fc66c4ee.jpg"
+      ]
+    },
+    {
+      "id": "mem-125",
+      "front": null,
+      "back": "CNS lymphoma \u2013 perivascular lymphocytic\ninfiltrate",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-bcbf17c3baaf1a074b0ea964d9e856ea65c9d958.jpg"
+      ]
+    },
+    {
+      "id": "mem-126",
+      "front": null,
+      "back": "Pilocytic astrocytoma smear",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C5"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a511f65451db96c9523291385f72cddd7c43dda9.jpg"
+      ]
+    },
+    {
+      "id": "mem-127",
+      "front": null,
+      "back": "Colloid cyst - mucin\nfilled, +/-ciliated columnal cells, PAS+\ngoblet cells",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-fdb7f0a4a780c860cea0e3c163d694c87e3a145a.jpg"
+      ]
+    },
+    {
+      "id": "mem-128",
+      "front": null,
+      "back": "Rathke\u2019s cleft cyst - watery\nmucous fluid w columnar/cuboid epithelium",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C2"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-96cca0b4c7c2c0c82dfe8a835ed817a1ad86e2ff.jpg"
+      ]
+    },
+    {
+      "id": "mem-129",
+      "front": null,
+      "back": "Red neurons = ischemia",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-fe8f4e2805b64698f338b3902c51c0f9e9b34bbb.jpg"
+      ]
+    },
+    {
+      "id": "mem-130",
+      "front": null,
+      "back": "Cavernous malformation - Endothelium\nlined caverns w/o mature vessel wall",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [
+        "vascular"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-0c01d8d5a7a488cebd386db8a2332c5a8badee10.jpg"
+      ]
+    },
+    {
+      "id": "mem-131",
+      "front": null,
+      "back": "AVM",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [
+        "vascular"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6007c753919e1c01889544f536b987520633fd2a.jpg"
+      ]
+    },
+    {
+      "id": "mem-132",
+      "front": null,
+      "back": "Capillary telangectasia",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-3d228ce3e8dbb1dc7545e79b58ae99e4925440a6.jpg"
+      ]
+    },
+    {
+      "id": "mem-133",
+      "front": null,
+      "back": "Chondrosarcoma - S100+,\nEMA-,\nbiphasic pattern: spindle shaped cells + well-diff cartilage",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-224b94549be86dcf39ff76116ee4c377a90061f9.jpg"
+      ]
+    },
+    {
+      "id": "mem-134",
+      "front": null,
+      "back": "Osteochondroma = benign\nexophytic lesions that may be sessile or peduncular",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-0d9f4b302e314ad205727f548e6fdf8ccf73b5ec.jpg"
+      ]
+    },
+    {
+      "id": "mem-135",
+      "front": null,
+      "back": "Giant cell tumor of bone \u2013 lytic sacral\ntumor",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [
+        "C12"
+      ],
+      "topics": [
+        "spine-onc"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-fac92328e37fa38f4b5212543cb5e5a612daade8.jpg"
+      ]
+    },
+    {
+      "id": "mem-137",
+      "front": null,
+      "back": "Neurogenic muscle atrophy:multiple\nnuclear clumps or nuclear bags.\n\nPossible causes: peripheraly\nneuropath, ALS, SMA, Hereditary motor and sensory neuropathy (Charcot Marie\nTooth disease)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-2fa8301b588a7d6c0c9f84014abb7b744b1be73d.jpg"
+      ]
+    },
+    {
+      "id": "mem-138",
+      "front": null,
+      "back": "Lafora bodies \u2013 AR glycogen storage\nmyopathy",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-df1a71682a865d1d992424034de6856330f5fed4.jpg"
+      ]
+    },
+    {
+      "id": "mem-139",
+      "front": null,
+      "back": "Bunina bodies - ALS",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-e99a9e9113316732170a3d33f853ca133686d935.jpg"
+      ]
+    },
+    {
+      "id": "mem-140",
+      "front": null,
+      "back": "Cowdry bodies = intranuclear\ninclusions w surrounding halo (nonspecific, also seen in CMV/HSV/VZV, rubella,\nHIV\n\nSSPE Subacute\nsclerosing panencephalitis (SSPE)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6bb5aef83cebe90a81e80baedc6d3a54aa24fe49.jpg"
+      ]
+    },
+    {
+      "id": "mem-141",
+      "front": null,
+      "back": "Alzheimer's disease\n\no Intracytoplasmic\ntau protein neurofibrillary tangles (Bielschowsky\nsilver stain)\n\no Extracellular\namyloid-B neurotic plaques\n\no Hirano\nbodies",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-d9dc8873f4edc128dc05825d33c08ab9a6262ada.jpg"
+      ]
+    },
+    {
+      "id": "mem-142",
+      "front": null,
+      "back": "Pick bodies = Fronto-temporal\ndementia (FTD, Pick)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-e83f43758641687f82df4d95702b9c1d37e59647.jpg"
+      ]
+    },
+    {
+      "id": "mem-143",
+      "front": null,
+      "back": "Spongiform\nencephalitis\n- Creutzfeld-Jakob",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-1c460aa7fe841d33cd626e14f0289bbc28c12510.jpg"
+      ]
+    },
+    {
+      "id": "mem-144",
+      "front": null,
+      "back": "Lewy body (a-synuclein intracytoplasmic\ninclusions) = PD, LBD",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a5b68252b8ff3a17c75064942b4a013d30baca30.jpg"
+      ]
+    },
+    {
+      "id": "mem-145",
+      "front": null,
+      "back": "Perivascular lymphocytic infiltrate \u2013\nviral encephalitis",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-7e26616a2137b92acbbf010ddcb8626cb0951221.jpg"
+      ]
+    },
+    {
+      "id": "mem-146",
+      "front": null,
+      "back": "Negri body (cytoplasmic inclusion) + Babes\nnodule (cellular grouping)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-865d4b5ca8db07f48e2bbb27624b1ac21d762124.jpg"
+      ]
+    },
+    {
+      "id": "mem-147",
+      "front": null,
+      "back": "Aspergillus - Acute-angle\nbranching segmented hyphae & conidiophores",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-2d5552dbd257a916abdf7e3ab71bfbf0a6cb5440.jpg"
+      ]
+    },
+    {
+      "id": "mem-148",
+      "front": null,
+      "back": "Candida - pseudohyphae\n(meth silver stain)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a4ee68481ca774c8cdf74520eb7f3e345fb32dfb.jpg"
+      ]
+    },
+    {
+      "id": "mem-149",
+      "front": null,
+      "back": "Mucor -Broad\nbranching hyphae, non-seg",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-8b5308e4f20136cc0e70d55735b5dbb19c8ce4c4.jpg"
+      ]
+    },
+    {
+      "id": "mem-150",
+      "front": null,
+      "back": "Cryptococcus",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a77cb6939e2e8196669e43dd8486e198ef3d86dc.jpg"
+      ]
+    },
+    {
+      "id": "mem-151",
+      "front": null,
+      "back": "Coccidiomycosis spherule w endospore",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-50cf93babb7b228a90e567483dad77a52965cfd6.jpg"
+      ]
+    },
+    {
+      "id": "mem-152",
+      "front": null,
+      "back": "Cystercercosis",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-f91b735488e256a9e9ddf16181cd6bc57b49fcda.jpg"
+      ]
+    },
+    {
+      "id": "mem-153",
+      "front": null,
+      "back": "Toxoplasmosis \u2013 spherule w tachyzoite",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-24f4897adf49ae9d42bdfee39bd6087f1c68bd33.jpg"
+      ]
+    },
+    {
+      "id": "mem-154",
+      "front": null,
+      "back": "Charcot marie tooth onion bulb neuropathy",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-eab5e41f61206f26d8c1f84ff8602878b868e64c.jpg"
+      ]
+    },
+    {
+      "id": "mem-155",
+      "front": null,
+      "back": "neurofibroma",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-ca1bc3e4fe7fa3f38ed5394d1372de1589e62cc5.jpg"
+      ]
+    },
+    {
+      "id": "mem-156",
+      "front": null,
+      "back": "PMNST",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6a7e93a5a3d7a79b2da857921a88cc1c3416a08d.jpg"
+      ]
+    },
+    {
+      "id": "mem-157",
+      "front": null,
+      "back": "Gaucher cell",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-356f4edb08c7320273bd3356bce46d850617153d.jpg"
+      ]
+    },
+    {
+      "id": "mem-158",
+      "front": null,
+      "back": "Niemann pick foam cell",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-7ebec0aca1470738916fd0de4e9726940b988511.jpg"
+      ]
+    },
+    {
+      "id": "mem-159",
+      "front": null,
+      "back": "Globoid cell PAS+ multinucleated \u2013 Krabbe\ndisease (leukodystrophy)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-55db135da295edb8ff1f88bd4b53690f6c7c129d.jpg"
+      ]
+    },
+    {
+      "id": "mem-160",
+      "front": null,
+      "back": "Alzheimer type 2 astrocyte = Canavan\ndisease, hepatic encephalopathy",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-f1360c5ef57668c41409eeee4b9bda4359a43ebf.jpg"
+      ]
+    },
+    {
+      "id": "mem-161",
+      "front": null,
+      "back": "Zebra bodies = large\nlamellar inclusions of dermatan and heparan sulfate; a/w\nmucopolysachh (MPS) disease (Hurler)",
+      "cat": "pathology",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-de19044169827c1f176e24de0908939f8fbda576.jpg"
+      ]
+    },
+    {
+      "id": "mem-184",
+      "front": "What structures pass through the superior orbital fissure? \n(There are 6 groups of things to name)",
+      "back": "CN III, IV, VI\n\nCN V1: all three branches (nasociliary, frontal, lacrimal)\n\nSympathetic fibers from ICA plexus\n\nMiddle meningeal artery (orbital branch)\n\nLacrimal artery (recurrent meningeal branch)\n\nSuperior ophthalmic vein",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-185",
+      "front": "What structures pass through the jugular foramen?",
+      "back": "Internal jugular vein \nGlossopharyngeal nerve\nVagus nerve\nAccessory nerve\nInferior petrosal sinus \nPosterior meningeal artery",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-186",
+      "front": "What structures pass through the inferior orbital fissure?",
+      "back": "CN V2\n\nZygomatic nerve\n\nMaxillary nerve (pterygopalatine branch)\n\nInfraorbital artery and vein\n\nInferior ophthalmic vein",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-187",
+      "front": "What structures pass through the foramen rotundum?",
+      "back": "CN V2 (mnemonic: CN rotwondum)",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-188",
+      "front": "What structures pass through the foramen ovale?",
+      "back": "CN V3 (mnemonic: ovalee = CN three)\n\nLesser superficial petrosal nerve",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-189",
+      "front": "What structures pass through the carotid canal?",
+      "back": "Sympathetic nerves\n\nICA",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-190",
+      "front": "What structures pass through the supraorbital foramen?",
+      "back": "CN V1: supraorbital vessels and nerve",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-191",
+      "front": "What structures pass through the infraorbital foramen?",
+      "back": "CN V2: infraorbital vessels and nerve",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-192",
+      "front": "What structures pass through Dorello's canal?",
+      "back": "CN VI: not a true foramen",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-193",
+      "front": "What is the optic strut?",
+      "back": "Bone between the optic foramen and superior orbital fissure",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-194",
+      "front": "What is the falciform ligament?",
+      "back": "Dura extending between anterior clinoid and planum sphenoidale, covering the optic nerve",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C2",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-195",
+      "front": "What are the borders and contents of the clinoidal triangle?",
+      "back": "Medial: CN II\nLateral: CNIII\nBase: Tentorium \nConents: Clinoidal segment of the ICA",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "backImgRefs": [
+        "1-s2.0-S1878875022004867-gr2.jpg"
+      ]
+    },
+    {
+      "id": "mem-196",
+      "front": "What are the borders and contents of the oculomotor (hakuba) triangle?",
+      "back": "Medial: interclinoid fold\nLateral: anterior petroclinoid fold\nBase: posterior petroclinoid fold \nContents: CN III",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "backImgRefs": [
+        "1-s2.0-S1878875022004867-gr2.jpg"
+      ]
+    },
+    {
+      "id": "mem-197",
+      "front": "What are the borders of the supratrochlear triangle?",
+      "back": "Medial: CN III\nLateral: CN IV\nBase: Tentorium \nContents: MHT",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "backImgRefs": [
+        "1-s2.0-S1878875022004867-gr2.jpg"
+      ]
+    },
+    {
+      "id": "mem-198",
+      "front": "What are the contents and borders of the anteromedial triangle?",
+      "back": "Medial: CN V1\nLateral: CN V2 \nBase: Line btwn the SOF and foramen rotundum \nContents: sphenoid sinus, CN VI",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "backImgRefs": [
+        "1-s2.0-S1878875022004867-gr2.jpg"
+      ]
+    },
+    {
+      "id": "mem-199",
+      "front": "What are the contents and borders of the anterolateral triangle?",
+      "back": "Medial: CN V2 \nLateral: CN V3 \nBase: Line between foramen rotundum and ovale \nContents: none",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "backImgRefs": [
+        "article_river_293ca8807bf311e7aa6d016b500bd69f-Figure-1---Anterolateral-Triangle.png"
+      ]
+    },
+    {
+      "id": "mem-200",
+      "front": "What are the structures that pass above and through the annulus of Zinn?",
+      "back": "",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "backImgRefs": [
+        "paste-8ff0d127103ecbf0c7e51fc08b353ce101a676d1.jpg",
+        "paste-8ff0d127103ecbf0c7e51fc08b353ce101a676d1.jpg"
+      ]
+    },
+    {
+      "id": "mem-201",
+      "front": "Do the optic nerve and ophthlamic artery pass through the annulus of Zinn?",
+      "back": "Yes, they enter orbit through optic canal and pass through annulus of Zinn",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-202",
+      "front": "Do the superior and inferior ophthalmic veins pass through the annulus of Zinn?",
+      "back": "Superior and inferior ophthalmic veins: pass through the superior and inferior orbital fissures, respectively. \nDo not pass through the anulus of Zinn.",
+      "cat": "anatomy",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-203",
+      "front": "What does CN III superior division innervate?",
+      "back": "CN III superior division: levator palpebrae superioris and superior rectus",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-204",
+      "front": "What does CN III inferior division innervate?",
+      "back": "CN III inferior division: inferior rectus, medial rectus, and inferior oblique",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-205",
+      "front": "What does CN IV innervate?",
+      "back": "CN IV: superior oblique",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-206",
+      "front": "What does CN VI innervate?",
+      "back": "Lateral rectus",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-207",
+      "front": "What does Muller's muscle innervate?",
+      "back": "Eyelid retractor, sympathetic",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-208",
+      "front": "Parasympathetic innervation of the eye \n1. begins at the Edinger\u2013Westphal nucleus \n2. transmitting via the third nerve \u2192 ciliary ganglion behind the eye \u2192 short ciliary nerves \u2192 ciliary muscle (for accommodation) and iris sphincter\n\nWhat does the parasympathetic innervation cause - miosis or mydriasis?",
+      "back": "Miosis",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-209",
+      "front": "Sympathetic innervation of the eye: \n\nfrom the T1 level \u2192 sympathetic chain \u2192 superior cervical ganglion, up\n\nalong the carotid artery to the small vessels, and then as the long and short ciliary nerves to the eye\u2019s radial iris fibers to M\u00fcller\u2019s muscle of the eyelid and weakly to the ciliary muscle.\n\nDoes this cause miosis or mydriasis?",
+      "back": "Mydriasis",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-210",
+      "front": "What is the argyll robertson pupil?",
+      "back": "No response to light\nAccomodation is intact \n\nSeen in syphilis \"Doesn't react but accomodates\" from sketchy micro",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-211",
+      "front": "Describe horner's syndrome? What causes it and what are the symptoms (x5)?",
+      "back": "caused by impaired sympathetic input resulting in miosis, ptosis (i.e., sympathetic nerves innervate the smooth muscle of the eyelid), anhidrosis, enophthalmos, and dilated facial vessels.",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-212",
+      "front": "What does fovea centralis have in the eye? What are the other two receptor fields",
+      "back": "Maximal visual acuity and highest receptor density \n\nthe next is the macular zone; and the outermost is the temporal crescent.",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-213",
+      "front": "What is anisocoria?",
+      "back": "It's a difference in pupil diameter, up to 1mm is normal",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-214",
+      "front": "When do you get a fixed and dilated pupil?",
+      "back": "uncal hernation \nDilation occurs first then the position change because parasympathetic fibers mediating pupillary constriction are at the periphery of CN III and are affected first by compressive lesions",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-215",
+      "front": "What should you consider in the ddx for ptosis?",
+      "back": "If with ipsilateral pupillary dilation - CN III palsy \nIf with ipsilateral pupillary constriction - Horner's syndrome",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-216",
+      "front": "What does pilocarpine do?",
+      "back": "It's an Ach agonist that should constrict any pupil unless dilated by atropine",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-217",
+      "front": "What is near light dissocation? What conditions can it be seen in?",
+      "back": "failure of pupillary constriction to light, but preserved to accommodation \n\n1) Parinaud's syndrome (with pineal region lesions) \n2) MS \n3) alcoholism \n4) diabetes \n5) Argyll Robertson pupils \n6) Adie's syndrome",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-218",
+      "front": "What is retinitis pigmentosa?",
+      "back": "affects children and adolescents, with male predominance and autosomal\n\nrecessive or dominant inheritance (chromosome 3). \n\nIt causes bilateral degeneration of all layers of the retina with foveal sparing.\n\nSymptoms include decreased night vision progressing to blindness.\n\nAssociated with multiple diseases (Refsum\u2019s disease, Leber\u2019s disease, etc.).",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-219",
+      "front": "Review your visual field deficits",
+      "back": "",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "backImgRefs": [
+        "visualFieldDefects.jpg"
+      ]
+    },
+    {
+      "id": "mem-220",
+      "front": "Describe parinaud's syndrome",
+      "back": "impaired upgaze\nimpaired convergence\nmydriasis\nconvergence nystagmus,\n\nlid retraction (Collier\u2019s sign)\ndissociated near light response can also be present \n\nResults from damage to dorsal midbrain and tectum from tumor, MS, or stroke",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C7",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-221",
+      "front": "What are causes of upgaze palsy",
+      "back": "Parinaud's \nNiemann Pick's \naging \nincreased ICP",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-222",
+      "front": "Describe an INO lesion",
+      "back": "caused by ipsilateral MLF lesion rostral to the abducens nucleus:\n\na. The ipsilateral eye does not adduct completely when looking to the contralateral side.\nb. The contralateral eye exhibits nystagmus as it abducts.\nc. MS is the most common cause in the young.\nd. Bilateral INO causes bilateral adduction weakness.\n\ne. Anterior INO caused by a lesion in the high midbrain. There is decreased convergence with bilateral adduction weakness.\n\nf. Posterior INO caused by a pontine lesion. There is normal convergence with bilateral adduction weakness. Convergence occurs by means of paths to the CN III nuclei that are not in the MLF.",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-223",
+      "front": "Describe one and a half syndrome.",
+      "back": "INO on one side and horizontal gaze palsy on the other secondary to bilat-\n\neral MLF and unilateral CN VI nucleus or nerve palsy:\n\na. One eye is fixed at midline for horizontal movements and one eye can only abduct.\nb. Caused by vascular or demyelinating disease.",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-224",
+      "front": "What is Gradenigo's Syndrome?",
+      "back": "Associated with bacterial otitis media . Triad of periorbital/facial pain (CNV), diplopia (CNVI), and persistent otorrhea.",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-225",
+      "front": "What is the Gradenigo syndrome triad?",
+      "back": "1) 6th CN palsy\n2) retro orbital pain\n3) draining ear (caused by otitis media) with mastoiditis and petrous apex involvement",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-226",
+      "front": "What is Tolosa-Hunt syndrome?",
+      "back": "inflammation of superior orbital fissure or cavernous sinus, painful ophthalmoplegia with multiple CN palsies, but pupil is spared; dramatic improvement with steroids",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-227",
+      "front": "Adie's syndrome",
+      "back": "degeneration of the ciliary ganglia and postganglionic parasympathetics (responsible for pupillary constriction). **more common in females, responds better to accommodation than light. Responds to 0.1% pilocarpine.",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-228",
+      "front": "What is Foster-kennedy syndrome?",
+      "back": "A large olfactory groove meningioma with decreased olfaction, ipsilateral optic nerve atrophy, and contralateral papilledema. Contralateral papilledema is from increased ICP, while ipsilateral atrophy is from direct mass effect.",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C2"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-229",
+      "front": "What is another name for a relative afferent pupillary defect (RAPD)? How is it detected?",
+      "back": "A Marcus gunn pupil - caused by optic neuritis or compression of a single optic nerve. Detected by the swinging flashlight test",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-230",
+      "front": "Describe the classic findings in Foster-Kennedy syndrome",
+      "back": "olfactory groove meningioma, ipsilateral anosmia, ipsilateral optic atrophy, contralateral papilledema",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C2"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-231",
+      "front": null,
+      "back": "Lisch nodules\nNF1",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-71f0cc4a334473ba9733b7578374f4bf59da0918.jpg"
+      ]
+    },
+    {
+      "id": "mem-232",
+      "front": null,
+      "back": "This is a retinal hamartoma",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C7"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-0281ea08d42a1b83cc4a10646d3f97f60e0d119b.jpg"
+      ]
+    },
+    {
+      "id": "mem-233",
+      "front": "What is this? What is a sign of?",
+      "back": "Choroidal hemangioma \nSign of sturge weber",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-ebd4cb001ba65d8c2a35fb4db94d2bd0ca4aaa06.jpg"
+      ]
+    },
+    {
+      "id": "mem-234",
+      "front": "What is this and what is a sign of?",
+      "back": "Ocular telangectasia \nSign of ataxia telangectasia",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-55eb852ef95e08dd26427982f63a332ca11ae4dd.jpg"
+      ]
+    },
+    {
+      "id": "mem-235",
+      "front": "What is this and what does it mean?",
+      "back": "Retinal hemorrhages\nnon accidental trauma in peds",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-b963aafd792d421f0d87aaba17272f6d55d19f3e.jpg"
+      ]
+    },
+    {
+      "id": "mem-236",
+      "front": "What is this?",
+      "back": "Terson syndrome = intraocular / vitreous\nhemorrhage a/w SAH",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C1"
+      ],
+      "topics": [
+        "vascular"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-db65c3ebf31353109092a40848dab9865786e7ca.jpg"
+      ]
+    },
+    {
+      "id": "mem-237",
+      "front": "What is this and what disease is it associated with?",
+      "back": "Retinitis pigmentosa: a/w Refsum\ndisease (leukodystrophy)",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-2bfaefde0f014ed03031028fa83d537af5e8a9d1.jpg"
+      ]
+    },
+    {
+      "id": "mem-238",
+      "front": "What is this?",
+      "back": "papilledema",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-d00aad8c7374f2fefd9dde582354bff3cee50291.jpg"
+      ]
+    },
+    {
+      "id": "mem-239",
+      "front": "What is this sign and what is it associated with?",
+      "back": "Argyll Robertson pupils = Near-light\ndissociation, big b/l pupils w/o\nlight response, but appropriately constrict to accommodation\n\nOccurs with pineal/tectal\ntumors, teritary syphilis, Wernicke encephalopathy",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-9783e59a53bb9def37a1477e108d6dc37f0b7d4f.jpg"
+      ]
+    },
+    {
+      "id": "mem-240",
+      "front": null,
+      "back": "Kayser Fleischer rings - Wilson disease (copper deposition)",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [],
+      "topics": [
+        "general-boards"
+      ],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-a604b64c948a3b3968726bf546f25c379b9e89b7.jpg"
+      ]
+    },
+    {
+      "id": "mem-241",
+      "front": null,
+      "back": "fibrous dysplasia",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-46d7aaca58f6b7bcaa6338ca89103eafcb21a114.jpg"
+      ]
+    },
+    {
+      "id": "mem-242",
+      "front": null,
+      "back": "Orbital cavernous hemangioma (most common\nadult orbital lesion, melanoma is most common tumor)",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "frontImgRefs": [
+        "paste-6e207919926239218be6cf587a06dfb70faefd44.jpg"
+      ]
+    },
+    {
+      "id": "mem-243",
+      "front": "The presence of a Marcus Gunn pupil in association with multiple sclerosis indicates that the lesion is in which of the following locations?",
+      "back": "Optic nerve\nRelative afferent pupillary defect \nIllicited by a swinging flashlight test - aberrant pupillary dilatation upon light stimulation of the ipsilateral eye\nImpaired action of the pupillary light reflex - stimulation of the retina triggers the optic nerve, ipsilateral optic tract, and bilateral pretectal nuclei, which then synapse upon the bilateral III and ciliary ganglion, resulting in iris contraction",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    },
+    {
+      "id": "mem-244",
+      "front": "A 30 year old woman struck her forehead in a motor vehicle accident and she did not lose consciousness. Examination in the dark revealed a right pupil of 6 mm that was sluggishly reactive to light and a left pupil of 4 mm that was briskly reactive to light. There was no ptosis or ocular motility disturbance. Thirty minutes after instillation into the eyes of dilute pilocarpine, her right pupil was 2 mm and the left was 4 mm. What pupil abnormality is most likely?",
+      "back": "Adie's pupil \n\nThis patient has sensitivity to dilute pilocarpine, which is a hallmark feature of the benign Adie's pupil that occurs more commonly in women in their early fourth decade of life.\n\nWhen mydriatics are instilled into the eye, as rarely happens in a case of medical malingering or Munchausen's, the pupil becomes sluggish or tonic and does not respond to even concentrated pilocarpine. A traumatic mydriasis would not show supersensitivity to dilute pilocarpine and would also likely show a rupture of the iris.",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize",
+      "backImgRefs": [
+        "F1.large.jpg",
+        "images-2ccb18439715ba387b00c9681c8ff44d6bdf02b4.jpg"
+      ]
+    },
+    {
+      "id": "mem-245",
+      "front": "What are ocular manifestations of CCF?",
+      "back": "Ocular manifestations of a carotid cavernous fistula (CCF) include eye redness (conjunctival hyperemia), bulging eye (proptosis), eyelid swelling (ptosis), double vision (diplopia), reduced vision, ophthalmoplegia, and an elevated eye pressure (glaucoma).",
+      "cat": "clinical",
+      "boards": true,
+      "corridors": [
+        "C3",
+        "C8"
+      ],
+      "topics": [],
+      "source": "memorize"
+    }
+  ]
+}

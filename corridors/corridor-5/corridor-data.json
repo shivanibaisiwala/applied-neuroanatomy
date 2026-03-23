@@ -30,8 +30,8 @@
     "cases": "Medulloblastoma, pilocytic astrocytoma, ependymoma, hemangioblastoma, pineal tumors, Chiari malformation"
   },
   "concepts": {
-    "type": "placeholder",
-    "sub": "Text-based cards tagged by category"
+    "type": "live",
+    "file": "concepts.json"
   },
   "orPearls": {
     "imagingReview": "Hydrocephalus status and need for preoperative CSF diversion. Tumor relationship to the fourth ventricle floor, including degree of brainstem invasion versus displacement. Enhancement pattern to help narrow the differential. For pineal region tumors, relationship to the vein of Galen and deep venous system. Whether the tumor extends through the foramina of Magendie or Luschka.",

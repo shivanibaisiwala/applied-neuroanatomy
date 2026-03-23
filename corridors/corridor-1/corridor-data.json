@@ -30,8 +30,8 @@
     "cases": "Sphenoid wing meningioma, MCA aneurysm, insular glioma, craniopharyngioma, sylvian fissure arachnoid cyst"
   },
   "concepts": {
-    "type": "placeholder",
-    "sub": "Text-based cards tagged by category -- anatomy, boards, concepts"
+    "type": "live",
+    "file": "concepts.json"
   },
   "orPearls": {
     "imagingReview": "Confirm lesion relationship to the optic apparatus and ICA. Evaluate the sylvian fissure venous drainage pattern, particularly the superficial sylvian vein. For meningiomas, assess vascular encasement and calcification. For aneurysms, evaluate morphology, parent vessel, and relationship to perforators.",

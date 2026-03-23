@@ -26,8 +26,8 @@
     "cases": "Colloid cyst, central neurocytoma, choroid plexus papilloma, subependymoma, intraventricular meningioma"
   },
   "concepts": {
-    "type": "placeholder",
-    "sub": "Text-based cards tagged by category"
+    "type": "live",
+    "file": "concepts.json"
   },
   "orPearls": {
     "imagingReview": "Ventricle size, as ventriculomegaly facilitates transcortical access. Lesion location within the ventricular system (frontal horn, body, trigone, third ventricle). Whether the lesion is obstructing the foramen of Monro. Enhancement pattern and vascularity. Deep venous anatomy on MRV, particularly the internal cerebral veins and their relationship to the lesion.",

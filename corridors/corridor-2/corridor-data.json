@@ -26,8 +26,8 @@
     "cases": "Pituitary adenoma, craniopharyngioma, tuberculum meningioma, Rathke cleft cyst, chordoma"
   },
   "concepts": {
-    "type": "placeholder",
-    "sub": "Text-based cards tagged by category"
+    "type": "live",
+    "file": "concepts.json"
   },
   "orPearls": {
     "imagingReview": "Sphenoid sinus pneumatization pattern (conchal, presellar, sellar). Septal deviation and nasal anatomy. ICA position and any bony deficiency over the carotid canal. Tumor relationship to the optic chiasm, including prefixed vs postfixed chiasm. Assess for cavernous sinus invasion.",
