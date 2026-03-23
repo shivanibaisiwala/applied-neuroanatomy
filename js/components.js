@@ -12,13 +12,14 @@
   // Determine active nav link
   const isAbout = path.includes('about');
   const isResources = path.includes('resources');
-  const isApproaches = !isAbout && !isResources;
+  const isCases = path.includes('cases');
+  const isApproaches = !isAbout && !isResources && !isCases;
 
   // Determine active corridor
   const corridorMatch = path.match(/corridor-(\d+)/);
   const activeCorridor = corridorMatch ? parseInt(corridorMatch[1]) : 0;
 
-  // Corridors data - ADD NEW CORRIDORS HERE
+  // Cranial corridors data - ADD NEW CRANIAL CORRIDORS HERE
   const corridors = [
     { num: 1, name: 'Fronto-Temporal', ready: true },
     { num: 2, name: 'Midline Anterior Skull Base', ready: true },
@@ -28,6 +29,13 @@
     { num: 6, name: 'Craniovertebral Junction', ready: true },
     { num: 7, name: 'Intraventricular', ready: true },
     { num: 8, name: 'Transorbital & Orbital', ready: true }
+  ];
+
+  // Spine corridors data - ADD NEW SPINE CORRIDORS HERE
+  const spineCorridors = [
+    { num: 9, name: 'Cervical', ready: false },
+    { num: 10, name: 'Thoracic', ready: false },
+    { num: 11, name: 'Lumbar', ready: false }
   ];
 
   // Build corridor sidebar links
@@ -47,6 +55,7 @@
       '<div class="nav-links">' +
         '<a href="' + root + 'about.html"' + (isAbout ? ' class="active"' : '') + '>About</a>' +
         '<a href="' + root + 'index.html"' + (isApproaches ? ' class="active"' : '') + '>Approaches</a>' +
+        '<a href="' + root + 'cases/index.html"' + (isCases ? ' class="active"' : '') + '>Cases</a>' +
         '<a href="' + root + 'resources.html"' + (isResources ? ' class="active"' : '') + '>Resources</a>' +
       '</div>';
   }
@@ -54,16 +63,28 @@
   // SIDEBAR
   const sidebar = document.getElementById('sidebar');
   if (sidebar) {
-    let html = '<div class="sb-label">Cranial</div>';
-    corridors.forEach(c => {
-      const isActive = c.num === activeCorridor;
-      const href = corridorHref(c.num, c.ready);
-      html += '<a class="sb-item' + (isActive ? ' active' : '') + '" href="' + href + '">' +
-        '<span class="num">' + c.num + '.</span> ' + c.name + '</a>';
-    });
-    html += '<div class="sb-label">Spine</div>';
-    html += '<a class="sb-item" href="#"><span class="num">1.</span> Coming soon</a>';
-    sidebar.innerHTML = html;
+    if (isAbout || isResources) {
+      // No corridor sidebar on About or Resources pages
+      sidebar.style.display = 'none';
+      const main = document.querySelector('.main');
+      if (main) main.style.marginLeft = '0';
+    } else if (!isCases) {
+      // Corridor sidebar for Approaches pages
+      let html = '<div class="sb-label">Cranial</div>';
+      corridors.forEach(c => {
+        const isActive = c.num === activeCorridor;
+        const href = corridorHref(c.num, c.ready);
+        html += '<a class="sb-item' + (isActive ? ' active' : '') + '" href="' + href + '">' +
+          '<span class="num">' + c.num + '.</span> ' + c.name + '</a>';
+      });
+      html += '<div class="sb-label">Spine</div>';
+      spineCorridors.forEach(c => {
+        html += '<a class="sb-item not-ready" href="#">' +
+          '<span class="num">C' + c.num + '.</span> ' + c.name + '</a>';
+      });
+      sidebar.innerHTML = html;
+    }
+    // Cases pages: sidebar left empty — populated when cases are built
   }
 
   // FOOTER
