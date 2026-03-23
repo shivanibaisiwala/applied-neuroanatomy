@@ -1,0 +1,59 @@
+{
+  "num": "12",
+  "title": "Lumbar",
+  "pageTitle": "Applied Neuroanatomy — Lumbar",
+  "overview": {
+    "description": "The lumbar corridor encompasses anterior, lateral, and posterior approaches to the lumbosacral spine. This is the highest-volume area of spine surgery, covering disc herniations, spinal stenosis, spondylolisthesis, deformity, tumors, and infections. Key considerations include the conus medullaris and cauda equina, the great vessels anteriorly, and the rich epidural venous plexus.",
+    "approaches": [
+      {
+        "name": "Microdiscectomy",
+        "desc": "Posterior midline or paramedian approach with limited laminotomy for disc fragment removal. The most common spinal procedure. For symptomatic lumbar disc herniations with radiculopathy."
+      },
+      {
+        "name": "Lumbar Laminectomy / Decompression",
+        "desc": "Midline posterior approach for central and lateral recess decompression. For lumbar spinal stenosis with neurogenic claudication. Can be performed with or without fusion depending on stability."
+      },
+      {
+        "name": "TLIF / PLIF",
+        "desc": "Posterior or transforaminal interbody fusion with pedicle screw fixation. For spondylolisthesis, recurrent disc herniation, and degenerative instability. TLIF is a unilateral approach that reduces thecal sac retraction."
+      },
+      {
+        "name": "Lateral Interbody Fusion (LLIF / XLIF)",
+        "desc": "Lateral transpsoas approach for interbody fusion. For degenerative disc disease, adjacent segment disease, and coronal deformity correction. Avoids posterior muscle dissection and anterior vascular exposure."
+      }
+    ]
+  },
+  "anatomy": {
+    "placeholder": true,
+    "sub": "Lumbar vertebral anatomy, pedicle morphology, cauda equina, lumbar plexus, iliac vessels, paraspinal musculature"
+  },
+  "radiology": {
+    "cases": "Lumbar disc herniation, spinal stenosis, spondylolisthesis, sacral tumor, cauda equina syndrome"
+  },
+  "concepts": {
+    "type": "live",
+    "file": "concepts.json"
+  },
+  "orPearls": {
+    "imagingReview": "On MRI, evaluate disc morphology, thecal sac compression, nerve root impingement in the lateral recess and foramen, and conus position. On CT, assess pedicle size, facet arthropathy, and bony stenosis. For spondylolisthesis, grade on standing lateral X-ray and assess pars defects.",
+    "setup": "Prone on a Jackson table or Wilson frame (for flexion/distraction). Arms on armboards. Fluoroscopy to confirm level — count from sacrum. For microdiscectomy, a tubular retractor system can be used for minimally invasive access. For lateral approaches, lateral decubitus with neuromonitoring of the lumbar plexus (EMG).",
+    "decisions": [
+      {
+        "label": "Decompression Alone vs Fusion?",
+        "val": "Decompression alone for stenosis without instability. Add fusion for spondylolisthesis, significant facet resection, recurrent stenosis after prior surgery, or associated deformity."
+      },
+      {
+        "label": "TLIF vs PLIF vs LLIF?",
+        "val": "TLIF for most single-level fusions — unilateral approach, less retraction. PLIF for bilateral decompression needs. LLIF for disc height restoration and coronal correction, but not at L5-S1 due to iliac crest."
+      },
+      {
+        "label": "MIS vs Open?",
+        "val": "MIS (tubular, percutaneous screws) for 1-2 level disease — less blood loss, faster recovery. Open for multi-level pathology, complex deformity, or revision surgery."
+      },
+      {
+        "label": "L5-S1 Approach",
+        "val": "ALIF, TLIF, or axial interbody options. L5-S1 is below the aortic bifurcation allowing anterior access. Iliac crest prevents lateral approach. Choice depends on pathology, surgeon experience, and prior surgery."
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "num": "11",
+  "title": "Thoracic",
+  "pageTitle": "Applied Neuroanatomy — Thoracic",
+  "overview": {
+    "description": "The thoracic corridor encompasses anterior, lateral, and posterior approaches to the thoracic spine. The thoracic spine presents unique challenges due to the spinal cord with limited vascular reserve, the rib cage, and proximity to the great vessels, lungs, and heart. Approaches range from posterior pedicle screw fixation and transpedicular decompression to lateral extracavitary and transthoracic routes for ventral pathology.",
+    "approaches": [
+      {
+        "name": "Posterior Thoracic Pedicle Screw Fixation",
+        "desc": "Midline posterior approach with pedicle screw instrumentation. Workhorse for thoracic fractures, deformity correction, and tumor stabilization. Thoracic pedicles are smaller and require careful trajectory planning."
+      },
+      {
+        "name": "Costotransversectomy",
+        "desc": "Posterolateral approach with rib head and transverse process removal for access to the ventral thoracic spine. For lateral disc herniations, vertebral body biopsies, and limited ventral decompression."
+      },
+      {
+        "name": "Lateral Extracavitary Approach",
+        "desc": "Extended posterolateral approach allowing wider ventral access than costotransversectomy. For thoracic corpectomy, ventral tumor resection, and vertebral body reconstruction without formal thoracotomy."
+      },
+      {
+        "name": "Transthoracic (Thoracotomy / VATS)",
+        "desc": "Direct anterior access through the chest cavity, open or thoracoscopic. For ventral thoracic pathology requiring wide decompression or corpectomy. Requires lung deflation and collaboration with thoracic surgery."
+      }
+    ]
+  },
+  "anatomy": {
+    "placeholder": true,
+    "sub": "Thoracic vertebral anatomy, pedicle morphology, costovertebral joints, thoracic cord vasculature, artery of Adamkiewicz"
+  },
+  "radiology": {
+    "cases": "Thoracic disc herniation, burst fracture, metastatic disease, intradural extramedullary tumor, epidural abscess"
+  },
+  "concepts": {
+    "type": "placeholder",
+    "sub": "Thoracic pedicle anatomy, cord blood supply, artery of Adamkiewicz, fracture classification"
+  },
+  "orPearls": {
+    "imagingReview": "Evaluate pedicle size on axial CT for screw planning — thoracic pedicles are narrowest at T4-6. On MRI, assess cord signal and compression level. For tumors, identify epidural disease extent and vertebral body involvement. CTA or angiography to localize the artery of Adamkiewicz when planning anterior or lateral approaches.",
+    "setup": "Prone for posterior approaches on a Jackson table with arms tucked or on armboards. Neuromonitoring (SSEP + MEP) is essential for thoracic cases. Fluoroscopy to confirm levels — count from the sacrum for accuracy. For lateral approaches, lateral decubitus with appropriate side up.",
+    "decisions": [
+      {
+        "label": "Posterior vs Lateral vs Anterior?",
+        "val": "Posterior for most decompression and fixation needs. Costotransversectomy or lateral extracavitary for ventral pathology accessible from posterolateral. Transthoracic for wide ventral access when posterior approaches are insufficient."
+      },
+      {
+        "label": "Transpedicular vs Costotransversectomy?",
+        "val": "Transpedicular approach for limited central decompression (disc or epidural disease). Costotransversectomy when wider lateral-to-ventral access is needed, particularly for laterally located disc herniations."
+      },
+      {
+        "label": "Fusion Length",
+        "val": "Thoracic fusions often span multiple levels due to kyphotic forces. For fractures, typically 2 above and 2 below. For tumors, ensure construct spans involved and adjacent segments."
+      },
+      {
+        "label": "Neuromonitoring Alerts",
+        "val": "MEP loss in thoracic surgery warrants immediate response — check mean arterial pressure, release retraction, remove hardware if just placed, and consider wake-up test. The thoracic cord has a tenuous blood supply."
+      }
+    ]
+  }
+}
