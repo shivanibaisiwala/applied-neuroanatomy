@@ -12,10 +12,9 @@
   }
 
   // Determine active nav link
-  const isAbout = path.includes('about');
   const isResources = path.includes('resources');
   const isCases = path.includes('cases');
-  const isApproaches = !isAbout && !isResources && !isCases;
+  const isApproaches = !isResources && !isCases;
 
   // Determine active corridor
   const corridorMatch = path.match(/corridor-(\d+)/);
@@ -59,8 +58,7 @@
     nav.innerHTML =
       '<a class="brand" href="' + root + 'index.html"><span class="accent">Applied </span><span class="solid">Neuroanatomy</span></a>' +
       '<div class="nav-links">' +
-        '<a href="' + root + 'about.html"' + (isAbout ? ' class="active"' : '') + '>About</a>' +
-        '<a href="' + root + 'corridors/corridor-1/index.html"' + (isApproaches ? ' class="active"' : '') + '>Approaches</a>' +
+        '<a href="' + root + 'index.html"' + (isApproaches ? ' class="active"' : '') + '>Approaches</a>' +
         '<a href="' + root + 'cases/index.html"' + (isCases ? ' class="active"' : '') + '>Cases</a>' +
         '<a href="' + root + 'resources.html"' + (isResources ? ' class="active"' : '') + '>Resources</a>' +
       '</div>';
@@ -69,8 +67,8 @@
   // SIDEBAR
   const sidebar = document.getElementById('sidebar');
   if (sidebar) {
-    if (isAbout || isResources) {
-      // No corridor sidebar on About or Resources pages
+    if (isResources) {
+      // No corridor sidebar on Resources page
       sidebar.style.display = 'none';
       const main = document.querySelector('.main');
       if (main) main.style.marginLeft = '0';
