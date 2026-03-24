@@ -196,13 +196,29 @@
     }
 
     function load(jsonPath) {
+      // Derive the directory of the JSON file so relative image paths
+      // (e.g. "concept-images/foo.jpg") resolve correctly even when the
+      // page URL differs from the JSON location (cases page).
+      var jsonDir = jsonPath.substring(0, jsonPath.lastIndexOf('/') + 1);
+
+      function resolveImg(src) {
+        // Already absolute or has a protocol — leave as-is
+        if (!src || src.startsWith('/') || src.indexOf('://') !== -1) return src;
+        return jsonDir + src;
+      }
+
       fetch(jsonPath)
         .then(r => {
           if (!r.ok) throw new Error('Failed to load ' + jsonPath);
           return r.json();
         })
         .then(data => {
-          cards = data.map(card => ({ ...card, cat: normalizeCategory(card.cat) }));
+          cards = data.map(card => {
+            var c = { ...card, cat: normalizeCategory(card.cat) };
+            if (c.frontImgs) c.frontImgs = c.frontImgs.map(resolveImg);
+            if (c.backImgs)  c.backImgs  = c.backImgs.map(resolveImg);
+            return c;
+          });
           buildTabs();
         })
         .catch(e => {
