@@ -9,14 +9,6 @@
 <style>
   .cases-section { display: none; }
   .cases-section.active { display: block; }
-  .cc-tabs-bar {
-    display: flex;
-    gap: .3rem;
-    padding: .4rem .8rem;
-    background: var(--bg2);
-    flex-wrap: wrap;
-    border-bottom: 1px solid rgba(42,47,63,.3);
-  }
 </style>
 </head>
 <body>
@@ -54,18 +46,9 @@
 
     <div class="section">
       <div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>
-      <div class="concepts-viewer" style="overflow:visible">
-        <div class="cc-tabs-bar">
-          <button class="cc-tab active">All</button>
-          <button class="cc-tab">Anatomy</button>
-          <button class="cc-tab">Clinical</button>
-          <button class="cc-tab">Rad</button>
-          <button class="cc-tab">Path</button>
-        </div>
-        <div class="placeholder" style="border-top:none;border-radius:0 0 12px 12px">
-          <div class="ph-title">Key concept cards coming soon</div>
-          <div class="ph-sub">Boards-relevant facts, decision-making frameworks, and clinical pearls for cranial trauma.</div>
-        </div>
+      <div class="placeholder pink-zone">
+        <div class="ph-title">Key concept cards coming soon</div>
+        <div class="ph-sub">Boards-relevant facts, decision-making frameworks, and clinical pearls for cranial trauma.</div>
       </div>
     </div>
 
@@ -96,7 +79,7 @@
       <div class="concepts-viewer" id="cc-cranial-vascular">
         <div data-cc="tabs"></div>
         <div data-cc="card" id="cc-cranial-vascular-card"></div>
-        <div data-cc="hint" class="cc-hint-text" id="cc-cranial-vascular-hint">click to reveal</div>
+        <div data-cc="hint" id="cc-cranial-vascular-hint">click to reveal</div>
         <div class="cc-nav">
           <button class="btn" data-cc="prev" id="cc-cranial-vascular-prev" onclick="window['_conceptPrev_cc-cranial-vascular']()" disabled>&#8592; Prev</button>
           <div class="spacer"></div>
@@ -134,7 +117,7 @@
       <div class="concepts-viewer" id="cc-spine-degenerative">
         <div data-cc="tabs"></div>
         <div data-cc="card" id="cc-spine-degenerative-card"></div>
-        <div data-cc="hint" class="cc-hint-text" id="cc-spine-degenerative-hint">click to reveal</div>
+        <div data-cc="hint" id="cc-spine-degenerative-hint">click to reveal</div>
         <div class="cc-nav">
           <button class="btn" data-cc="prev" id="cc-spine-degenerative-prev" onclick="window['_conceptPrev_cc-spine-degenerative']()" disabled>&#8592; Prev</button>
           <div class="spacer"></div>
@@ -169,18 +152,9 @@
 
     <div class="section">
       <div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>
-      <div class="concepts-viewer" style="overflow:visible">
-        <div class="cc-tabs-bar">
-          <button class="cc-tab active">All</button>
-          <button class="cc-tab">Anatomy</button>
-          <button class="cc-tab">Clinical</button>
-          <button class="cc-tab">Rad</button>
-          <button class="cc-tab">Path</button>
-        </div>
-        <div class="placeholder" style="border-top:none;border-radius:0 0 12px 12px">
-          <div class="ph-title">Key concept cards coming soon</div>
-          <div class="ph-sub">Boards-relevant facts, decision-making frameworks, and clinical pearls for spine trauma.</div>
-        </div>
+      <div class="placeholder pink-zone">
+        <div class="ph-title">Key concept cards coming soon</div>
+        <div class="ph-sub">Boards-relevant facts, decision-making frameworks, and clinical pearls for spine trauma.</div>
       </div>
     </div>
 
@@ -211,7 +185,7 @@
       <div class="concepts-viewer" id="cc-spine-oncology">
         <div data-cc="tabs"></div>
         <div data-cc="card" id="cc-spine-oncology-card"></div>
-        <div data-cc="hint" class="cc-hint-text" id="cc-spine-oncology-hint">click to reveal</div>
+        <div data-cc="hint" id="cc-spine-oncology-hint">click to reveal</div>
         <div class="cc-nav">
           <button class="btn" data-cc="prev" id="cc-spine-oncology-prev" onclick="window['_conceptPrev_cc-spine-oncology']()" disabled>&#8592; Prev</button>
           <div class="spacer"></div>
@@ -249,7 +223,7 @@
       <div class="concepts-viewer" id="cc-peds-dysraphism">
         <div data-cc="tabs"></div>
         <div data-cc="card" id="cc-peds-dysraphism-card"></div>
-        <div data-cc="hint" class="cc-hint-text" id="cc-peds-dysraphism-hint">click to reveal</div>
+        <div data-cc="hint" id="cc-peds-dysraphism-hint">click to reveal</div>
         <div class="cc-nav">
           <button class="btn" data-cc="prev" id="cc-peds-dysraphism-prev" onclick="window['_conceptPrev_cc-peds-dysraphism']()" disabled>&#8592; Prev</button>
           <div class="spacer"></div>
