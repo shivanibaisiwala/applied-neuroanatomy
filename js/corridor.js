@@ -77,7 +77,6 @@ function buildAnatomySection(anatomy) {
           '<div class="hint" id="hint">click dot to reveal</div>' +
         '</div>' +
         '<div class="v-ctrl"><button class="btn" id="bp" onclick="goPrev()" disabled>\u2190 Prev</button><div class="spacer"></div><button class="btn primary" id="bn" onclick="goNext()">Next \u2192</button></div>' +
-        '<div class="v-attr">Adapted from the Rhoton Cranial Anatomy and Surgical Approaches collection. Images used for educational purposes with attribution to Albert L. Rhoton Jr. and the Rhoton Collection at neurosurgicalatlas.com.</div>' +
       '</div>' +
     '</div>'
   );
