@@ -6,6 +6,46 @@
 <title>Applied Neuroanatomy — About</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<style>
+  /* Page-scoped: hide sidebar and expand content */
+  .sidebar { display: none !important; }
+  .main {
+    margin-left: 0 !important;
+    max-width: 720px;
+    padding: 2rem 2.75rem;
+  }
+  .about-hero-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+  }
+  .about-hero-desc {
+    margin-top: 1.65rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.98rem;
+    font-weight: 400;
+    line-height: 1.78;
+    color: var(--text2);
+  }
+  .about-divider {
+    border: none;
+    height: 1px;
+    background: var(--accent);
+    margin: 2.75rem 0;
+  }
+  .about-attribution {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: var(--text2);
+    margin-bottom: 1rem;
+  }
+  .about-attribution:last-of-type {
+    margin-bottom: 0;
+  }
+</style>
 </head>
 <body>
 
@@ -16,17 +56,13 @@
 <aside class="sidebar" id="sidebar"></aside>
 
 <main class="main">
-  <div class="cor-num">About</div>
-  <h1 class="cor-title">About This Project</h1>
+  <h1 class="about-hero-title">Applied Neuroanatomy</h1>
+  <p class="about-hero-desc">Applied Neuroanatomy is an interactive platform for surgical education, organized around the eight cranial corridors. Anatomy, radiology, key concepts, and operative pearls — structured for independent review and case-based teaching.</p>
 
-  <div class="section">
-    <div class="overview">
-      <p class="ov-desc">Applied Neuroanatomy is a free, interactive neurosurgery education platform organized around surgical corridors. It combines cadaveric anatomy from the Rhoton Collection with radiology cases, key concepts, and operative pearls to support structured learning at every training level.</p>
-      <p class="ov-desc">The platform is designed to support a flipped classroom model — residents review anatomy and concepts independently, then apply that knowledge in case-based discussions with attendings. Content progresses from foundational anatomy identification through imaging recognition to management concepts and operative decision-making.</p>
-      <p class="ov-desc">Each corridor page is organized by training level: anatomy drills and radiology recognition for juniors, management concepts and boards-relevant facts for middle years, and operative setup, decision-making, and failure modes for senior residents preparing for independent practice.</p>
-      <p class="ov-desc" style="margin-bottom:0">Anatomy images are adapted from the Rhoton Cranial Anatomy and Surgical Approaches collection, used for educational purposes with attribution to Albert L. Rhoton Jr. and the Rhoton Collection at neurosurgicalatlas.com.</p>
-    </div>
-  </div>
+  <hr class="about-divider">
+
+  <p class="about-attribution">Anatomy images are adapted from the Rhoton Cranial Anatomy and Surgical Approaches collection, used for educational purposes with attribution to Albert L. Rhoton Jr. and the Rhoton Collection at neurosurgicalatlas.com.</p>
+  <p class="about-attribution">This site is for educational purposes only and does not constitute medical advice. Clinical decisions should be based on individual patient assessment, current evidence, and attending physician guidance.</p>
 
   <div class="site-footer" id="footer"></div>
 </main>

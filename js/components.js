@@ -60,7 +60,7 @@
       '<a class="brand" href="' + root + 'index.html"><span class="accent">Applied </span><span class="solid">Neuroanatomy</span></a>' +
       '<div class="nav-links">' +
         '<a href="' + root + 'about.html"' + (isAbout ? ' class="active"' : '') + '>About</a>' +
-        '<a href="' + root + 'index.html"' + (isApproaches ? ' class="active"' : '') + '>Approaches</a>' +
+        '<a href="' + root + 'corridors/corridor-1/index.html"' + (isApproaches ? ' class="active"' : '') + '>Approaches</a>' +
         '<a href="' + root + 'cases/index.html"' + (isCases ? ' class="active"' : '') + '>Cases</a>' +
         '<a href="' + root + 'resources.html"' + (isResources ? ' class="active"' : '') + '>Resources</a>' +
       '</div>';
