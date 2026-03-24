@@ -605,30 +605,31 @@ body{
   margin-bottom:.8rem;
 }
 
-.footer-credit{
+.footer-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
   font-size:.82rem;
   color:var(--muted);
-  line-height:1.75;
+  margin-top:.6rem;
 }
+
+.footer-meta a{
+  font-size:.72rem;
+  color:var(--accent);
+  text-decoration:none;
+  opacity:.6;
+  transition:opacity .2s;
+}
+
+.footer-meta a:hover{opacity:1}
 
 .footer-disclaimer{
   font-size:.76rem;
   color:var(--muted);
-  margin-top:.8rem;
+  margin-top:.6rem;
   font-style:italic;
 }
-
-.footer-report{margin-top:.8rem}
-
-.footer-report a{
-  font-size:.72rem;
-  color:var(--accent);
-  text-decoration:none;
-  opacity:.7;
-  transition:opacity .2s;
-}
-
-.footer-report a:hover{opacity:1}
 
 /* RESPONSIVE */
 @media(max-width:900px){
