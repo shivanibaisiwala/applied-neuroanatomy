@@ -19,19 +19,34 @@
   <div class="cor-num">Resources</div>
   <h1 class="cor-title">Study Resources</h1>
 
-  <div class="section">
-    <div class="sec-head"><div class="sec-title">For Interns</div></div>
-    <div class="placeholder"><div class="ph-title">Foundations for the first year</div><div class="ph-sub">Greenberg, HBNS, learning from consults, building a study framework</div></div>
+  <div class="section" id="interns">
+    <div class="cor-num">FOR INTERNS</div>
+    <h2 class="cor-title" style="font-size:1.65rem; margin-bottom:.3rem;">Foundations for the First Year</h2>
+    <p style="font-style:italic; color:var(--text2); font-size:.93rem; margin-bottom:1.5rem;">Building the habits that compound over seven years</p>
+    <p style="color:var(--text2); font-size:.97rem; line-height:1.78; margin-bottom:1rem;">The core of junior years is pattern recognition, on rounds, on consult call, and in conference. The two foundational study resources are the Greenberg flashcard deck for rapid-fire fact consolidation and Rhoton images for spatial orientation before cases. The Neurosurgery Rounds textbook is another strong option for reviewing high-yield clinical concepts.</p>
+    <p style="color:var(--text2); font-size:.97rem; line-height:1.78;">Beyond formal study, the best learning in your junior and consult years happens at the workstation and on the PACS station. Read about every consult you see. Look at the imaging before you hear the plan. Propose your own plan and get feedback on it. Think about why your senior made the decision they made, and pay attention when two attendings would make different ones. Clinical reasoning is harder to teach than facts, and it starts developing on day one if you are paying attention.</p>
   </div>
 
-  <div class="section">
-    <div class="sec-head"><div class="sec-title">For Boards</div></div>
-    <div class="placeholder"><div class="ph-title">Written boards strategy</div><div class="ph-sub">SANS approach, spaced repetition, concept-first studying</div></div>
+  <hr style="border:none; height:1px; background:var(--accent); margin:2.5rem 0;">
+
+  <div class="section" id="boards">
+    <div class="cor-num">FOR BOARDS</div>
+    <h2 class="cor-title" style="font-size:1.65rem; margin-bottom:.3rem;">Written Boards Strategy</h2>
+    <p style="font-style:italic; color:var(--text2); font-size:.93rem; margin-bottom:1.5rem;">Concept-first, spaced over time</p>
+    <p style="color:var(--text2); font-size:.97rem; line-height:1.78; margin-bottom:1rem;">The CNS SANS question bank is the primary resource. Work through it thoroughly, not quickly. Study guides from senior residents are a useful supplement for identifying high-yield concept clusters.</p>
+    <p style="color:var(--text2); font-size:.97rem; line-height:1.78;">Where most residents go wrong is treating boards as a memorization problem. The higher-yield approach is concept-first: understand the underlying principle, then let the facts follow. For anything you miss repeatedly, build a short Anki deck from the concept, not the question, so you are encoding the reasoning rather than the answer. Citow is a reasonable reference text for filling in gaps.</p>
   </div>
 
-  <div class="section">
-    <div class="sec-head"><div class="sec-title">For the OR</div></div>
-    <div class="placeholder"><div class="ph-title">Preparing for and learning in the operating room</div><div class="ph-sub">Pre-case preparation, relationship building, making the most of every case</div></div>
+  <hr style="border:none; height:1px; background:var(--accent); margin:2.5rem 0;">
+
+  <div class="section" id="or">
+    <div class="cor-num">FOR THE OR</div>
+    <h2 class="cor-title" style="font-size:1.65rem; margin-bottom:.3rem;">Preparing for and Learning in the Operating Room</h2>
+    <p style="font-style:italic; color:var(--text2); font-size:.93rem; margin-bottom:1.5rem;">What you do before and after the case matters as much as what happens during it</p>
+    <p style="color:var(--text2); font-size:.97rem; line-height:1.78; margin-bottom:1rem;">The single highest-yield habit in residency is reviewing the case before it happens. If you have time, talk through it with a senior first. More importantly, discuss it with the attending before the case. It shows them you are prepared, and it gives you a framework for what to pay attention to when you are actually in the room. Early on, the focus is setup: positioning, room configuration, articulating the goals of surgery and the planned approach. As you advance, the questions shift to what makes this approach harder, what anatomical variants matter, and what the decision points are if things do not go as planned.</p>
+    <p style="color:var(--text2); font-size:.97rem; line-height:1.78; margin-bottom:1rem;">Before the case: read about the approach, refresh the anatomy, watch a relevant operative video if one exists. Run through the surgical steps in your head in sequence.</p>
+    <p style="color:var(--text2); font-size:.97rem; line-height:1.78; margin-bottom:1rem;">During the case: you are ideally operating with your attending, collecting feedback on your own performance in real time while paying close attention to how they approach each step. Notice what they do differently than what you read. Ask yourself what you would do next before they do it.</p>
+    <p style="color:var(--text2); font-size:.97rem; line-height:1.78;">After the case, while it is still fresh, write yourself a detailed note. What was the setup. What were the attending's specific preferences. How did they handle each surgical step. What would you do the same, what would you do differently. Over residency these notes become a personal operative reference, invaluable not just for knowing what each attending expects, but for understanding how different surgeons accomplish the same objective differently. That comparison is how you eventually isolate your own style. When you are operating independently, it is not the minutiae that saves you. It is having internalized what the procedure is trying to accomplish and what you cannot miss.</p>
   </div>
 
   <div class="site-footer" id="footer"></div>
@@ -39,5 +54,44 @@
 </div>
 
 <script src="js/components.js"></script>
+<script>
+// Re-enable sidebar after components.js hides it for the resources page
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var main = document.querySelector('.main');
+  if (sidebar) {
+    sidebar.style.display = '';
+    sidebar.innerHTML =
+      '<div class="sb-label">Resources</div>' +
+      '<a class="sb-item" href="#interns">For Interns</a>' +
+      '<a class="sb-item" href="#boards">For Boards</a>' +
+      '<a class="sb-item" href="#or">For the OR</a>';
+  }
+  if (main) {
+    main.style.marginLeft = '';
+  }
+
+  // Highlight active sidebar item on scroll
+  var sections = ['interns', 'boards', 'or'];
+  var links = sidebar ? sidebar.querySelectorAll('.sb-item') : [];
+  function updateActive() {
+    var scrollY = window.scrollY + 120;
+    var active = 0;
+    sections.forEach(function(id, i) {
+      var el = document.getElementById(id);
+      if (el && el.offsetTop <= scrollY) active = i;
+    });
+    links.forEach(function(link, i) {
+      if (i === active) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  }
+  window.addEventListener('scroll', updateActive);
+  updateActive();
+})();
+</script>
 </body>
 </html>
