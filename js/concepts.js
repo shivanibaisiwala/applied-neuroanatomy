@@ -179,15 +179,18 @@
         cardArea.addEventListener('click', () => { if (!revealed) reveal(); });
       }
 
-      // Arrow key / space navigation — only if this container is document (corridor pages)
-      // For cases page, each section handles its own keyboard nav when active
-      if (container === document) {
-        document.addEventListener('keydown', e => {
-          if (e.key === 'ArrowRight' || e.key === 'Right') goNext();
-          else if (e.key === 'ArrowLeft' || e.key === 'Left') goPrev();
-          else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); if (!revealed) reveal(); }
-        });
-      }
+      // Arrow key / space navigation
+      document.addEventListener('keydown', e => {
+        // For container-based instances (cases page), only respond when the
+        // parent section is the currently visible one
+        if (container !== document) {
+          const section = container.closest('.cases-section');
+          if (section && !section.classList.contains('active')) return;
+        }
+        if (e.key === 'ArrowRight' || e.key === 'Right') goNext();
+        else if (e.key === 'ArrowLeft' || e.key === 'Left') goPrev();
+        else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); if (!revealed) reveal(); }
+      });
 
       filterCards();
     }
