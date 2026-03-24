@@ -665,7 +665,8 @@ body{
   z-index:2;
 }
 
-#concept-tabs{
+#concept-tabs,
+[data-cc="tabs"]{
   display:flex;
   gap:.3rem;
   padding:.4rem .8rem;
@@ -700,7 +701,8 @@ body{
 
 .cc-tab-count{opacity:.5;margin-left:.2rem}
 
-#concept-card{
+#concept-card,
+[data-cc="card"]{
   min-height:240px;
   padding:1.6rem 1.6rem 2.6rem;
   cursor:pointer;
@@ -708,7 +710,8 @@ body{
   position:relative;
 }
 
-#concept-card:hover{background:rgba(255,255,255,.02)}
+#concept-card:hover,
+[data-cc="card"]:hover{background:rgba(255,255,255,.02)}
 
 .cc-front{display:flex;flex-direction:column;align-items:center;gap:.8rem}
 
@@ -768,7 +771,7 @@ body{
 }
 
 #concept-hint,
-.cc-hint-text{
+[data-cc="hint"]{
   text-align:center;
   padding:.55rem 0;
   font-size:.72rem;
@@ -787,7 +790,8 @@ body{
 
 .cc-nav .spacer{flex:1}
 
-#concept-counter{
+#concept-counter,
+[data-cc="counter"]{
   font-family:'JetBrains Mono',monospace;
   font-size:.76rem;
   color:var(--muted);
