@@ -7,14 +7,11 @@
   let root = '';
   if (path.includes('/corridors/')) {
     root = '../../';
-  } else if (path.includes('/cases/')) {
-    root = '../';
   }
 
   // Determine active nav link
   const isResources = path.includes('resources');
-  const isCases = path.includes('cases');
-  const isApproaches = !isResources && !isCases;
+  const isApproaches = !isResources;
 
   // Determine active corridor
   const corridorMatch = path.match(/corridor-(\d+)/);
@@ -38,9 +35,6 @@
     if (path.includes('/corridors/')) {
       return '../corridor-' + num + '/index.html';
     }
-    if (path.includes('/cases/')) {
-      return '../corridors/corridor-' + num + '/index.html';
-    }
     return 'corridors/corridor-' + num + '/index.html';
   }
 
@@ -51,7 +45,6 @@
       '<a class="brand" href="' + root + 'index.html"><span class="accent">Applied </span><span class="solid">Neuroanatomy</span></a>' +
       '<div class="nav-links">' +
         '<a href="' + root + 'index.html"' + (isApproaches ? ' class="active"' : '') + '>Approaches</a>' +
-        '<a href="' + root + 'cases/index.html"' + (isCases ? ' class="active"' : '') + '>Cases</a>' +
         '<a href="' + root + 'resources.html"' + (isResources ? ' class="active"' : '') + '>Resources</a>' +
       '</div>';
   }
@@ -64,7 +57,7 @@
       sidebar.style.display = 'none';
       const main = document.querySelector('.main');
       if (main) main.style.marginLeft = '0';
-    } else if (!isCases) {
+    } else {
       // Corridor sidebar for Approaches pages
       let html = '';
       corridors.forEach(c => {
@@ -75,7 +68,6 @@
       });
       sidebar.innerHTML = html;
     }
-    // Cases pages: sidebar left empty — populated when cases are built
   }
 
   // FOOTER

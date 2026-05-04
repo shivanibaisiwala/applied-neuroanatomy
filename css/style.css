@@ -12,14 +12,10 @@
   --accent:#4fd1c5;
   --accent-dim:rgba(79,209,197,0.15);
   --accent-glow:rgba(79,209,197,0.08);
-  --warm:#f0b866;
-  --warm-dim:rgba(240,184,102,0.15);
   --boards:#e879a8;
   --boards-dim:rgba(232,121,168,0.15);
   --anatomy:#8b9cf7;
   --anatomy-dim:rgba(139,156,247,0.15);
-  --cases:#7c9bdb;
-  --cases-dim:rgba(124,155,219,0.15);
   --success:#6fcf97;
 }
 
@@ -260,8 +256,8 @@ body{
 
 /* OR PEARLS */
 .pearls-card{
-  --zone:var(--warm);
-  --zone-dim:var(--warm-dim);
+  --zone:var(--accent);
+  --zone-dim:var(--accent-dim);
   background:var(--card);
   border:1px solid var(--border);
   border-radius:12px;
@@ -277,7 +273,7 @@ body{
   left:0;
   right:0;
   height:2px;
-  background:var(--warm);
+  background:var(--accent);
 }
 
 .pearls-h{
@@ -285,7 +281,7 @@ body{
   font-weight:600;
   text-transform:uppercase;
   letter-spacing:.08em;
-  color:var(--warm);
+  color:var(--accent);
   margin-bottom:.45rem;
   margin-top:1.35rem;
 }
@@ -313,7 +309,7 @@ body{
   font-weight:600;
   text-transform:uppercase;
   letter-spacing:.06em;
-  color:var(--warm);
+  color:var(--accent);
   margin-bottom:.24rem;
 }
 
