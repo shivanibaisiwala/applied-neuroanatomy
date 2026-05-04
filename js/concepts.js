@@ -1,7 +1,4 @@
 (function() {
-  // Creates an isolated concept viewer instance bound to a container element.
-  // container: a DOM element whose descendants are queried by data-cc attribute.
-  // For the corridor pages the container is the document (uses legacy IDs).
   function createInstance(container) {
     let cards = [];
     let filtered = [];
@@ -10,19 +7,11 @@
     let activeTab = 'all';
 
     function el(role) {
-      if (container === document) {
-        return document.getElementById('concept-' + role);
-      }
       return container.querySelector('[data-cc="' + role + '"]');
     }
 
     function secCountEl() {
-      if (container === document) {
-        return document.getElementById('concept-sec-count');
-      }
-      // data-cc-count attribute on the section header count element
-      const id = container.id;
-      return document.querySelector('[data-cc-count="' + id + '"]');
+      return document.querySelector('[data-cc-count="' + container.id + '"]');
     }
 
     function shuffle(arr) {
@@ -160,8 +149,7 @@
         const labels = { anatomy: 'Anatomy', clinical: 'Clinical', radiology: 'Rad', pathology: 'Path', surgical: 'Surgical', 'surgical-steps': 'Surg Steps' };
 
         // Build onclick that routes to the right instance
-        const instanceId = container === document ? '_global' : container.id;
-        const tabFn = 'window._setConceptTab_' + instanceId;
+        const tabFn = 'window._setConceptTab_' + container.id;
 
         let h = '<button class="cc-tab active" data-tab="all" onclick="' + tabFn + '(\'all\')">'
           + 'All <span class="cc-tab-count">' + cards.length + '</span></button>';
@@ -181,12 +169,8 @@
 
       // Arrow key / space navigation
       document.addEventListener('keydown', e => {
-        // For container-based instances (cases page), only respond when the
-        // parent section is the currently visible one
-        if (container !== document) {
-          const section = container.closest('.cases-section');
-          if (section && !section.classList.contains('active')) return;
-        }
+        const section = container.closest('.cases-section');
+        if (section && !section.classList.contains('active')) return;
         if (e.key === 'ArrowRight' || e.key === 'Right') goNext();
         else if (e.key === 'ArrowLeft' || e.key === 'Left') goPrev();
         else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); if (!revealed) reveal(); }
@@ -227,25 +211,13 @@
     }
 
     // Wire up nav buttons via global references keyed by instance id
-    const instanceId = container === document ? '_global' : container.id;
+    const instanceId = container.id;
     window['_conceptNext_' + instanceId] = goNext;
     window['_conceptPrev_' + instanceId] = goPrev;
     window['_setConceptTab_' + instanceId] = setTab;
 
-    // For corridor pages: keep legacy global names
-    if (container === document) {
-      window._conceptNext = goNext;
-      window._conceptPrev = goPrev;
-      window._setConceptTab = setTab;
-    }
-
     return { load };
   }
-
-  // Corridor pages: single global instance using legacy IDs
-  window.initConcepts = function(jsonPath) {
-    createInstance(document).load(jsonPath);
-  };
 
   // Cases page: container-based instance
   window.initConceptsIn = function(containerId, jsonPath) {

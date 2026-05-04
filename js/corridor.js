@@ -14,9 +14,6 @@ function initCorridor(dataFile) {
       if (typeof initViewer === 'function' && !data.anatomy.placeholder) {
         initViewer('../../cards.json', parseInt(data.num, 10));
       }
-      if (data.concepts && data.concepts.type === 'live' && typeof initConcepts === 'function') {
-        initConcepts(data.concepts.file || 'concepts.json');
-      }
     })
     .catch(e => {
       console.error('Corridor load error:', e);
@@ -29,8 +26,6 @@ function buildCorridorHTML(data) {
     '<h1 class="cor-title">' + data.title + '</h1>' +
     buildOverviewSection(data.overview) +
     buildAnatomySection(data.anatomy) +
-    buildConceptsSection(data.concepts) +
-    buildCasesSection(data.radiology) +
     buildOrPearlsSection(data.orPearls)
   );
 }
@@ -78,47 +73,6 @@ function buildAnatomySection(anatomy) {
         '</div>' +
         '<div class="v-ctrl"><button class="btn" id="bp" onclick="goPrev()" disabled>\u2190 Prev</button><div class="spacer"></div><button class="btn primary" id="bn" onclick="goNext()">Next \u2192</button></div>' +
       '</div>' +
-    '</div>'
-  );
-}
-
-function buildCasesSection(radiology) {
-  return (
-    '<div class="section">' +
-      '<div class="sec-head"><div class="sec-title">Cases</div><div class="sec-count">Coming soon</div></div>' +
-      '<div class="placeholder pink-zone"><div class="ph-title">Imaging cases for this corridor</div><div class="ph-sub">' + radiology.cases + '</div></div>' +
-    '</div>'
-  );
-}
-
-function buildConceptsSection(concepts) {
-  if (concepts && concepts.type === 'live') {
-    return (
-      '<div class="section">' +
-        '<div class="sec-head">' +
-          '<div class="sec-title">Key Concepts</div>' +
-          '<div class="sec-count" id="concept-sec-count"></div>' +
-        '</div>' +
-        '<div class="concepts-viewer">' +
-          '<div id="concept-tabs"></div>' +
-          '<div id="concept-card"></div>' +
-          '<div id="concept-hint">click to reveal</div>' +
-          '<div class="cc-nav">' +
-            '<button class="btn" id="concept-prev" onclick="window._conceptPrev()" disabled>\u2190 Prev</button>' +
-            '<div class="spacer"></div>' +
-            '<span id="concept-counter"></span>' +
-            '<div class="spacer"></div>' +
-            '<button class="btn primary" id="concept-next" onclick="window._conceptNext()">Next \u2192</button>' +
-          '</div>' +
-        '</div>' +
-      '</div>'
-    );
-  }
-  const sub = (concepts && concepts.sub) ? concepts.sub : 'Text-based cards tagged by category';
-  return (
-    '<div class="section">' +
-      '<div class="sec-head"><div class="sec-title">Key Concepts</div><div class="sec-count">Coming soon</div></div>' +
-      '<div class="placeholder pink-zone"><div class="ph-title">Management, boards-relevant facts, and discussion points</div><div class="ph-sub">' + sub + '</div></div>' +
     '</div>'
   );
 }
