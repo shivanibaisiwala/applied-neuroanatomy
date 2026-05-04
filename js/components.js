@@ -32,14 +32,6 @@
     { num: 8, name: 'Transorbital & Orbital', ready: true }
   ];
 
-  // Spine corridors data - ADD NEW SPINE CORRIDORS HERE
-  const spineCorridors = [
-    { num: 9, name: 'Anterior Cervical', ready: true },
-    { num: 10, name: 'Posterior Cervical', ready: true },
-    { num: 11, name: 'Thoracic', ready: true },
-    { num: 12, name: 'Lumbar', ready: true }
-  ];
-
   // Build corridor sidebar links
   function corridorHref(num, ready) {
     if (!ready) return '#';
@@ -74,18 +66,11 @@
       if (main) main.style.marginLeft = '0';
     } else if (!isCases) {
       // Corridor sidebar for Approaches pages
-      let html = '<div class="sb-label">Cranial</div>';
+      let html = '';
       corridors.forEach(c => {
         const isActive = c.num === activeCorridor;
         const href = corridorHref(c.num, c.ready);
         html += '<a class="sb-item' + (isActive ? ' active' : '') + '" href="' + href + '">' +
-          '<span class="num">' + c.num + '.</span> ' + c.name + '</a>';
-      });
-      html += '<div class="sb-label">Spine</div>';
-      spineCorridors.forEach(c => {
-        const isActive = c.num === activeCorridor;
-        const href = corridorHref(c.num, c.ready);
-        html += '<a class="sb-item' + (isActive ? ' active' : '') + (c.ready ? '' : ' not-ready') + '" href="' + href + '">' +
           '<span class="num">' + c.num + '.</span> ' + c.name + '</a>';
       });
       sidebar.innerHTML = html;
